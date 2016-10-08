@@ -1,0 +1,855 @@
+# Localization template file for Flexible Upload plugin for Wordpress
+# Copyright (C) 2007-2008
+# This file is distributed under the same license as the flexible-upload package
+# Antoine Choppin <antoine@japonophile.com>, 2007-2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-13 21:38+0900\n"
+"PO-Revision-Date: 2008-04-13 21:38+0900\n"
+"Last-Translator: Antoine Choppin <antoine@japonophile.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: flexible-upload.php:1005 flexible-upload.php:1051
+msgid " (px)"
+msgstr "ピクセル"
+
+#: flexible-upload-wp21js.php:98 flexible-upload-wp21js.php:100
+#: flexible-upload-wp21js.php:204 flexible-upload-wp21js.php:206
+msgid "&laquo; Back"
+msgstr "&laquo; 戻る"
+
+#: flexible-upload.php:1102
+msgid "&lt;img&gt; property"
+msgstr "&lt;img&gt;プロパティ"
+
+#: flexible-upload-wp21js.php:441 flexible-upload-wp25js.php:25
+msgid "+add field"
+msgstr "+追加"
+
+#: flexible-upload-wp21js.php:476 flexible-upload-wp25js.php:59
+msgid "- remove"
+msgstr "- 削除"
+
+#: flexible-upload.php:113
+#, php-format
+msgid ""
+"<b>Flexible Upload is not installed in the proper directory!</b><br />It "
+"won't work until installed in <b>%s</b><br />"
+msgstr ""
+"<b>Flexible Uploadプラグインのインストールディレクトリは正しくありません。</"
+"b><br />次のディレクトリにインストールしてください：<b>%s</b><br />"
+
+#: flexible-upload-wp20.php:298
+msgid "Align center"
+msgstr "中央揃え"
+
+#: flexible-upload-wp20.php:296
+msgid "Align left"
+msgstr "左揃え"
+
+#: flexible-upload-wp20.php:297
+msgid "Align right"
+msgstr "右揃え"
+
+#: flexible-upload-wp21js.php:147 flexible-upload-wp25.php:285
+msgid "Align:"
+msgstr "水平は位置："
+
+#: flexible-upload.php:1089
+msgid "Alignment mode:"
+msgstr "水平は位置設定方法："
+
+#: flexible-upload-wp21js.php:411
+#, php-format
+msgid ""
+"Are you sure you want to delete the file '%s'?\n"
+"Click ok to delete or cancel to go back."
+msgstr ""
+"ファイル「%s」を本当に削除しても良いですか？\n"
+"削除するにはOKを、そのままで戻るにはCancelを押してください。"
+
+#: flexible-upload-wp20.php:896 flexible-upload-wp20.php:899
+msgid "Back"
+msgstr "戻る"
+
+#: flexible-upload-wp20.php:121 flexible-upload-wp21.php:93
+msgid "Back to Image Uploading"
+msgstr "イメージアップロードへ戻る"
+
+#: flexible-upload.php:1234 flexible-upload-wp20.php:982
+#: flexible-upload-wp21js.php:573 flexible-upload-wp25js.php:156
+msgid "Bottom Right"
+msgstr "右下"
+
+#: flexible-upload-wp20.php:887
+msgid "Browse"
+msgstr "ファイル一覧"
+
+#: flexible-upload-wp20.php:890
+msgid "Browse All"
+msgstr "全てのファイル一覧"
+
+#: flexible-upload-wp21.php:33
+msgid "Browse Files"
+msgstr "ファイル一覧"
+
+#: flexible-upload-wp21js.php:98 flexible-upload-wp21js.php:100
+#: flexible-upload-wp21js.php:204 flexible-upload-wp21js.php:206
+msgid "Browse your files"
+msgstr "ファイル一覧"
+
+#: flexible-upload.php:1098
+msgid "CSS"
+msgstr "CSS"
+
+#: flexible-upload-wp21js.php:160 flexible-upload-wp25.php:318
+msgid "Caption:"
+msgstr "見出し："
+
+#: flexible-upload-wp21js.php:151 flexible-upload-wp25.php:277
+msgid "Center"
+msgstr "中央揃え"
+
+#: flexible-upload.php:1278
+msgid ""
+"Check this box if you want the watermark picture to be added to thumbnails "
+"as well."
+msgstr ""
+"透かしをサムネールにも焼くには、こちらを選択してください。"
+
+#: flexible-upload.php:1259
+msgid ""
+"Check this box if you want the watermark picture to be rotated 90 degrees "
+"counter-clockwise before incrusting it into your pictures."
+msgstr ""
+"透かしを焼く前にシグネチャー画像を90度で回転するには、こちらを選択してくださ"
+"い。"
+
+#: flexible-upload.php:1297
+msgid ""
+"Check this box if you want to be able to specify watermark location and "
+"orientation separately for each picture you upload.  Otherwise, the above "
+"setting will be applied to all the pictures."
+msgstr ""
+"透かしの位置と回転をイメージ毎に変更できるようにするには、こちらを選択してく"
+"ださい。選択しない場合は、デフォルトの設定が全てのイメージに適用されます。"
+
+#: flexible-upload.php:1421
+msgid ""
+"Check this box if you want to disable WP editor \"cleanup\" feature.  If you "
+"don't disable it, you won't be able to add captions to your images (the "
+"div's will get screwed up by wpautop).<br />Note: if you do this, the "
+"Advanced Editor will not do any cleanup. If you make errors in your HTML "
+"that break the theme, you're on your own!"
+msgstr ""
+"ワードプレスエディターの「掃除機能」を無効にするには、こちらを選択して"
+"ください。「掃除機能」を無効にしないとイメージの見出しが正しく表示されない"
+"場合があります（divがwpautopによって変ってしまうため）。<br />注意："
+"「掃除機能」を無効にするとすると、不正なHTMLを投稿に挿入しても直されない"
+"ので、見た目を傷つく可能性があります。"
+
+#: flexible-upload.php:1139
+msgid ""
+"Choose the default alignment when inserting a picture into your posts.  You "
+"will be able to change this for each picture.<br />Note:<br />- this setting "
+"will be ignored if alignment mode is \"disabled\".<br />- center alignment "
+"is not supported with \"&lt;img&gt; property\" alignment mode."
+msgstr ""
+"イメージを投稿に挿入する際のデフォルト水平配置を指定してください。このパラ"
+"メータはイメージ毎に変えることができます。<br />但し、<br />- 水平は位置の指"
+"定方法が「無効」となっている場合は、このパラメータは無視されます。<br />- "
+"「中央」の水平は位置は「imgプロパティ」の水平は位置設定方法ではサポートされて"
+"いません。"
+
+#: flexible-upload.php:1241
+msgid ""
+"Choose the where you want the watermark to be incrusted into your pictures."
+msgstr "透かしを焼く位置を選択してください。"
+
+#: flexible-upload.php:1185
+msgid ""
+"Choose where/how you want your pictures to be displayed.  If choosing "
+"Lightbox, Greybox, Thickbox, HighslideJS or LightWindow make sure the "
+"corresponding plugin is installed."
+msgstr ""
+"イメージをどこで及びどう表示するかを選択してください。Lightbox、Greybox、"
+"Thickbox、HighslideJS及びLightWindowを選んだ場合は、相当するプラグインがイン"
+"ストールされている事を確認してください。"
+
+#: flexible-upload-wp20.php:300
+msgid "Close Options"
+msgstr "オプションを閉じる"
+
+#: flexible-upload.php:974
+#, php-format
+msgid "Consult the local %shelp page%s."
+msgstr "%sローカルヘルプページ%sを読む。"
+
+#: flexible-upload.php:1351
+msgid "Content of \"alt\" attribute:"
+msgstr "\"alt\"属性の内容"
+
+#: flexible-upload.php:1318
+msgid "Content of \"title\" attribute:"
+msgstr "\"title\"属性の内容"
+
+#: flexible-upload-wp20.php:960 flexible-upload-wp21js.php:532
+#: flexible-upload-wp25js.php:115
+msgid "Create a thumbnail"
+msgstr "サムネールを生成"
+
+#: flexible-upload.php:1115
+msgid "Default alignment:"
+msgstr "デフォルト水平配置："
+
+#: flexible-upload.php:997
+msgid "Default maximum for resizing:"
+msgstr "縮小のデフォルトサイズ："
+
+#: flexible-upload.php:1043
+msgid "Default maximum for thumbnail:"
+msgstr "サムネールのデフォルトサイズ："
+
+#: flexible-upload.php:992
+msgid "Default settings"
+msgstr "デフォルト設定"
+
+#: flexible-upload-wp20.php:284
+msgid "Delete"
+msgstr "削除"
+
+#: flexible-upload-wp21js.php:236
+msgid "Delete File"
+msgstr "ファイルを削除"
+
+#: flexible-upload-wp20.php:301
+msgid "Delete this file from the server?"
+msgstr "このファイルをサーバから本当に削除しますか？"
+
+#: flexible-upload-wp21js.php:234 flexible-upload-wp21js.php:489
+#: flexible-upload-wp25js.php:72 flexible-upload-wp25.php:310
+msgid "Description"
+msgstr "記述"
+
+#: flexible-upload-wp20.php:931
+msgid "Description:"
+msgstr "記述："
+
+#: flexible-upload-wp21js.php:104 flexible-upload-wp21js.php:113
+#: flexible-upload-wp21js.php:210 flexible-upload-wp21js.php:219
+msgid "Direct link to file"
+msgstr "ファイルへ直接リンク"
+
+#: flexible-upload.php:1409
+msgid "Disable editor cleanup (wpautop)?"
+msgstr "「掃除機能」（wpautop）を無効にする"
+
+#: flexible-upload-wp21js.php:108
+msgid "Edit"
+msgstr "編集"
+
+#: flexible-upload.php:960
+msgid "Error encountered while updating options: "
+msgstr "オプションを更新するときに問題が発生しました："
+
+#: flexible-upload-wp21js.php:169 flexible-upload-wp21js.php:480
+#: flexible-upload-wp25js.php:63
+msgid "File"
+msgstr "ファイル"
+
+#: flexible-upload-wp20.php:455
+msgid "File Type:"
+msgstr "ファイルタイプ："
+
+#: flexible-upload.php:649
+msgid "File not found"
+msgstr "ファイルが見付かりません"
+
+#: flexible-upload-wp20.php:923
+msgid "File:"
+msgstr "ファイル："
+
+#: flexible-upload.php:577 flexible-upload.php:580 flexible-upload.php:583
+msgid "Filetype not supported. Thumbnail not created."
+msgstr ""
+"このファイルタイプはサポートされていません。サムネールが生成されませんでし"
+"た。"
+
+#: flexible-upload-wp20.php:895
+msgid "First"
+msgstr "最初"
+
+#: flexible-upload.php:989
+msgid "Flexible Upload Options"
+msgstr "Flexible Upload設定"
+
+#: flexible-upload-wp21js.php:136 flexible-upload-wp25.php:300
+msgid "Full size"
+msgstr "全体の大きさ"
+
+#: flexible-upload-wp20.php:105
+msgid "Go back"
+msgstr "戻る"
+
+#: flexible-upload.php:1162
+msgid "Greybox"
+msgstr "Greybox"
+
+#: flexible-upload.php:1166
+msgid "Greybox plugin"
+msgstr "Greyboxプラグイン"
+
+#: flexible-upload.php:972
+msgid "Help"
+msgstr "ヘルプ"
+
+#: flexible-upload.php:1174
+msgid "HighslideJS"
+msgstr "HighslideJS"
+
+#: flexible-upload-wp21js.php:138
+msgid "Icon"
+msgstr "アイコン"
+
+#: flexible-upload.php:1404
+msgid ""
+"If you want a caption, select the text to be displayed below your images. "
+"Otherwise, select \"Nothing\".  Note:<ul><li>For the caption feature to work "
+"properly, you need to use CSS alignment, and to either disable the editor "
+"cleanup (see below) or use a visual editor that does not mess up the div's.</"
+"li><li>You can customize the style of your captions using the \"imagecaption"
+"\" CSS class</li></ul>"
+msgstr ""
+"イメージの見出しを表示したい場合、その見出しに使う情報を指定してください。"
+"見出しを要しない場合は、「ブランク」を選択してください。なお、<ul><li>"
+"見出しを正しく表示するには、CSSの配置方法を選択し、エディターの「掃除機能」"
+"を無効にしもしくはdivを変更しないエディターを使う必要があります。</li>"
+"<li>見出しのスタイルを\"imagecaption\" CSSクラスで定義できます。</li></ul>"
+
+#: flexible-upload.php:986
+#, php-format
+msgid ""
+"If you want to upload more than one image at a time, make sure this limit is "
+"greater than the maximum file size x the number of images you want to upload "
+"at once. (see %sPHP help about post_max_size%s)"
+msgstr ""
+"複数の画像を同時にアップロードするには、この値がファイルサイズの上限 × アップ"
+"ロードするイメージ枚数より大きいことを確認してください。（%spost_max_sizeにつ"
+"いてのPHPヘルプページ%s参照）"
+
+#: flexible-upload.php:1380
+msgid "Image caption:"
+msgstr "イメージの見出し"
+
+#: flexible-upload.php:1331 flexible-upload.php:1364 flexible-upload.php:1393
+msgid "Image description"
+msgstr "イメージの記述"
+
+#: flexible-upload.php:1327 flexible-upload.php:1360 flexible-upload.php:1389
+msgid "Image title (name)"
+msgstr "イメージタイトル（ファイル名）"
+
+#: flexible-upload-wp21js.php:214
+msgid "Insert"
+msgstr "挿入"
+
+#: flexible-upload-wp25js.php:258
+msgid "Insert into Excerpt"
+msgstr "抜粋に挿入"
+
+#: flexible-upload.php:1303
+msgid "JPEG quality:"
+msgstr "JPEG品質："
+
+#: flexible-upload-wp20.php:903
+msgid "Last"
+msgstr "最後"
+
+#: flexible-upload-wp21js.php:149 flexible-upload-wp25.php:272
+msgid "Left"
+msgstr "左揃え"
+
+#: flexible-upload.php:1178
+msgid "LightWindow"
+msgstr "LightWindow"
+
+#: flexible-upload.php:1158
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: flexible-upload.php:1145
+msgid "Link plugin or target:"
+msgstr "リンク先やプラグイン："
+
+#: flexible-upload-wp21js.php:168
+msgid "Link to:"
+msgstr "リンク："
+
+#: flexible-upload-wp20.php:288
+msgid "Linked to File"
+msgstr "ファイルへリンクする"
+
+#: flexible-upload-wp20.php:287
+msgid "Linked to Image"
+msgstr "画像へリンクする"
+
+#: flexible-upload-wp20.php:286
+msgid "Linked to Page"
+msgstr "ページへリンクする"
+
+#: flexible-upload-wp20.php:980 flexible-upload-wp21js.php:564
+#: flexible-upload-wp25js.php:147
+msgid "Location of Watermark: "
+msgstr "透かしの位置："
+
+#: flexible-upload.php:1336 flexible-upload.php:1368 flexible-upload.php:1397
+#: flexible-upload-wp25.php:313
+msgid "Long description"
+msgstr "長い記述"
+
+#: flexible-upload.php:984
+#, php-format
+msgid ""
+"Make sure this size is large enough, you won't be able to upload an image "
+"whose file size is bigger than this value. (see %sPHP help about "
+"upload_max_filesize%s)"
+msgstr ""
+"このサイズが十分であることをご確認下さい。このサイズより大きなファイルをアッ"
+"プロードできません。（%supload_max_filesizeについてのPHPヘルプページ%sを参"
+"照）"
+
+#: flexible-upload.php:985
+#, php-format
+msgid "Maximum POST size: <b>%s</b>"
+msgstr "POSTサイズの上限： <b>%s</b>"
+
+#: flexible-upload.php:983
+#, php-format
+msgid "Maximum uploadable file size: <b>%s</b>"
+msgstr "アップロードできるファイルサイズの上限： <b>%s</b>"
+
+#: flexible-upload-wp20.php:905
+msgid "Next"
+msgstr "次"
+
+#: flexible-upload-wp20.php:902
+msgid "Next &raquo;"
+msgstr "次 &raquo;"
+
+#: flexible-upload-wp21js.php:148 flexible-upload-wp21js.php:161
+msgid "No"
+msgstr "いいえ"
+
+#: flexible-upload-wp20.php:294
+msgid "No Thumbnail"
+msgstr "サムネール無し"
+
+#: flexible-upload-wp20.php:295
+msgid "No alignment"
+msgstr "水平配置無し"
+
+#: flexible-upload-wp21.php:44 flexible-upload-wp25.php:82
+msgid "No file was uploaded."
+msgstr "ファイルはアップロードされませんでした。"
+
+#: flexible-upload.php:1230 flexible-upload-wp21js.php:171
+#: flexible-upload-wp21js.php:569 flexible-upload-wp25js.php:152
+#: flexible-upload-wp25.php:269 flexible-upload-wp25.php:316
+msgid "None"
+msgstr "無し"
+
+#: flexible-upload-wp20.php:285
+msgid "Not Linked"
+msgstr "リンク無し"
+
+#: flexible-upload.php:1341 flexible-upload.php:1372 flexible-upload.php:1401
+msgid "Nothing"
+msgstr "ブランク"
+
+#: flexible-upload.php:965
+msgid "Options updated."
+msgstr "オプションは更新されました。"
+
+#: flexible-upload-wp21js.php:170
+msgid "Page"
+msgstr "ページ"
+
+#: flexible-upload-wp20.php:206 flexible-upload-wp21js.php:630
+#: flexible-upload-wp25js.php:211
+msgid "Please enter the size to which the image should be resized."
+msgstr "イメージを縮小するサイズを入力してください。"
+
+#: flexible-upload-wp20.php:211 flexible-upload-wp21js.php:635
+#: flexible-upload-wp25js.php:216
+msgid "Please enter the thumbnail size."
+msgstr "サムネールサイズを入力してください。"
+
+#: flexible-upload.php:1013 flexible-upload.php:1059
+msgid "Resize against:"
+msgstr "サイズ変更基準："
+
+#: flexible-upload-wp20.php:946 flexible-upload-wp20.php:966
+#: flexible-upload-wp21js.php:507 flexible-upload-wp21js.php:537
+#: flexible-upload-wp25js.php:90 flexible-upload-wp25js.php:120
+msgid "Resize against: "
+msgstr "サイズ変更基準："
+
+#: flexible-upload-wp20.php:940 flexible-upload-wp21js.php:502
+#: flexible-upload-wp25js.php:85
+msgid "Resize image"
+msgstr "イメージを縮小"
+
+#: flexible-upload-wp21js.php:153 flexible-upload-wp25.php:282
+msgid "Right"
+msgstr "右揃え"
+
+#: flexible-upload.php:1247
+msgid "Rotate watermark?"
+msgstr "透かし画像を90度回転"
+
+#: flexible-upload-wp20.php:989 flexible-upload-wp21js.php:585
+#: flexible-upload-wp25js.php:168
+msgid "Rotated Watermark"
+msgstr "90度回転した透かし画像"
+
+#: flexible-upload-wp21js.php:241
+msgid "Save &raquo;"
+msgstr "保存 &raquo;"
+
+#: flexible-upload-wp25.php:204
+msgid "Save all changes"
+msgstr "全て保存"
+
+#: flexible-upload.php:1375
+msgid "Select what you want to see in the \"alt\" attribute of the image."
+msgstr "イメージの\"alt\"属性に入れる情報をお選び下さい。"
+
+#: flexible-upload.php:1344
+msgid ""
+"Select what you want to see in the \"title\" attribute of the image.  Some "
+"plugins display this title as a legend below the image."
+msgstr ""
+"イメージの\"title\"属性に入れる情報をお選び下さい。いくつかのプラグインはこの"
+"タイトルを画像の見出しとして使っています。"
+
+#: flexible-upload-wp20.php:299
+msgid "Send to editor"
+msgstr "投稿に挿入"
+
+#: flexible-upload-wp21js.php:175
+msgid "Send to editor &raquo;"
+msgstr "投稿に挿入 &raquo;"
+
+#: flexible-upload-wp21js.php:143 flexible-upload-wp25.php:292
+msgid "Show:"
+msgstr "表示するもの："
+
+#: flexible-upload.php:1191
+msgid "Signature image (for watermark):"
+msgstr "透かし用のシグネチャー画像:"
+
+#: flexible-upload.php:1083
+msgid ""
+"Specify against which side you want to create your thumbnails.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square thumbnails."
+msgstr ""
+"サムネール生成時の標準側をお選び下さい。このパラメータはイメージ毎に変更でき"
+"ます。尚、「最小側」を選択する場合は元画像がcrop（切り出し）され、正方形なサ"
+"ムネールが生成されます。"
+
+#: flexible-upload.php:1037
+msgid ""
+"Specify against which side you want to resize your pictures.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square images."
+msgstr ""
+"イメージを縮小する基準側をお選び下さい。このパラメータはイメージ毎に変更でき"
+"ます。尚、「最小側」を選択する場合は元画像がcrop（切り出し）され、正方形なイ"
+"メージが生成されます。"
+
+#: flexible-upload.php:1109
+msgid ""
+"Specify how you want to specify the alignment when inserting pictures.  You "
+"can choose:<br />1. <strong>CSS</strong>: alignment (left/right/center) will "
+"be specified through different CSS classes which you should add to your "
+"theme's stylesheet.<br />2. <strong>\"img\" property</strong>: the alignment "
+"(left/right) will be specified through the \"align\" property of the &lt;"
+"img&gt; html tag.<br />3. Specify no alignment at all."
+msgstr ""
+"イメージを投稿に挿入する時の水平配置を指定する方法を選んでください。以下の選"
+"択肢があります：<br />1. <strong>CSS</strong>: 水平配置（左揃え・右揃え・中"
+"央）はCSSによって指定されます。使用するCSSクラスをスタイルシートで定義する必"
+"要です。<br />2. <strong>\"img\"のプロパティ</strong>: 水平配置（左揃え・右揃"
+"え）は&lt;img&gt; HTMLタグの\"align\"プロパティによって指定されます。<br /"
+">3. 水平配置を指定しない。"
+
+#: flexible-upload.php:1312
+msgid ""
+"Specify the JPEG quality factor (from 0 to 100).  This option will be used "
+"when manipulating JPEG images."
+msgstr ""
+"JPEG品質（0〜100）を指定してください。JPEG画像を縮小・編集する時に利用されま"
+"す。"
+
+#: flexible-upload.php:1007
+msgid ""
+"Specify the default size to which you want to resize your pictures (leave "
+"blank if you don't want to resize your pictures).  You will be able to "
+"change this for each picture."
+msgstr ""
+"イメージを縮小する大きさを指定してください（元画像を縮小しない場合はブランク"
+"のまま）。この値はイメージ毎に変更できます。"
+
+#: flexible-upload.php:1053
+msgid ""
+"Specify the default thumbnail size (leave blank if you don't want to "
+"generate a thumbnail).  You will be able to change this for each picture."
+msgstr ""
+"サムネールのデフォールトの大きさを指定してください（サムネールを生成しない場"
+"合は、ブランクのまま）。この値はイメージ毎に変更できます。"
+
+#: flexible-upload.php:1285
+msgid "Specify watermark options for each picture?"
+msgstr "イメージ毎に透かしオプションを指定しますか？"
+
+#: flexible-upload.php:979
+msgid "System Configuration"
+msgstr "システム設定"
+
+#: flexible-upload.php:982
+#, php-format
+msgid "System memory limit: <b>%s</b>"
+msgstr "システムメモリ上限: <b>%s</b>"
+
+#: flexible-upload-wp20.php:302
+msgid "There is no thumbnail associated with this photo."
+msgstr "この写真にサムネールはありません。"
+
+#: flexible-upload.php:1170
+msgid "Thickbox"
+msgstr "Thickbox"
+
+#: flexible-upload-wp20.php:470
+msgid "This script was not meant to be called directly."
+msgstr "このスクリプトは直接呼べません。"
+
+#: flexible-upload-wp21js.php:133 flexible-upload-wp25.php:297
+msgid "Thumbnail"
+msgstr "サムネール"
+
+#: flexible-upload.php:632 flexible-upload.php:639 flexible-upload.php:644
+msgid "Thumbnail path invalid"
+msgstr "サムネールパスが違います"
+
+#: flexible-upload-wp21js.php:141 flexible-upload-wp21js.php:231
+#: flexible-upload-wp21js.php:485 flexible-upload-wp25js.php:68
+#: flexible-upload-wp25.php:307
+msgid "Title"
+msgstr "タイトル"
+
+#: flexible-upload-wp20.php:927
+msgid "Title:"
+msgstr "タイトル:"
+
+#: flexible-upload.php:1238 flexible-upload-wp20.php:983
+#: flexible-upload-wp21js.php:577 flexible-upload-wp25js.php:160
+msgid "Top Right"
+msgstr "右上"
+
+#: flexible-upload-wp21js.php:228
+msgid "URL"
+msgstr "URL"
+
+#: flexible-upload.php:1431
+msgid "Update Options"
+msgstr "オプションを保存"
+
+#: flexible-upload-wp20.php:885 flexible-upload-wp20.php:1000
+msgid "Upload"
+msgstr "アップロード"
+
+#: flexible-upload-wp21js.php:452 flexible-upload-wp25js.php:35
+msgid "Upload &raquo;"
+msgstr "アップロード &raquo;"
+
+#: flexible-upload-wp20.php:292
+msgid "Using Filename"
+msgstr "ファイルネームを使用"
+
+#: flexible-upload-wp20.php:293
+msgid "Using Icon"
+msgstr "アイコンを使用"
+
+#: flexible-upload-wp20.php:290
+msgid "Using Original"
+msgstr "元画像を使用"
+
+#: flexible-upload-wp20.php:289
+msgid "Using Thumbnail"
+msgstr "サムネールを使用"
+
+#: flexible-upload-wp20.php:291
+msgid "Using Title"
+msgstr "タイトルを使用"
+
+#: flexible-upload.php:1266
+msgid "Watermark Thumbnails?"
+msgstr "透かしをサムネールに"
+
+#: flexible-upload.php:1221
+msgid "Watermark location:"
+msgstr "透かし画像のファイルパス:"
+
+#: flexible-upload.php:1212
+msgid ""
+"Watermarking functionality is <strong>enabled</strong>.<br />If you don't "
+"need it, blank out the image path above."
+msgstr ""
+"透かしを焼く機能は現在<strong>有効</strong>になっています。この機能が必要ない"
+"場合、イメージパスをブランクにすることで、無効にできます。"
+
+#: flexible-upload.php:1202
+msgid ""
+"Watermarking functionality is currently <strong>disabled</strong>.  To "
+"enable it, you must:<br />1. Make sure that GD is installed on the "
+"server<br />2. Prepare a signature image and provide its path, relative to "
+"WP root directory: e.g. \"wp-content/uploads/my-watermark.gif\""
+msgstr ""
+"透かしを焼く機能は現在<strong>無効</strong>になっています。この機能を有効にす"
+"るには<br />1. GDライブラリをサーバにインストールし、<br />2. 透かし画像を用"
+"意し、そのパスを記入してください（パスはワードプレスのルートディレクトリー"
+"から表すこと）。例：\"wp-content/uploads/my-watermark.gif\""
+
+#: flexible-upload.php:1206
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the required function was not found.  Please make sure GD is "
+"installed on the server.  If you don't need this, you can disable this "
+"warning by specifying an empty path."
+msgstr ""
+"透かしを焼く機能は有効になっていますが、必要なライブラリがインストールされて"
+"いない為、動作しません。GDライブラリがサーバにインストールされていることを確"
+"認してください。この機能が必要ない場合、イメージパスをブランクにすることで、"
+"無効にできます。"
+
+#: flexible-upload.php:1209
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the signature image path you provided below is incorrect.  The path "
+"should be relative to Wordpress root directory and refer to an existing "
+"image file.  If you don't need this, you can disable this warning by "
+"specifying an empty path for the watermark image."
+msgstr ""
+"透かしを焼く機能は有効になっていますが、透かし画像のイメージパスが正しくない"
+"為、動作しません。イメージパスはワードプレスのルートディレクトリからの相対パ"
+"スで、サーバに存在するイメージを指定しなければなりません。この機能が必要ない"
+"場合、イメージパスをブランクにすることで、無効にできます。"
+
+#: flexible-upload.php:745 flexible-upload.php:757 flexible-upload.php:894
+#, php-format
+msgid "Wrong value %d for %s"
+msgstr "%dは%sに無効な値です。"
+
+#: flexible-upload.php:773 flexible-upload.php:789 flexible-upload.php:804
+#: flexible-upload.php:820 flexible-upload.php:840 flexible-upload.php:866
+#: flexible-upload.php:911 flexible-upload.php:929 flexible-upload.php:944
+#, php-format
+msgid "Wrong value %s for %s"
+msgstr "%sは%sに無効な値です。"
+
+#: flexible-upload-wp21js.php:162
+msgid "Yes"
+msgstr "はい"
+
+#: flexible-upload-wp20.php:105
+msgid "You are not allowed to delete this attachment."
+msgstr "この添付ファイルを削除する権利がありません。"
+
+#: flexible-upload-wp21.php:31
+msgid "You are not allowed to upload files."
+msgstr "ファイルをアップロード権利がありません。"
+
+#: flexible-upload-wp20.php:912
+msgid ""
+"You can drag and drop these items into your post. Click on one for more "
+"options."
+msgstr ""
+"このアイテムを投稿にドラッグアンドドロップできます。クリックすると他のオプ"
+"ションが表示されます。"
+
+#: flexible-upload-wp20.php:39
+msgid "You do not have permission to edit posts."
+msgstr "投稿を編集する権利がありません。"
+
+#: flexible-upload-wp20.php:45
+msgid "You do not have permission to upload files."
+msgstr "ファイルをアップロードする権利がありません"
+
+#: flexible-upload.php:733
+msgid "You do not have sufficient permission to manage options."
+msgstr "オプションを管理する権利がありません。"
+
+#: flexible-upload.php:1136
+msgid "center"
+msgstr "中央揃え"
+
+#: flexible-upload.php:1106
+msgid "disabled"
+msgstr "無効"
+
+#: flexible-upload.php:1030 flexible-upload.php:1076
+#: flexible-upload-wp20.php:950 flexible-upload-wp20.php:970
+#: flexible-upload-wp21js.php:520 flexible-upload-wp21js.php:550
+#: flexible-upload-wp25js.php:103 flexible-upload-wp25js.php:133
+msgid "height"
+msgstr "高さ"
+
+#: flexible-upload.php:1022 flexible-upload.php:1068
+#: flexible-upload-wp20.php:948 flexible-upload-wp20.php:968
+#: flexible-upload-wp21js.php:512 flexible-upload-wp21js.php:542
+#: flexible-upload-wp25js.php:95 flexible-upload-wp25js.php:125
+msgid "largest side"
+msgstr "最長側"
+
+#: flexible-upload.php:1128
+msgid "left"
+msgstr "左揃え"
+
+#: flexible-upload.php:1182
+msgid "new window"
+msgstr "新しいウィンドー"
+
+#: flexible-upload.php:1124 flexible-upload.php:1154
+msgid "none"
+msgstr "無し"
+
+#: flexible-upload-wp20.php:944 flexible-upload-wp20.php:964
+#: flexible-upload-wp21js.php:506 flexible-upload-wp21js.php:536
+#: flexible-upload-wp25js.php:89 flexible-upload-wp25js.php:119
+msgid "px"
+msgstr "ピクセル"
+
+#: flexible-upload.php:1132
+msgid "right"
+msgstr "右揃え"
+
+#: flexible-upload.php:1034 flexible-upload.php:1080
+#: flexible-upload-wp20.php:951 flexible-upload-wp20.php:971
+#: flexible-upload-wp21js.php:524 flexible-upload-wp21js.php:554
+#: flexible-upload-wp25js.php:107 flexible-upload-wp25js.php:137
+msgid "smallest side (crop)"
+msgstr "最小側"
+
+#: flexible-upload.php:1026 flexible-upload.php:1072
+#: flexible-upload-wp20.php:949 flexible-upload-wp20.php:969
+#: flexible-upload-wp21js.php:516 flexible-upload-wp21js.php:546
+#: flexible-upload-wp25js.php:99 flexible-upload-wp25js.php:129
+msgid "width"
+msgstr "幅"

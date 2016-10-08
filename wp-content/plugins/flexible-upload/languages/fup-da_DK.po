@@ -1,0 +1,860 @@
+# Localization template file for Flexible Upload plugin for Wordpress
+# Copyright (C) 2007
+# This file is distributed under the same license as the flexible-upload package
+# Antoine Choppin <antoine@japonophile.com>, 2007
+#
+# xgettext --keyword=__ --keyword=_e --language=php *.php --output=languages/flexible-upload.pot
+# msgmerge -s -U languages/fr_FR.po languages/flexible-upload.pot
+# msgfmt -o languages/fr_FR.mo languages/fr_FR.po
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-13 21:38+0900\n"
+"PO-Revision-Date: 2008-03-13 15:01+0100\n"
+"Last-Translator: Georg S. Adamsen <g.s.adamsen@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: flexible-upload.php:1005 flexible-upload.php:1051
+msgid " (px)"
+msgstr "(pixels)"
+
+#: flexible-upload-wp21js.php:98 flexible-upload-wp21js.php:100
+#: flexible-upload-wp21js.php:204 flexible-upload-wp21js.php:206
+msgid "&laquo; Back"
+msgstr "&laquo; Tilbage"
+
+#: flexible-upload.php:1102
+msgid "&lt;img&gt; property"
+msgstr "&lt;img&gt; egenskab"
+
+#: flexible-upload-wp21js.php:441 flexible-upload-wp25js.php:25
+msgid "+add field"
+msgstr ""
+
+#: flexible-upload-wp21js.php:476 flexible-upload-wp25js.php:59
+msgid "- remove"
+msgstr ""
+
+#: flexible-upload.php:113
+#, php-format
+msgid ""
+"<b>Flexible Upload is not installed in the proper directory!</b><br />It "
+"won't work until installed in <b>%s</b><br />"
+msgstr ""
+"<b>Flexible Upload er ikke installeret i den rette mappe!</b><br />Det vil "
+"ikke virke før det installeres i <b>%s</b><br />"
+
+#: flexible-upload-wp20.php:298
+msgid "Align center"
+msgstr "Placering i midten"
+
+#: flexible-upload-wp20.php:296
+msgid "Align left"
+msgstr "Placering til venstre"
+
+#: flexible-upload-wp20.php:297
+msgid "Align right"
+msgstr "Placering til højre"
+
+#: flexible-upload-wp21js.php:147 flexible-upload-wp25.php:285
+msgid "Align:"
+msgstr "Position:"
+
+#: flexible-upload.php:1089
+msgid "Alignment mode:"
+msgstr "Placeringsform:"
+
+#: flexible-upload-wp21js.php:411
+#, php-format
+msgid ""
+"Are you sure you want to delete the file '%s'?\n"
+"Click ok to delete or cancel to go back."
+msgstr ""
+"Er du sikker på, du vil slette filen '%s'?\n"
+"Klik ok for at slette eller annullér for at gå tilbage."
+
+#: flexible-upload-wp20.php:896 flexible-upload-wp20.php:899
+msgid "Back"
+msgstr "Tilbage"
+
+#: flexible-upload-wp20.php:121 flexible-upload-wp21.php:93
+msgid "Back to Image Uploading"
+msgstr "Tilbage til billedupload"
+
+#: flexible-upload.php:1234 flexible-upload-wp20.php:982
+#: flexible-upload-wp21js.php:573 flexible-upload-wp25js.php:156
+msgid "Bottom Right"
+msgstr "Nederst til højre"
+
+#: flexible-upload-wp20.php:887
+msgid "Browse"
+msgstr "Gennemse"
+
+#: flexible-upload-wp20.php:890
+msgid "Browse All"
+msgstr "Gennemse alle"
+
+#: flexible-upload-wp21.php:33
+msgid "Browse Files"
+msgstr "Gennemse filer"
+
+#: flexible-upload-wp21js.php:98 flexible-upload-wp21js.php:100
+#: flexible-upload-wp21js.php:204 flexible-upload-wp21js.php:206
+msgid "Browse your files"
+msgstr "Gennemse dine filer"
+
+#: flexible-upload.php:1098
+msgid "CSS"
+msgstr "CSS"
+
+#: flexible-upload-wp21js.php:160 flexible-upload-wp25.php:318
+msgid "Caption:"
+msgstr "Billedtekst"
+
+#: flexible-upload-wp21js.php:151 flexible-upload-wp25.php:277
+msgid "Center"
+msgstr "Midten"
+
+#: flexible-upload.php:1278
+#, fuzzy
+msgid ""
+"Check this box if you want the watermark picture to be added to thumbnails "
+"as well."
+msgstr ""
+"Afmærk denne boks, hvis du ønsker vandmærkebilledet roteret 90 grader mod "
+"uret, før det lægges ovenpå dit billede."
+
+#: flexible-upload.php:1259
+msgid ""
+"Check this box if you want the watermark picture to be rotated 90 degrees "
+"counter-clockwise before incrusting it into your pictures."
+msgstr ""
+"Afmærk denne boks, hvis du ønsker vandmærkebilledet roteret 90 grader mod "
+"uret, før det lægges ovenpå dit billede."
+
+#: flexible-upload.php:1297
+msgid ""
+"Check this box if you want to be able to specify watermark location and "
+"orientation separately for each picture you upload.  Otherwise, the above "
+"setting will be applied to all the pictures."
+msgstr ""
+"Afmærk denne boks hvis du ønsker at kunne angive placering og rotation "
+"separat for hvert billede, du uploader. Ellers vil ovenstående indstilling "
+"blive anvendt for alle billeder."
+
+#: flexible-upload.php:1421
+msgid ""
+"Check this box if you want to disable WP editor \"cleanup\" feature.  If you "
+"don't disable it, you won't be able to add captions to your images (the "
+"div's will get screwed up by wpautop).<br />Note: if you do this, the "
+"Advanced Editor will not do any cleanup. If you make errors in your HTML "
+"that break the theme, you're on your own!"
+msgstr ""
+
+#: flexible-upload.php:1139
+msgid ""
+"Choose the default alignment when inserting a picture into your posts.  You "
+"will be able to change this for each picture.<br />Note:<br />- this setting "
+"will be ignored if alignment mode is \"disabled\".<br />- center alignment "
+"is not supported with \"&lt;img&gt; property\" alignment mode."
+msgstr ""
+"Vælg hvilken standardplacering du vil anvende, når du indsætter et billede i "
+"dine indlæg. Du vil få mulighed for at ændre dette for hvert billede, du "
+"uploader. <br />NB:<br />- denne indstilling ignoreres, hvis placeringsform "
+"er \"deaktiveret\".<br />- placering i midte er ikke understøttet med \"&lt;"
+"img&gt; egenskab\"-placeringsformen."
+
+#: flexible-upload.php:1241
+msgid ""
+"Choose the where you want the watermark to be incrusted into your pictures."
+msgstr "Vælg, hvor på billedet du ønsker at få vandmærket lagt ovenpå."
+
+#: flexible-upload.php:1185
+msgid ""
+"Choose where/how you want your pictures to be displayed.  If choosing "
+"Lightbox, Greybox, Thickbox, HighslideJS or LightWindow make sure the "
+"corresponding plugin is installed."
+msgstr ""
+"Vælg hvor/hvordan du ønsker, at dine billeder skal vises. Hvis du vælger "
+"Lightbox, Greybox, Thickbox HighslideJS eller LightWindow, skal du sikre "
+"dig, at de tilsvarende plugins er installeret."
+
+#: flexible-upload-wp20.php:300
+msgid "Close Options"
+msgstr "Luk indstillinger"
+
+#: flexible-upload.php:974
+#, php-format
+msgid "Consult the local %shelp page%s."
+msgstr "Søg hjælp i den lokale %shjælpe side%s."
+
+#: flexible-upload.php:1351
+msgid "Content of \"alt\" attribute:"
+msgstr "Indhold af \"alt\"-attribut:"
+
+#: flexible-upload.php:1318
+msgid "Content of \"title\" attribute:"
+msgstr "Indhold af \"titel\"-attribut:"
+
+#: flexible-upload-wp20.php:960 flexible-upload-wp21js.php:532
+#: flexible-upload-wp25js.php:115
+msgid "Create a thumbnail"
+msgstr "Lav miniature"
+
+#: flexible-upload.php:1115
+msgid "Default alignment:"
+msgstr "Standardplacering:"
+
+#: flexible-upload.php:997
+msgid "Default maximum for resizing:"
+msgstr "Standardmaksimum for ændring af billedstørrelse:"
+
+#: flexible-upload.php:1043
+msgid "Default maximum for thumbnail:"
+msgstr "Maksimumstørrelse for miniature:"
+
+#: flexible-upload.php:992
+msgid "Default settings"
+msgstr "Standardindstillinger"
+
+#: flexible-upload-wp20.php:284
+msgid "Delete"
+msgstr "Slet"
+
+#: flexible-upload-wp21js.php:236
+msgid "Delete File"
+msgstr "Slet fil"
+
+#: flexible-upload-wp20.php:301
+msgid "Delete this file from the server?"
+msgstr "Slet denne fil fra serveren?"
+
+#: flexible-upload-wp21js.php:234 flexible-upload-wp21js.php:489
+#: flexible-upload-wp25js.php:72 flexible-upload-wp25.php:310
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: flexible-upload-wp20.php:931
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: flexible-upload-wp21js.php:104 flexible-upload-wp21js.php:113
+#: flexible-upload-wp21js.php:210 flexible-upload-wp21js.php:219
+msgid "Direct link to file"
+msgstr "Direkte link til fil"
+
+#: flexible-upload.php:1409
+msgid "Disable editor cleanup (wpautop)?"
+msgstr ""
+
+#: flexible-upload-wp21js.php:108
+msgid "Edit"
+msgstr "Redigér"
+
+#: flexible-upload.php:960
+msgid "Error encountered while updating options: "
+msgstr "Fejl opstået under ændring af indstillinger:"
+
+#: flexible-upload-wp21js.php:169 flexible-upload-wp21js.php:480
+#: flexible-upload-wp25js.php:63
+msgid "File"
+msgstr "Fil"
+
+#: flexible-upload-wp20.php:455
+msgid "File Type:"
+msgstr "Filtype:"
+
+#: flexible-upload.php:649
+msgid "File not found"
+msgstr "Fil ikke fundet"
+
+#: flexible-upload-wp20.php:923
+msgid "File:"
+msgstr "Fil:"
+
+#: flexible-upload.php:577 flexible-upload.php:580 flexible-upload.php:583
+msgid "Filetype not supported. Thumbnail not created."
+msgstr "Filtypen ikke understøttet. Miniature ikke dannet."
+
+#: flexible-upload-wp20.php:895
+msgid "First"
+msgstr "Første"
+
+#: flexible-upload.php:989
+msgid "Flexible Upload Options"
+msgstr "Indstillinger for Flexible Uploads"
+
+#: flexible-upload-wp21js.php:136 flexible-upload-wp25.php:300
+msgid "Full size"
+msgstr "Fuld størrelse"
+
+#: flexible-upload-wp20.php:105
+msgid "Go back"
+msgstr "Tilbage"
+
+#: flexible-upload.php:1162
+msgid "Greybox"
+msgstr "Greybox"
+
+#: flexible-upload.php:1166
+msgid "Greybox plugin"
+msgstr "Greybox plugin"
+
+#: flexible-upload.php:972
+msgid "Help"
+msgstr "Hjælp"
+
+#: flexible-upload.php:1174
+msgid "HighslideJS"
+msgstr "HighslideJS"
+
+#: flexible-upload-wp21js.php:138
+msgid "Icon"
+msgstr "Ikon"
+
+#: flexible-upload.php:1404
+msgid ""
+"If you want a caption, select the text to be displayed below your images. "
+"Otherwise, select \"Nothing\".  Note:<ul><li>For the caption feature to work "
+"properly, you need to use CSS alignment, and to either disable the editor "
+"cleanup (see below) or use a visual editor that does not mess up the div's.</"
+"li><li>You can customize the style of your captions using the \"imagecaption"
+"\" CSS class</li></ul>"
+msgstr ""
+
+#: flexible-upload.php:986
+#, php-format
+msgid ""
+"If you want to upload more than one image at a time, make sure this limit is "
+"greater than the maximum file size x the number of images you want to upload "
+"at once. (see %sPHP help about post_max_size%s)"
+msgstr ""
+"Hvis du ønsker at kunne oploade mere end et billede ad gangen, skal du sikre "
+"dig, at denne grænse er større end den maksimale filstørrelse x antal "
+"billeder som du ønsker at uploade på én gang (se %sPHP hjælpen vedrørende "
+"post_max_size%s)"
+
+#: flexible-upload.php:1380
+#, fuzzy
+msgid "Image caption:"
+msgstr "Billedbeskrivelse"
+
+#: flexible-upload.php:1331 flexible-upload.php:1364 flexible-upload.php:1393
+msgid "Image description"
+msgstr "Billedbeskrivelse"
+
+#: flexible-upload.php:1327 flexible-upload.php:1360 flexible-upload.php:1389
+msgid "Image title (name)"
+msgstr "Billedtitel (navn)"
+
+#: flexible-upload-wp21js.php:214
+msgid "Insert"
+msgstr "Indsæt"
+
+#: flexible-upload-wp25js.php:258
+msgid "Insert into Excerpt"
+msgstr ""
+
+#: flexible-upload.php:1303
+#, fuzzy
+msgid "JPEG quality:"
+msgstr "JPEG kvalitet:"
+
+#: flexible-upload-wp20.php:903
+msgid "Last"
+msgstr "Sidste"
+
+#: flexible-upload-wp21js.php:149 flexible-upload-wp25.php:272
+msgid "Left"
+msgstr "Venstre"
+
+#: flexible-upload.php:1178
+msgid "LightWindow"
+msgstr "LightWindow"
+
+#: flexible-upload.php:1158
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: flexible-upload.php:1145
+msgid "Link plugin or target:"
+msgstr "Plugin eller mål for linket:"
+
+#: flexible-upload-wp21js.php:168
+msgid "Link to:"
+msgstr "Link til:"
+
+#: flexible-upload-wp20.php:288
+msgid "Linked to File"
+msgstr "Linket til fil"
+
+#: flexible-upload-wp20.php:287
+msgid "Linked to Image"
+msgstr "Linket til billede"
+
+#: flexible-upload-wp20.php:286
+msgid "Linked to Page"
+msgstr "Linket til side"
+
+#: flexible-upload-wp20.php:980 flexible-upload-wp21js.php:564
+#: flexible-upload-wp25js.php:147
+msgid "Location of Watermark: "
+msgstr "Placering af vandmærke:"
+
+#: flexible-upload.php:1336 flexible-upload.php:1368 flexible-upload.php:1397
+#: flexible-upload-wp25.php:313
+#, fuzzy
+msgid "Long description"
+msgstr "Billedbeskrivelse"
+
+#: flexible-upload.php:984
+#, php-format
+msgid ""
+"Make sure this size is large enough, you won't be able to upload an image "
+"whose file size is bigger than this value. (see %sPHP help about "
+"upload_max_filesize%s)"
+msgstr ""
+"Du skal sikre dig, at denne størrelse er stor nok. Du vil ikke kunne uploade "
+"et billede som er større end denne værdi. (se %sPHP hjælpen vedrørende "
+"upload_max_filesize%s)"
+
+#: flexible-upload.php:985
+#, php-format
+msgid "Maximum POST size: <b>%s</b>"
+msgstr "Maksimal POST størrelse: <b>%s</b>"
+
+#: flexible-upload.php:983
+#, php-format
+msgid "Maximum uploadable file size: <b>%s</b>"
+msgstr "Største filstørrelse der kan uploades: <b>%s</b>"
+
+#: flexible-upload-wp20.php:905
+msgid "Next"
+msgstr "Næste"
+
+#: flexible-upload-wp20.php:902
+msgid "Next &raquo;"
+msgstr "Næste &raquo;"
+
+#: flexible-upload-wp21js.php:148 flexible-upload-wp21js.php:161
+msgid "No"
+msgstr "Nej"
+
+#: flexible-upload-wp20.php:294
+msgid "No Thumbnail"
+msgstr "Ingen miniature"
+
+#: flexible-upload-wp20.php:295
+msgid "No alignment"
+msgstr "Ingen placering"
+
+#: flexible-upload-wp21.php:44 flexible-upload-wp25.php:82
+msgid "No file was uploaded."
+msgstr "Ingen filer blev uploadet."
+
+#: flexible-upload.php:1230 flexible-upload-wp21js.php:171
+#: flexible-upload-wp21js.php:569 flexible-upload-wp25js.php:152
+#: flexible-upload-wp25.php:269 flexible-upload-wp25.php:316
+msgid "None"
+msgstr "Ingen"
+
+#: flexible-upload-wp20.php:285
+msgid "Not Linked"
+msgstr "Ikke linket"
+
+#: flexible-upload.php:1341 flexible-upload.php:1372 flexible-upload.php:1401
+msgid "Nothing"
+msgstr "Intet"
+
+#: flexible-upload.php:965
+msgid "Options updated."
+msgstr "Indstillinger ændret."
+
+#: flexible-upload-wp21js.php:170
+msgid "Page"
+msgstr "Side"
+
+#: flexible-upload-wp20.php:206 flexible-upload-wp21js.php:630
+#: flexible-upload-wp25js.php:211
+msgid "Please enter the size to which the image should be resized."
+msgstr "Angiv venligst størrelsen billedet skal ændres til."
+
+#: flexible-upload-wp20.php:211 flexible-upload-wp21js.php:635
+#: flexible-upload-wp25js.php:216
+msgid "Please enter the thumbnail size."
+msgstr "Angiv venligst miniaturestørrelsen."
+
+#: flexible-upload.php:1013 flexible-upload.php:1059
+msgid "Resize against:"
+msgstr "Ændre størrelse i forhold til:"
+
+#: flexible-upload-wp20.php:946 flexible-upload-wp20.php:966
+#: flexible-upload-wp21js.php:507 flexible-upload-wp21js.php:537
+#: flexible-upload-wp25js.php:90 flexible-upload-wp25js.php:120
+msgid "Resize against: "
+msgstr "Ændr størrelsen i forhold til:"
+
+#: flexible-upload-wp20.php:940 flexible-upload-wp21js.php:502
+#: flexible-upload-wp25js.php:85
+msgid "Resize image"
+msgstr "Ændr billedstørrelsen"
+
+#: flexible-upload-wp21js.php:153 flexible-upload-wp25.php:282
+msgid "Right"
+msgstr "Højre"
+
+#: flexible-upload.php:1247
+#, fuzzy
+msgid "Rotate watermark?"
+msgstr "Roteret vandmærke"
+
+#: flexible-upload-wp20.php:989 flexible-upload-wp21js.php:585
+#: flexible-upload-wp25js.php:168
+msgid "Rotated Watermark"
+msgstr "Roteret vandmærke"
+
+#: flexible-upload-wp21js.php:241
+msgid "Save &raquo;"
+msgstr "Gem &raquo;"
+
+#: flexible-upload-wp25.php:204
+msgid "Save all changes"
+msgstr ""
+
+#: flexible-upload.php:1375
+msgid "Select what you want to see in the \"alt\" attribute of the image."
+msgstr "Angiv hvad du ønsker at se i billedets \"alt\"-attribut."
+
+#: flexible-upload.php:1344
+msgid ""
+"Select what you want to see in the \"title\" attribute of the image.  Some "
+"plugins display this title as a legend below the image."
+msgstr ""
+"Angiv hvad du ønsker at se i billedets \"titel\"-attribut. Nogle plugins "
+"viser denne titel som tekst under billedet."
+
+#: flexible-upload-wp20.php:299
+msgid "Send to editor"
+msgstr "Send til editor"
+
+#: flexible-upload-wp21js.php:175
+msgid "Send to editor &raquo;"
+msgstr "Send til editor &raquo;"
+
+#: flexible-upload-wp21js.php:143 flexible-upload-wp25.php:292
+msgid "Show:"
+msgstr "Vis:"
+
+#: flexible-upload.php:1191
+msgid "Signature image (for watermark):"
+msgstr "Signaturbillede (til vandmærke):"
+
+#: flexible-upload.php:1083
+msgid ""
+"Specify against which side you want to create your thumbnails.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square thumbnails."
+msgstr ""
+"Angiv i forhold til hvilken side du ønsker at danne miniaturer. Du vil få "
+"mulighed for at ændre værdien for hvert billede, du uploader. Vælger du "
+"\"korteste side\", tillader du at beskære billedet og danne kvadratiske "
+"billeder."
+
+#: flexible-upload.php:1037
+msgid ""
+"Specify against which side you want to resize your pictures.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square images."
+msgstr ""
+"Angiv i forhold til hvilken side du ønsker at ændre størrelsen på dine "
+"billeder. Du kan ændre dette for hvert enkelt billede. Vælger du \"korteste "
+"side\", tillader du at beskære billedet og danne kvadratiske billeder."
+
+#: flexible-upload.php:1109
+msgid ""
+"Specify how you want to specify the alignment when inserting pictures.  You "
+"can choose:<br />1. <strong>CSS</strong>: alignment (left/right/center) will "
+"be specified through different CSS classes which you should add to your "
+"theme's stylesheet.<br />2. <strong>\"img\" property</strong>: the alignment "
+"(left/right) will be specified through the \"align\" property of the &lt;"
+"img&gt; html tag.<br />3. Specify no alignment at all."
+msgstr ""
+"Angiv hvordan du ønsker at bestemme placering, når du indsætter billeder. Du "
+"kan vælge:<br />1. <strong>CSS</strong>: placering (venstre/højre/midt) "
+"bestemmes af forskellige CSS klasser som du skulle tage og tilføje til dit "
+"temas stylesheet.<br />2. <strong>\"img\" egenskab</strong>: placering "
+"(venstre/højre/midt) bestemmes af \"placering\"-egenskaben i &lt;img&gt; "
+"html taggen.<br />3. Slet ikke at bestemme nogen placering."
+
+#: flexible-upload.php:1312
+msgid ""
+"Specify the JPEG quality factor (from 0 to 100).  This option will be used "
+"when manipulating JPEG images."
+msgstr ""
+"Angiv faktor for JPEG-kvaliteten (fra 0 til 100). Denne indstilling vil "
+"blive anvendt, når JPEG-billeder behandles."
+
+#: flexible-upload.php:1007
+msgid ""
+"Specify the default size to which you want to resize your pictures (leave "
+"blank if you don't want to resize your pictures).  You will be able to "
+"change this for each picture."
+msgstr "HERTIL"
+
+#: flexible-upload.php:1053
+msgid ""
+"Specify the default thumbnail size (leave blank if you don't want to "
+"generate a thumbnail).  You will be able to change this for each picture."
+msgstr ""
+"Angiv standardstørrelse for miniaturerne (lad feltet stå tomt, hvis du ikke "
+"ønsker at danne miniaturer). Du vil få mulighed for at ændre værdien for "
+"hvert billede, du uploader."
+
+#: flexible-upload.php:1285
+msgid "Specify watermark options for each picture?"
+msgstr "Angiv vandmærkeindstillinger for hvert billede?"
+
+#: flexible-upload.php:979
+msgid "System Configuration"
+msgstr "Systemindstillinger"
+
+#: flexible-upload.php:982
+#, php-format
+msgid "System memory limit: <b>%s</b>"
+msgstr "Begrænsning i systemhukommelse: <b>%s</b>"
+
+#: flexible-upload-wp20.php:302
+msgid "There is no thumbnail associated with this photo."
+msgstr "Der er ingen miniature angivet til dette billede."
+
+#: flexible-upload.php:1170
+msgid "Thickbox"
+msgstr "Thickbox"
+
+#: flexible-upload-wp20.php:470
+msgid "This script was not meant to be called directly."
+msgstr "Dette skript kan ikke kaldes direkte."
+
+#: flexible-upload-wp21js.php:133 flexible-upload-wp25.php:297
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: flexible-upload.php:632 flexible-upload.php:639 flexible-upload.php:644
+msgid "Thumbnail path invalid"
+msgstr "Miniature-sti er ikke gyldig."
+
+#: flexible-upload-wp21js.php:141 flexible-upload-wp21js.php:231
+#: flexible-upload-wp21js.php:485 flexible-upload-wp25js.php:68
+#: flexible-upload-wp25.php:307
+msgid "Title"
+msgstr "Titel"
+
+#: flexible-upload-wp20.php:927
+msgid "Title:"
+msgstr "Titel:"
+
+#: flexible-upload.php:1238 flexible-upload-wp20.php:983
+#: flexible-upload-wp21js.php:577 flexible-upload-wp25js.php:160
+msgid "Top Right"
+msgstr "Øverst til højre"
+
+#: flexible-upload-wp21js.php:228
+msgid "URL"
+msgstr "URL"
+
+#: flexible-upload.php:1431
+msgid "Update Options"
+msgstr "Gem ændrede indstillinger"
+
+#: flexible-upload-wp20.php:885 flexible-upload-wp20.php:1000
+msgid "Upload"
+msgstr "Upload"
+
+#: flexible-upload-wp21js.php:452 flexible-upload-wp25js.php:35
+msgid "Upload &raquo;"
+msgstr "Upload &raquo;"
+
+#: flexible-upload-wp20.php:292
+msgid "Using Filename"
+msgstr "Bruger filnavn"
+
+#: flexible-upload-wp20.php:293
+msgid "Using Icon"
+msgstr "Bruger ikon"
+
+#: flexible-upload-wp20.php:290
+msgid "Using Original"
+msgstr "Bruger original"
+
+#: flexible-upload-wp20.php:289
+msgid "Using Thumbnail"
+msgstr "Bruger miniature"
+
+#: flexible-upload-wp20.php:291
+msgid "Using Title"
+msgstr "Bruger titel"
+
+#: flexible-upload.php:1266
+#, fuzzy
+msgid "Watermark Thumbnails?"
+msgstr "Lav miniature"
+
+#: flexible-upload.php:1221
+msgid "Watermark location:"
+msgstr "Vandmærkets placering:"
+
+#: flexible-upload.php:1212
+msgid ""
+"Watermarking functionality is <strong>enabled</strong>.<br />If you don't "
+"need it, blank out the image path above."
+msgstr ""
+"Vandmærkefunktionen er <strong>aktiveret</strong>.<br />Hvis du ikke behøver "
+"funktionen, kan du slette stien til billedet ovenfor."
+
+#: flexible-upload.php:1202
+#, fuzzy
+msgid ""
+"Watermarking functionality is currently <strong>disabled</strong>.  To "
+"enable it, you must:<br />1. Make sure that GD is installed on the "
+"server<br />2. Prepare a signature image and provide its path, relative to "
+"WP root directory: e.g. \"wp-content/uploads/my-watermark.gif\""
+msgstr ""
+"Vandmærke-funktionen er i øjeblikket strong>deaktiveret</strong>. For at "
+"aktivere det, skal du:<br />1. Sikr dig, at GD er installeret på "
+"serveren<br />2. Lave et signaturbillede og angive dets sti nedenfor."
+
+#: flexible-upload.php:1206
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the required function was not found.  Please make sure GD is "
+"installed on the server.  If you don't need this, you can disable this "
+"warning by specifying an empty path."
+msgstr ""
+"Vandmærkefunktionen er aktiveret, men vil ikke fungere, fordi den nødvendige "
+"funktion ikke blev fundet. Sørg for, at GD er installeret på serveren. Hvis "
+"du ikke har brug for denne funktion, kan du deaktivere denne advarsel ved "
+"ikke at angive nogen sti."
+
+#: flexible-upload.php:1209
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the signature image path you provided below is incorrect.  The path "
+"should be relative to Wordpress root directory and refer to an existing "
+"image file.  If you don't need this, you can disable this warning by "
+"specifying an empty path for the watermark image."
+msgstr ""
+"Vandmærkefunktionen er aktiveret, men vil ikke fungere, fordi stien til "
+"signaturbilledet, som du angav, ikke er korrekt. Du skal angive en relativ "
+"sti i forhold til WordPress' root-mappe, og stien skal referere til en "
+"eksisterende billedfil. Hvis du ikke har brug for denne funktion, kan du "
+"deaktivere denne advarsel ved ikke at angive nogen sti til vandmærkebilledet."
+
+#: flexible-upload.php:745 flexible-upload.php:757 flexible-upload.php:894
+#, php-format
+msgid "Wrong value %d for %s"
+msgstr "Forkert værdi %d for %s"
+
+#: flexible-upload.php:773 flexible-upload.php:789 flexible-upload.php:804
+#: flexible-upload.php:820 flexible-upload.php:840 flexible-upload.php:866
+#: flexible-upload.php:911 flexible-upload.php:929 flexible-upload.php:944
+#, php-format
+msgid "Wrong value %s for %s"
+msgstr "Forkert værdi %s for %s"
+
+#: flexible-upload-wp21js.php:162
+msgid "Yes"
+msgstr "Ja"
+
+#: flexible-upload-wp20.php:105
+msgid "You are not allowed to delete this attachment."
+msgstr "Du har ikke tilladelse til at slette denne vedhæftede fil."
+
+#: flexible-upload-wp21.php:31
+msgid "You are not allowed to upload files."
+msgstr "Du har ikke tilladelse til at uploade filer."
+
+#: flexible-upload-wp20.php:912
+msgid ""
+"You can drag and drop these items into your post. Click on one for more "
+"options."
+msgstr ""
+"Du kan trække og slippe disse elementer. Klik på en af dem for flere "
+"valgmuligheder."
+
+#: flexible-upload-wp20.php:39
+msgid "You do not have permission to edit posts."
+msgstr "Du har ikke tilladelse til at redigere indlæg."
+
+#: flexible-upload-wp20.php:45
+msgid "You do not have permission to upload files."
+msgstr "Du har ikke tilladelse til at uploade filer."
+
+#: flexible-upload.php:733
+msgid "You do not have sufficient permission to manage options."
+msgstr "Du har ikke tilstrækkelig tilladelse til at ændre indstillinger."
+
+#: flexible-upload.php:1136
+msgid "center"
+msgstr "midt"
+
+#: flexible-upload.php:1106
+msgid "disabled"
+msgstr "deaktiveret"
+
+#: flexible-upload.php:1030 flexible-upload.php:1076
+#: flexible-upload-wp20.php:950 flexible-upload-wp20.php:970
+#: flexible-upload-wp21js.php:520 flexible-upload-wp21js.php:550
+#: flexible-upload-wp25js.php:103 flexible-upload-wp25js.php:133
+msgid "height"
+msgstr "højde"
+
+#: flexible-upload.php:1022 flexible-upload.php:1068
+#: flexible-upload-wp20.php:948 flexible-upload-wp20.php:968
+#: flexible-upload-wp21js.php:512 flexible-upload-wp21js.php:542
+#: flexible-upload-wp25js.php:95 flexible-upload-wp25js.php:125
+msgid "largest side"
+msgstr "længste side"
+
+#: flexible-upload.php:1128
+msgid "left"
+msgstr "venstre"
+
+#: flexible-upload.php:1182
+msgid "new window"
+msgstr "nyt vindue"
+
+#: flexible-upload.php:1124 flexible-upload.php:1154
+msgid "none"
+msgstr "ingen"
+
+#: flexible-upload-wp20.php:944 flexible-upload-wp20.php:964
+#: flexible-upload-wp21js.php:506 flexible-upload-wp21js.php:536
+#: flexible-upload-wp25js.php:89 flexible-upload-wp25js.php:119
+msgid "px"
+msgstr "pixels"
+
+#: flexible-upload.php:1132
+msgid "right"
+msgstr "højre"
+
+#: flexible-upload.php:1034 flexible-upload.php:1080
+#: flexible-upload-wp20.php:951 flexible-upload-wp20.php:971
+#: flexible-upload-wp21js.php:524 flexible-upload-wp21js.php:554
+#: flexible-upload-wp25js.php:107 flexible-upload-wp25js.php:137
+msgid "smallest side (crop)"
+msgstr "korteste side (beskær)"
+
+#: flexible-upload.php:1026 flexible-upload.php:1072
+#: flexible-upload-wp20.php:949 flexible-upload-wp20.php:969
+#: flexible-upload-wp21js.php:516 flexible-upload-wp21js.php:546
+#: flexible-upload-wp25js.php:99 flexible-upload-wp25js.php:129
+msgid "width"
+msgstr "bredde"
+
+#~ msgid "Rotate landmark?"
+#~ msgstr "Rotér vandmærket?"

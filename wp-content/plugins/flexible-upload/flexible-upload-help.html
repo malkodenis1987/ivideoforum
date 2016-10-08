@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Flexible Upload Help</title>
+<style type="text/css">
+  body, td { font: 13px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana; }
+  dt { font-weight:bolder; font-size:90%; }
+  dt code { color:green; }
+  h2 {
+    border-bottom: .5em solid #e5f3ff;
+    color: #333;
+    font: normal 32px/5px serif;
+    margin: 5px 10px; }
+  h3 { font-size:140%; color:navy; border-bottom:1px solid navy; }
+  h4 { font-size:120%; text-decoration: underline; }
+  h5 { font-size:100%; }
+  .red { color:red }
+  .blue { color:blue }
+  .pageblock { border:solid 1px grey; padding:2px; margin:2px; }
+  .example { border:solid 1px black; background-color:#EEF; padding:10px; margin:10px }
+</style>
+</head>
+<body>
+
+<h2>Flexible Upload Help</h2>
+
+<p>Flexible Upload is a plugin for Wordpress intended to extend Wordpress basic upload functionality.</p>
+
+<h3>1. Overview</h3>
+
+<p>Flexible Upload was first developed to allow creating thumbnails and specify their size (rather than the default 128px thumbnails automatically created by Wordpress).  It tries to respect the current Wordpress design as much as possible while offering some additional features:</p>
+<ul>
+  <li>Resize pictures at upload to the size you specify</li>
+  <li>Let you decide whether or not to create a thumbnail and specify its size</li>
+  <li>Optionally incrust a watermark signature in all pictures you upload</li>
+  <li>Let you specify the alignment (left/right/center) when inserting pictures into your posts</li>
+  <li>Let you specify how/where you want the pictures to be shown (Lightbox, Greybox, etc)</li>
+  <li>Insert a caption for each picture (only supported with the legacy HTML editor)</li>  
+</ul>
+
+<h3>2. Requirements</h3>
+
+<p>This plugin was designed for Wordpress 2.0.x, 2.1.x, 2.3.x and 2.5.  Note that image manipulation requires you to have the php image library installed on your server.</p>
+
+<h3>3. Features</h3>
+
+<h4>3.1 Uploading pictures</h4>
+
+<p>This section describes what you can do on the "Upload" tab.</p>
+
+<h5>3.1.1 Resizing and thumbnail creation</h5>
+
+<p>When selecting an image file (extension: jpg, jpeg, jpe, gif, png, bmp, tif, tiff or ico), the following options will show up in the Upload iframe:</p>
+<ul>
+  <li><strong>Resize image</strong></li>
+  <li><strong>Create a thumbnail</strong></li>
+</ul>
+<p>To resize the image you upload or create a thumbnail, check the corresponding box.  For each, you should make sure to specify a size (in pixels) and choose against which side you want the picture to be resized.</p>
+<ul>
+  <li><strong>"largest side"</strong>: the image will be resized or the thumbnail created by ensuring that the longest side is equal to the size you specified.</li>
+  <li><strong>"width"</strong> / <strong>"height"</strong>: the image will be resized or the thumbnail created by ensuring that its width (resp. height) is equal to the size you specified.</li>
+  <li><strong>"smallest side"</strong>: the image will be resized or the thumbnail created by cropping the original picture, and ensure that both height and width equal the size you specified.</li>
+</ul>
+<p>In the Flexible Upload option page, you can specify the default size (for resizing and thumbnail), and the default side against which to resize the pictures.</p>
+
+<h5>3.1.2 Watermarking</h5>
+
+<p>The watermarking function, when enabled, will <strong>incrust a "signature"</strong> in the bottom-right (or top-right) corner of all the pictures you upload (not on the thumbnails).  To enable this feature, you need to prepare an image (that needs to be smaller than your resized pictures) and specify its path in the Flexible Upload option page.  The signature file should typically be a png or gif file with transparent background.  An example of such file is provided with the plugin.  You can set the watermark location and orientation in the Upload tab.</p>
+<p>If you don't need this functionality and want to disable it, just clear the watermark file path in the Flexible Upload option page.</p>
+
+<h4>3.2 Inserting pictures into your posts</h4>
+
+<p>This section describes what you can do on the "Browse"/"Browse All" tabs.</p>
+
+<h5>3.2.1 Specifying picture alignment</h5>
+
+<p>Flexible Upload allows you to specify the <strong>horizontal alignment</strong> for each picture you insert into your posts.  </p>
+<p>Two ways are offered to specify picture alignment:</p>
+<ul>
+  <li>Using <strong>CSS</strong></li>
+  <li>Using the <strong>align property</strong> of the &lt;img&gt; html tag</li>
+</ul>
+
+<p><strong>CSS</strong> is more flexible than the align property, but requires you to specify CSS formatting in your theme's stylesheet.  You can choose between three alignments (left, right or center) and Flexible Upload will insert the corresponding CSS class property in each picture.</p>
+<p>Here is an example of CSS code for each class used for alignment:</p>
+<code>
+.imageframe { margin: 10px; padding: 5px; border: 1px solid #aaa; }<br />
+.alignleft { float: left; }<br />
+.alignright { float: right; }<br />
+.centered { margin-left: auto; margin-right: auto; }
+</code>
+<p>The first class "imageframe" is added to all your pictures, regardless of the alignment mode you choose.  Feel free to use it to enhance the look of your pictures.  Note that CSS takes precedence over any align property that you would set later on using Wordpress' Wysiwyg editor.</p>
+
+<p>On the other hand, if you choose to use the <strong>align property</strong>, you don't need to define any CSS code and you can change the alignment later on using the image icon in Wordpress's editor.  However, the html align property does not support centering images.</p>
+
+<p>You can choose either CSS or the align property "alignment mode" (or disable alignment) in Flexible Upload option page.</p>
+
+<h5>3.2.2 Specifying picture target or plugin</h5>
+
+<p>If you use <strong>Lightbox</strong> (or any other plugin like Thickbox, Greybox), nothing is easier than to let Flexible Upload add the appropriate "rel" property in your link code.  (Note that Lightbox/Greybox "rel" tag will group your pictures per post, using the post ID).</p>
+<p>If you prefer the classical way, like opening your image in a <strong>new window</strong>, this is possible too.</p>
+<p>You can specify this setting (or disable it) in the Flexible Upload option page.</p>
+
+<h5>3.2.3 Adding a caption to your pictures</h5>
+
+<p>This feature should allow you to wrap your pictures in a "div", together with a <strong>caption</strong> (corresponding to the description you enter when uploading your pictures).  However, it does not work with Wordpress 2.1.x Wysiwyg editor (which, for some reason, strips off the "div" element).  If you don't mind use the classical html code editor, you will be able to include a caption for each picture, provided you chose the CSS alignment mode (because wrapping your pictures in a "div" would disable the align property anyway).</p>
+<p>In Wordpress 2.0.x, the Wysiwyg editor does not seem to screw up the "div", so this feature is applied automatically <em>when you enter a picture description</em>  (so in WP 2.0.x, if you wish not to see a caption, don't enter a description).</p>
+<p>In Wordpress 2.5, check the "disable editor cleanup (wpautop)" checkbox, to prevent the "div" to be messed up</p>
+<p>The CSS class for the picture caption is <code>imagecaption</code>.</p>
+
+<h3>4. Support</h3>
+
+<p>I tested this plugin on IE and Firefox (Win/Linux), but not on any Mac browser.  Thank you to report any bug you find <a href="http://blog.japonophile.com/flexible-upload/sf-forum/">on the forum</a>.</p>
+
+</body>
+</html>

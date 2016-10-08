@@ -1,0 +1,706 @@
+# Localization template file for Flexible Upload plugin for Wordpress
+# Copyright (C) 2007
+# This file is distributed under the same license as the flexible-upload package
+# Antoine Choppin <antoine@japonophile.com>, 2007
+#
+# xgettext --keyword=__ --keyword=_e --language=php *.php --output=languages/flexible-upload.pot
+# msgmerge -s -U languages/fr_FR.po languages/flexible-upload.pot
+# msgfmt -o languages/fr_FR.mo languages/fr_FR.po
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-10-04 23:47+0900\n"
+"PO-Revision-Date: 2007-10-04 23:47+0900\n"
+"Last-Translator: Antoine Choppin <antoine@japonophile.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: flexible-upload-js.php:87 flexible-upload-js.php:89
+#: flexible-upload-js.php:193 flexible-upload-js.php:195
+msgid "Browse your files"
+msgstr ""
+
+#: flexible-upload-js.php:87 flexible-upload-js.php:89
+#: flexible-upload-js.php:193 flexible-upload-js.php:195
+msgid "&laquo; Back"
+msgstr ""
+
+#: flexible-upload-js.php:93 flexible-upload-js.php:102
+#: flexible-upload-js.php:199 flexible-upload-js.php:208
+msgid "Direct link to file"
+msgstr ""
+
+#: flexible-upload-js.php:97
+msgid "Edit"
+msgstr ""
+
+#: flexible-upload-js.php:122
+msgid "Thumbnail"
+msgstr ""
+
+#: flexible-upload-js.php:125
+msgid "Full size"
+msgstr ""
+
+#: flexible-upload-js.php:127
+msgid "Icon"
+msgstr ""
+
+#: flexible-upload-js.php:130 flexible-upload-js.php:220
+#: flexible-upload-js.php:470
+msgid "Title"
+msgstr ""
+
+#: flexible-upload-js.php:132
+msgid "Show:"
+msgstr ""
+
+#: flexible-upload-js.php:136
+msgid "Align:"
+msgstr ""
+
+#: flexible-upload-js.php:137 flexible-upload-js.php:150
+msgid "No"
+msgstr ""
+
+#: flexible-upload-js.php:138
+msgid "Left"
+msgstr ""
+
+#: flexible-upload-js.php:140
+msgid "Center"
+msgstr ""
+
+#: flexible-upload-js.php:142
+msgid "Right"
+msgstr ""
+
+#: flexible-upload-js.php:149
+msgid "Caption:"
+msgstr ""
+
+#: flexible-upload-js.php:151
+msgid "Yes"
+msgstr ""
+
+#: flexible-upload-js.php:157
+msgid "Link to:"
+msgstr ""
+
+#: flexible-upload-js.php:158 flexible-upload-js.php:465
+msgid "File"
+msgstr ""
+
+#: flexible-upload-js.php:159
+msgid "Page"
+msgstr ""
+
+#: flexible-upload-js.php:160 flexible-upload-js.php:554
+#: flexible-upload.php:1139
+msgid "None"
+msgstr ""
+
+#: flexible-upload-js.php:164
+msgid "Send to editor &raquo;"
+msgstr ""
+
+#: flexible-upload-js.php:203
+msgid "Insert"
+msgstr ""
+
+#: flexible-upload-js.php:217
+msgid "URL"
+msgstr ""
+
+#: flexible-upload-js.php:223 flexible-upload-js.php:474
+msgid "Description"
+msgstr ""
+
+#: flexible-upload-js.php:225
+msgid "Delete File"
+msgstr ""
+
+#: flexible-upload-js.php:230
+msgid "Save &raquo;"
+msgstr ""
+
+#: flexible-upload-js.php:397
+#, php-format
+msgid ""
+"Are you sure you want to delete the file '%s'?\n"
+"Click ok to delete or cancel to go back."
+msgstr ""
+
+#: flexible-upload-js.php:438
+msgid "Upload &raquo;"
+msgstr ""
+
+#: flexible-upload-js.php:487 flexible-upload-wp20.php:935
+msgid "Resize image"
+msgstr ""
+
+#: flexible-upload-js.php:491 flexible-upload-js.php:521
+#: flexible-upload-wp20.php:939 flexible-upload-wp20.php:959
+msgid "px"
+msgstr ""
+
+#: flexible-upload-js.php:492 flexible-upload-js.php:522
+#: flexible-upload-wp20.php:941 flexible-upload-wp20.php:961
+msgid "Resize against: "
+msgstr ""
+
+#: flexible-upload-js.php:497 flexible-upload-js.php:527
+#: flexible-upload.php:931 flexible-upload.php:977
+#: flexible-upload-wp20.php:943 flexible-upload-wp20.php:963
+msgid "largest side"
+msgstr ""
+
+#: flexible-upload-js.php:501 flexible-upload-js.php:531
+#: flexible-upload.php:935 flexible-upload.php:981
+#: flexible-upload-wp20.php:944 flexible-upload-wp20.php:964
+msgid "width"
+msgstr ""
+
+#: flexible-upload-js.php:505 flexible-upload-js.php:535
+#: flexible-upload.php:939 flexible-upload.php:985
+#: flexible-upload-wp20.php:945 flexible-upload-wp20.php:965
+msgid "height"
+msgstr ""
+
+#: flexible-upload-js.php:509 flexible-upload-js.php:539
+#: flexible-upload.php:943 flexible-upload.php:989
+#: flexible-upload-wp20.php:946 flexible-upload-wp20.php:966
+msgid "smallest side (crop)"
+msgstr ""
+
+#: flexible-upload-js.php:517 flexible-upload-wp20.php:955
+msgid "Create a thumbnail"
+msgstr ""
+
+#: flexible-upload-js.php:549 flexible-upload-wp20.php:975
+msgid "Location of Watermark: "
+msgstr ""
+
+#: flexible-upload-js.php:558 flexible-upload.php:1143
+#: flexible-upload-wp20.php:977
+msgid "Bottom Right"
+msgstr ""
+
+#: flexible-upload-js.php:562 flexible-upload.php:1147
+#: flexible-upload-wp20.php:978
+msgid "Top Right"
+msgstr ""
+
+#: flexible-upload-js.php:570 flexible-upload-wp20.php:984
+msgid "Rotated Watermark"
+msgstr ""
+
+#: flexible-upload-js.php:616 flexible-upload-wp20.php:205
+msgid "Please enter the size to which the image should be resized."
+msgstr ""
+
+#: flexible-upload-js.php:621 flexible-upload-wp20.php:210
+msgid "Please enter the thumbnail size."
+msgstr ""
+
+#: flexible-upload.php:92
+#, php-format
+msgid ""
+"<b>Flexible Upload is not installed in the proper directory!</b><br />It "
+"won't work until installed in <b>%s</b><br />"
+msgstr ""
+
+#: flexible-upload.php:532 flexible-upload.php:535 flexible-upload.php:538
+msgid "Filetype not supported. Thumbnail not created."
+msgstr ""
+
+#: flexible-upload.php:587 flexible-upload.php:594 flexible-upload.php:599
+msgid "Thumbnail path invalid"
+msgstr ""
+
+#: flexible-upload.php:604
+msgid "File not found"
+msgstr ""
+
+#: flexible-upload.php:694
+msgid "You do not have sufficient permission to manage options."
+msgstr ""
+
+#: flexible-upload.php:706 flexible-upload.php:718 flexible-upload.php:847
+#, php-format
+msgid "Wrong value %d for %s"
+msgstr ""
+
+#: flexible-upload.php:734 flexible-upload.php:750 flexible-upload.php:765
+#: flexible-upload.php:781 flexible-upload.php:801 flexible-upload.php:819
+#: flexible-upload.php:862
+#, php-format
+msgid "Wrong value %s for %s"
+msgstr ""
+
+#: flexible-upload.php:869
+msgid "Error encountered while updating options: "
+msgstr ""
+
+#: flexible-upload.php:874
+msgid "Options updated."
+msgstr ""
+
+#: flexible-upload.php:881
+msgid "Help"
+msgstr ""
+
+#: flexible-upload.php:883
+#, php-format
+msgid "Consult the local %shelp page%s."
+msgstr ""
+
+#: flexible-upload.php:888
+msgid "System Configuration"
+msgstr ""
+
+#: flexible-upload.php:891
+#, php-format
+msgid "System memory limit: <b>%s</b>"
+msgstr ""
+
+#: flexible-upload.php:892
+#, php-format
+msgid "Maximum uploadable file size: <b>%s</b>"
+msgstr ""
+
+#: flexible-upload.php:893
+#, php-format
+msgid ""
+"Make sure this size is large enough, you won't be able to upload an image "
+"whose file size is bigger than this value. (see %sPHP help about "
+"upload_max_filesize%s)"
+msgstr ""
+
+#: flexible-upload.php:894
+#, php-format
+msgid "Maximum POST size: <b>%s</b>"
+msgstr ""
+
+#: flexible-upload.php:895
+#, php-format
+msgid ""
+"If you want to upload more than one image at a time, make sure this limit is "
+"greater than the maximum file size x the number of images you want to upload "
+"at once. (see %sPHP help about post_max_size%s)"
+msgstr ""
+
+#: flexible-upload.php:898
+msgid "Flexible Upload Options"
+msgstr ""
+
+#: flexible-upload.php:901
+msgid "Default settings"
+msgstr ""
+
+#: flexible-upload.php:906
+msgid "Default maximum for resizing:"
+msgstr ""
+
+#: flexible-upload.php:914 flexible-upload.php:960
+msgid " (px)"
+msgstr ""
+
+#: flexible-upload.php:916
+msgid ""
+"Specify the default size to which you want to resize your pictures (leave "
+"blank if you don't want to resize your pictures).  You will be able to "
+"change this for each picture."
+msgstr ""
+
+#: flexible-upload.php:922 flexible-upload.php:968
+msgid "Resize against:"
+msgstr ""
+
+#: flexible-upload.php:946
+msgid ""
+"Specify against which side you want to resize your pictures.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square images."
+msgstr ""
+
+#: flexible-upload.php:952
+msgid "Default maximum for thumbnail:"
+msgstr ""
+
+#: flexible-upload.php:962
+msgid ""
+"Specify the default thumbnail size (leave blank if you don't want to "
+"generate a thumbnail).  You will be able to change this for each picture."
+msgstr ""
+
+#: flexible-upload.php:992
+msgid ""
+"Specify against which side you want to create your thumbnails.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square thumbnails."
+msgstr ""
+
+#: flexible-upload.php:998
+msgid "Alignment mode:"
+msgstr ""
+
+#: flexible-upload.php:1007
+msgid "CSS"
+msgstr ""
+
+#: flexible-upload.php:1011
+msgid "&lt;img&gt; property"
+msgstr ""
+
+#: flexible-upload.php:1015
+msgid "disabled"
+msgstr ""
+
+#: flexible-upload.php:1018
+msgid ""
+"Specify how you want to specify the alignment when inserting pictures.  You "
+"can choose:<br />1. <strong>CSS</strong>: alignment (left/right/center) will "
+"be specified through different CSS classes which you should add to your "
+"theme's stylesheet.<br />2. <strong>\"img\" property</strong>: the alignment "
+"(left/right) will be specified through the \"align\" property of the &lt;"
+"img&gt; html tag.<br />3. Specify no alignment at all."
+msgstr ""
+
+#: flexible-upload.php:1024
+msgid "Default alignment:"
+msgstr ""
+
+#: flexible-upload.php:1033 flexible-upload.php:1063
+msgid "none"
+msgstr ""
+
+#: flexible-upload.php:1037
+msgid "left"
+msgstr ""
+
+#: flexible-upload.php:1041
+msgid "right"
+msgstr ""
+
+#: flexible-upload.php:1045
+msgid "center"
+msgstr ""
+
+#: flexible-upload.php:1048
+msgid ""
+"Choose the default alignment when inserting a picture into your posts.  You "
+"will be able to change this for each picture.<br />Note:<br />- this setting "
+"will be ignored if alignment mode is \"disabled\".<br />- center alignment "
+"is not supported with \"&lt;img&gt; property\" alignment mode."
+msgstr ""
+
+#: flexible-upload.php:1054
+msgid "Link plugin or target:"
+msgstr ""
+
+#: flexible-upload.php:1067
+msgid "Lightbox"
+msgstr ""
+
+#: flexible-upload.php:1071
+msgid "Greybox"
+msgstr ""
+
+#: flexible-upload.php:1075
+msgid "Greybox plugin"
+msgstr ""
+
+#: flexible-upload.php:1079
+msgid "Thickbox"
+msgstr ""
+
+#: flexible-upload.php:1083
+msgid "HighslideJS"
+msgstr ""
+
+#: flexible-upload.php:1087
+msgid "LightWindow"
+msgstr ""
+
+#: flexible-upload.php:1091
+msgid "new window"
+msgstr ""
+
+#: flexible-upload.php:1094
+msgid ""
+"Choose where/how you want your pictures to be displayed.  If choosing "
+"Lightbox, Greybox, Thickbox, HighslideJS or LightWindow make sure the "
+"corresponding plugin is installed."
+msgstr ""
+
+#: flexible-upload.php:1100
+msgid "Signature image (for watermark):"
+msgstr ""
+
+#: flexible-upload.php:1111
+msgid ""
+"Watermarking functionality is currently <strong>disabled</strong>.  To "
+"enable it, you must:<br />1. Make sure that GD is installed on the "
+"server<br />2. Prepare a signature image and provide its path below."
+msgstr ""
+
+#: flexible-upload.php:1115
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the required function was not found.  Please make sure GD is "
+"installed on the server.  If you don't need this, you can disable this "
+"warning by specifying an empty path."
+msgstr ""
+
+#: flexible-upload.php:1118
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the signature image path you provided below is incorrect.  The path "
+"should be relative to Wordpress root directory and refer to an existing "
+"image file.  If you don't need this, you can disable this warning by "
+"specifying an empty path for the watermark image."
+msgstr ""
+
+#: flexible-upload.php:1121
+msgid ""
+"Watermarking functionality is <strong>enabled</strong>.<br />If you don't "
+"need it, blank out the image path above."
+msgstr ""
+
+#: flexible-upload.php:1130
+msgid "Watermark location:"
+msgstr ""
+
+#: flexible-upload.php:1150
+msgid ""
+"Choose the where you want the watermark to be incrusted into your pictures."
+msgstr ""
+
+#: flexible-upload.php:1156
+msgid "Rotate landmark?"
+msgstr ""
+
+#: flexible-upload.php:1168
+msgid ""
+"Check this box if you want the watermark picture to be rotated 90 degrees "
+"counter-clockwise before incrusting it into your pictures."
+msgstr ""
+
+#: flexible-upload.php:1175
+msgid "Specify watermark options for each picture?"
+msgstr ""
+
+#: flexible-upload.php:1187
+msgid ""
+"Check this box if you want to be able to specify watermark location and "
+"orientation separately for each picture you upload.  Otherwise, the above "
+"setting will be applied to all the pictures."
+msgstr ""
+
+#: flexible-upload.php:1193
+msgid "JPEQ quality:"
+msgstr ""
+
+#: flexible-upload.php:1202
+msgid ""
+"Specify the JPEG quality factor (from 0 to 100).  This option will be used "
+"when manipulating JPEG images."
+msgstr ""
+
+#: flexible-upload.php:1208
+msgid "Content of \"title\" attribute:"
+msgstr ""
+
+#: flexible-upload.php:1217
+msgid "Image title (name)"
+msgstr ""
+
+#: flexible-upload.php:1221
+msgid "Image description"
+msgstr ""
+
+#: flexible-upload.php:1225
+msgid "Nothing"
+msgstr ""
+
+#: flexible-upload.php:1228
+msgid ""
+"Select what you want to see in the \"title\" attribute of the image.  Some "
+"plugins display this title as a legend below the image."
+msgstr ""
+
+#: flexible-upload.php:1237
+msgid "Update Options"
+msgstr ""
+
+#: flexible-upload-wp20.php:38
+msgid "You do not have permission to edit posts."
+msgstr ""
+
+#: flexible-upload-wp20.php:44
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: flexible-upload-wp20.php:104
+msgid "You are not allowed to delete this attachment."
+msgstr ""
+
+#: flexible-upload-wp20.php:104
+msgid "Go back"
+msgstr ""
+
+#: flexible-upload-wp20.php:120 flexible-upload-wp21.php:93
+msgid "Back to Image Uploading"
+msgstr ""
+
+#: flexible-upload-wp20.php:283
+msgid "Delete"
+msgstr ""
+
+#: flexible-upload-wp20.php:284
+msgid "Not Linked"
+msgstr ""
+
+#: flexible-upload-wp20.php:285
+msgid "Linked to Page"
+msgstr ""
+
+#: flexible-upload-wp20.php:286
+msgid "Linked to Image"
+msgstr ""
+
+#: flexible-upload-wp20.php:287
+msgid "Linked to File"
+msgstr ""
+
+#: flexible-upload-wp20.php:288
+msgid "Using Thumbnail"
+msgstr ""
+
+#: flexible-upload-wp20.php:289
+msgid "Using Original"
+msgstr ""
+
+#: flexible-upload-wp20.php:290
+msgid "Using Title"
+msgstr ""
+
+#: flexible-upload-wp20.php:291
+msgid "Using Filename"
+msgstr ""
+
+#: flexible-upload-wp20.php:292
+msgid "Using Icon"
+msgstr ""
+
+#: flexible-upload-wp20.php:293
+msgid "No Thumbnail"
+msgstr ""
+
+#: flexible-upload-wp20.php:294
+msgid "No alignment"
+msgstr ""
+
+#: flexible-upload-wp20.php:295
+msgid "Align left"
+msgstr ""
+
+#: flexible-upload-wp20.php:296
+msgid "Align right"
+msgstr ""
+
+#: flexible-upload-wp20.php:297
+msgid "Align center"
+msgstr ""
+
+#: flexible-upload-wp20.php:298
+msgid "Send to editor"
+msgstr ""
+
+#: flexible-upload-wp20.php:299
+msgid "Close Options"
+msgstr ""
+
+#: flexible-upload-wp20.php:300
+msgid "Delete this file from the server?"
+msgstr ""
+
+#: flexible-upload-wp20.php:301
+msgid "There is no thumbnail associated with this photo."
+msgstr ""
+
+#: flexible-upload-wp20.php:454
+msgid "File Type:"
+msgstr ""
+
+#: flexible-upload-wp20.php:469
+msgid "This script was not meant to be called directly."
+msgstr ""
+
+#: flexible-upload-wp20.php:880 flexible-upload-wp20.php:995
+msgid "Upload"
+msgstr ""
+
+#: flexible-upload-wp20.php:882
+msgid "Browse"
+msgstr ""
+
+#: flexible-upload-wp20.php:885
+msgid "Browse All"
+msgstr ""
+
+#: flexible-upload-wp20.php:890
+msgid "First"
+msgstr ""
+
+#: flexible-upload-wp20.php:891 flexible-upload-wp20.php:894
+msgid "Back"
+msgstr ""
+
+#: flexible-upload-wp20.php:897
+msgid "Next &raquo;"
+msgstr ""
+
+#: flexible-upload-wp20.php:898
+msgid "Last"
+msgstr ""
+
+#: flexible-upload-wp20.php:900
+msgid "Next"
+msgstr ""
+
+#: flexible-upload-wp20.php:907
+msgid ""
+"You can drag and drop these items into your post. Click on one for more "
+"options."
+msgstr ""
+
+#: flexible-upload-wp20.php:918
+msgid "File:"
+msgstr ""
+
+#: flexible-upload-wp20.php:922
+msgid "Title:"
+msgstr ""
+
+#: flexible-upload-wp20.php:926
+msgid "Description:"
+msgstr ""
+
+#: flexible-upload-wp21.php:31
+msgid "You are not allowed to upload files."
+msgstr ""
+
+#: flexible-upload-wp21.php:33
+msgid "Browse Files"
+msgstr ""
+
+#: flexible-upload-wp21.php:44
+msgid "No file was uploaded."
+msgstr ""

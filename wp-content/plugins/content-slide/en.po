@@ -1,0 +1,297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPContentSlide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-08 23:11+0530\n"
+"PO-Revision-Date: 2010-10-08 23:12+0530\n"
+"Last-Translator: pkjchate <pkjchate@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: content_slide.php:141
+#: content_slide.php:156
+#: ../content-slide/content_slide.php:141
+#: ../content-slide/content_slide.php:156
+msgid "Read More"
+msgstr ""
+
+#: help_support.php:3
+#: ../content-slide/help_support.php:3
+msgid "Thanks for all your response to the previous version of this plugin. After all the requests for Custom images and Heading text on image i am upgrading this plugin to next version."
+msgstr ""
+
+#: help_support.php:4
+#: ../content-slide/help_support.php:4
+msgid "Also Special thanks for <a href=\"http://medienfreunde.com/lab/innerfade/\" title=\"Jquery InnerFade\" target=\"_blank\">Jquery InnerFade</a> and <a href=\"http://workshop.rs/projects/coin-slider/\" title=\"Jquery Coin Slider\" target=\"_blank\">Jquery Coin Slider</a> all the jquery effects are added using these two scripts."
+msgstr ""
+
+#: help_support.php:5
+#: ../content-slide/help_support.php:5
+msgid "If you want to upgrade to Content Slide 1.3 then you must have atleast wordpress 2.9 as with this version i am using <a href=\"http://codex.wordpress.org/Function_Reference/the_post_thumbnail\" title=\"Post Thumbnail \" target=\"_blank\">the_post_thumbnail()</a> which is included in Wordpress 2.9."
+msgstr ""
+
+#: help_support.php:6
+#: ../content-slide/help_support.php:6
+msgid "New Installation"
+msgstr ""
+
+#: help_support.php:7
+#: ../content-slide/help_support.php:7
+msgid "1] Unzip \"content-slide\" zip archive and upload it to wp-content/plugins/ folder"
+msgstr ""
+
+#: help_support.php:8
+#: ../content-slide/help_support.php:8
+msgid "2] Activate \"Content Slide Plugin\" plugin from plugins."
+msgstr ""
+
+#: help_support.php:9
+#: ../content-slide/help_support.php:9
+msgid "3] Then click on \"Content Slide\" on your wordpress dashboard and configure WP Content Slide as you want on \"WP Content Slide Options Page\"."
+msgstr ""
+
+#: help_support.php:10
+#: help_support.php:15
+#: ../content-slide/help_support.php:10
+#: ../content-slide/help_support.php:15
+msgid "For more details Check out at  <a href=\"http://www.snilesh.com/resources/wordpress/wordpress-plugins/wordpress-content-slide-plugin/\">Support Post</a>"
+msgstr ""
+
+#: help_support.php:11
+#: ../content-slide/help_support.php:11
+msgid "Upgrading from Previous 1.2 Version?"
+msgstr ""
+
+#: help_support.php:12
+#: ../content-slide/help_support.php:12
+msgid "If you are upgrading from previous version make sure to follow these things."
+msgstr ""
+
+#: help_support.php:14
+#: ../content-slide/help_support.php:14
+msgid "Previous version was created using posts and  using custom fields. But from the Version 1.3  am using <a href=\"http://codex.wordpress.org/Function_Reference/the_post_thumbnail\" title=\"Post Thumbnail \" target=\"_blank\">the_post_thumbnail()</a> so you have to add all the images using Featured Image instead of custom_fields"
+msgstr ""
+
+#: help_support.php:17
+#: ../content-slide/help_support.php:17
+msgid "Like this plugin?"
+msgstr ""
+
+#: help_support.php:18
+#: ../content-slide/help_support.php:18
+msgid "Why not do any of the following:"
+msgstr ""
+
+#: help_support.php:20
+#: ../content-slide/help_support.php:20
+msgid "Link to it so other folks can find out about it."
+msgstr ""
+
+#: help_support.php:21
+#: ../content-slide/help_support.php:21
+msgid "<a href=\"http://wordpress.org/extend/plugins/content-slide/\">Give it a good rating</a> on WordPress.org."
+msgstr ""
+
+#: help_support.php:23
+#: ../content-slide/help_support.php:23
+msgid "Need support?"
+msgstr ""
+
+#: help_support.php:24
+#: ../content-slide/help_support.php:24
+msgid "If you have any problems or good ideas, please talk about them in the <a href=\"http://www.snilesh.com/resources/wordpress/wordpress-plugins/wordpress-content-slide-plugin/\">Support Post</a>."
+msgstr ""
+
+#: help_support.php:26
+#: ../content-slide/help_support.php:26
+msgid "Credits"
+msgstr ""
+
+#: help_support.php:27
+#: ../content-slide/help_support.php:27
+msgid "<a href=\"http://www.snilesh.com\">Snilesh.com</a> was originally developed by <a href=\"http://www.snilesh.com/\">Nilesh Shiragave</a>. It's released under the GNU GPL version 2."
+msgstr ""
+
+#: options_page.php:8
+#: ../content-slide/options_page.php:8
+msgid "General Setings"
+msgstr ""
+
+#: options_page.php:10
+#: ../content-slide/options_page.php:10
+msgid "Image width"
+msgstr ""
+
+#: options_page.php:10
+#: ../content-slide/options_page.php:10
+msgid "height"
+msgstr ""
+
+#: options_page.php:11
+#: ../content-slide/options_page.php:11
+msgid "Border width"
+msgstr ""
+
+#: options_page.php:11
+#: ../content-slide/options_page.php:11
+msgid "Border Color"
+msgstr ""
+
+#: options_page.php:12
+#: ../content-slide/options_page.php:12
+msgid "Font family"
+msgstr ""
+
+#: options_page.php:14
+#: ../content-slide/options_page.php:14
+msgid "Text font size"
+msgstr ""
+
+#: options_page.php:14
+#: ../content-slide/options_page.php:14
+msgid "Text color"
+msgstr ""
+
+#: options_page.php:15
+#: ../content-slide/options_page.php:15
+msgid "Heading font size"
+msgstr ""
+
+#: options_page.php:15
+#: ../content-slide/options_page.php:15
+msgid "Heading color"
+msgstr ""
+
+#: options_page.php:17
+#: ../content-slide/options_page.php:17
+msgid "Background color"
+msgstr ""
+
+#: options_page.php:19
+#: options_page.php:48
+#: options_page.php:106
+#: options_page.php:130
+#: ../content-slide/options_page.php:19
+#: ../content-slide/options_page.php:48
+#: ../content-slide/options_page.php:106
+#: ../content-slide/options_page.php:130
+msgid "Save Settings"
+msgstr ""
+
+#: options_page.php:27
+#: ../content-slide/options_page.php:27
+msgid "Effects &amp; Animation Setings"
+msgstr ""
+
+#: options_page.php:29
+#: ../content-slide/options_page.php:29
+msgid "Squares per width"
+msgstr ""
+
+#: options_page.php:29
+#: ../content-slide/options_page.php:29
+msgid "Squares per height"
+msgstr ""
+
+#: options_page.php:30
+#: ../content-slide/options_page.php:30
+msgid "Delay between images in ms"
+msgstr ""
+
+#: options_page.php:31
+#: ../content-slide/options_page.php:31
+msgid "Delay beetwen squares in ms"
+msgstr ""
+
+#: options_page.php:33
+#: ../content-slide/options_page.php:33
+msgid "Opacity of title and navigation"
+msgstr ""
+
+#: options_page.php:35
+#: ../content-slide/options_page.php:35
+msgid "Speed of title appereance in ms"
+msgstr ""
+
+#: options_page.php:37
+#: ../content-slide/options_page.php:37
+msgid "Effect"
+msgstr ""
+
+#: options_page.php:40
+#: ../content-slide/options_page.php:40
+msgid "Mouse Over Pause <small>( Stop Animation on mouseover.)</small>"
+msgstr ""
+
+#: options_page.php:42
+#: ../content-slide/options_page.php:42
+msgid "Navigation Previous/Next <small>( Previous/Next buttons on image.)</small>"
+msgstr ""
+
+#: options_page.php:43
+#: ../content-slide/options_page.php:43
+msgid "Navigation Buttons <small>( Square buttons at bottom )</small>"
+msgstr ""
+
+#: options_page.php:44
+#: ../content-slide/options_page.php:44
+msgid "Navigation Buttons Color <small>( Square buttons at bottom )</small>"
+msgstr ""
+
+#: options_page.php:95
+#: ../content-slide/options_page.php:95
+msgid "Images Source Settings"
+msgstr ""
+
+#: options_page.php:97
+#: ../content-slide/options_page.php:97
+msgid "Display Heading and Text"
+msgstr ""
+
+#: options_page.php:97
+#: ../content-slide/options_page.php:97
+msgid "No. of chars"
+msgstr ""
+
+#: options_page.php:98
+#: ../content-slide/options_page.php:98
+msgid "Use custom images"
+msgstr ""
+
+#: options_page.php:100
+#: ../content-slide/options_page.php:100
+msgid "Select a Category:"
+msgstr ""
+
+#: options_page.php:100
+#: ../content-slide/options_page.php:100
+msgid "All Categories"
+msgstr ""
+
+#: options_page.php:101
+#: ../content-slide/options_page.php:101
+msgid "No. of posts/images"
+msgstr ""
+
+#: options_page.php:104
+#: ../content-slide/options_page.php:104
+msgid "Number of custom Images"
+msgstr ""
+
+#: options_page.php:114
+#: options_page.php:116
+#: options_page.php:119
+#: options_page.php:121
+#: ../content-slide/options_page.php:114
+#: ../content-slide/options_page.php:116
+#: ../content-slide/options_page.php:119
+#: ../content-slide/options_page.php:121
+msgid "Image "
+msgstr ""
+

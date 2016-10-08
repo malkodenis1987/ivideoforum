@@ -1,0 +1,1221 @@
+# WP PhotoContest: Adds a photo contest to Wordpress
+# Copyright (C) 2009  Frank van der Stad
+# This file is distributed under the same license as the WP-PhotoContest package.
+# Krzysztof Jurkowski, 2009
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-PhotoContest 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-photocontest\n"
+"POT-Creation-Date: 2011-02-19 14:58+0100\n"
+"PO-Revision-Date: 2009-10-12 11:53+0200\n"
+"Last-Translator: Krzysztof Jurkowski\n"
+"Language-Team: Frank van der Stad <antispam@vanderstad.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: lib/wp-photocontest.class.php:322 lib/wp-photocontest.class.php:336
+#: view.php:269 view.php:283
+#, php-format
+msgid "%d vote"
+msgid_plural "%d votes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/wp-photocontest.class.php:324 photocontest-manager.php:572 view.php:271
+msgid "Vote"
+msgstr "Głos"
+
+#: lib/wp-photocontest.class.php:372
+msgid "Post photos"
+msgstr "Wyślij zdjęcie"
+
+#: lib/wp-photocontest.class.php:375 view.php:168 view.php:182
+msgid "Recently added"
+msgstr "Wszystkie chrolologicznie"
+
+#: lib/wp-photocontest.class.php:378
+msgid "Most views"
+msgstr "Najczęściej oglądane"
+
+#: lib/wp-photocontest.class.php:381 view.php:161
+msgid "Top rated"
+msgstr "Najwyżej oceniane"
+
+#: lib/wp-photocontest.class.php:386
+msgid "Logout"
+msgstr "Wyloguj się"
+
+#: lib/wp-photocontest.functions.php:320
+msgid "PhotoContest"
+msgstr "Konkurs zdjęć"
+
+#: lib/wp-photocontest.functions.php:323
+msgid "Manage PhotoContest"
+msgstr "Zarządzaj konkursem zdjęć"
+
+#: lib/wp-photocontest.functions.php:323
+msgid "View PhotoContest"
+msgstr "Otwórz konkurs zdjęć"
+
+#: lib/wp-photocontest.functions.php:324 photocontest-add.php:56
+#: photocontest-add.php:121 photocontest-add.php:357 photocontest-add.php:461
+#: photocontest-manager.php:935
+msgid "Add PhotoContest"
+msgstr "Dodaj konkurs zdjęć"
+
+#: lib/wp-photocontest.functions.php:325
+msgid "Update settings"
+msgstr "Zmień ustawienia"
+
+#: lib/wp-photocontest.widget.php:38 lib/wp-photocontest.widget.php:44
+msgid "WP PhotoContest widget"
+msgstr "WP PhotoContest widget"
+
+#: lib/wp-photocontest.widget.php:171
+msgid "Recent"
+msgstr "Najnowsze"
+
+#: lib/wp-photocontest.widget.php:175 play.php:458 viewimg.php:589
+msgid "Title"
+msgstr "Tytuł"
+
+#: lib/wp-photocontest.widget.php:180
+msgid "Contest"
+msgstr "Konkurs"
+
+#: lib/wp-photocontest.widget.php:200
+msgid "Sort"
+msgstr ""
+
+#: lib/wp-photocontest.widget.php:220
+msgid "URL"
+msgstr "URL"
+
+#: lib/wp-photocontest.widget.php:242
+msgid "Number of pictures"
+msgstr "Ilość zdjęć"
+
+#: login.php:106 play.php:89 play.php:116 play.php:139 play.php:158
+#: play.php:169 play.php:180 play.php:202 play.php:239 play.php:334
+#: play.php:348 play.php:350 play.php:361 play.php:363 play.php:375
+#: play.php:446 play.php:454 play.php:461 play.php:469 viewimg.php:95
+#: viewimg.php:126 viewimg.php:181 viewimg.php:208 viewimg.php:232
+#: viewimg.php:264 viewimg.php:272 viewimg.php:340 viewimg.php:348
+#: viewimg.php:356 viewimg.php:368 viewimg.php:384 viewimg.php:395
+#: viewimg.php:422 viewimg.php:440 viewimg.php:691 viewimg.php:775 view.php:98
+#: view.php:121 view.php:196 view.php:207 view.php:218
+msgid "Error:"
+msgstr "Błąd:"
+
+#: login.php:106
+msgid "Cookies are blocked or not supported by your browser."
+msgstr "Cookies są zablokowane lub przeglądarka ich nie obsługuje."
+
+#: login.php:106
+msgid "You must enable cookies to use WordPress."
+msgstr "Musisz zezwolić na korzystanie z cookies."
+
+#: login.php:125 login.php:203
+msgid "Log In"
+msgstr "Zaloguj się"
+
+#: login.php:181
+msgid "Username"
+msgstr "Użytkownik"
+
+#: login.php:187
+msgid "Password"
+msgstr "Hasło"
+
+#: login.php:195
+msgid "Remember Me"
+msgstr "Zapamiętaj mnie"
+
+#: login.php:209
+msgid "Lost password"
+msgstr "Utracone hasło"
+
+#: photocontest-add.php:125 photocontest-add.php:133 photocontest-add.php:140
+#: photocontest-add.php:147 photocontest-manager.php:175
+#: photocontest-manager.php:208 photocontest-manager.php:241
+#: photocontest-manager.php:274 photocontest-manager.php:308
+#, php-format
+msgid "Error in adding PhotoContest '%s'."
+msgstr "Błąd podczas dodawania konkursu zdjęć '%s'."
+
+#: photocontest-add.php:126
+msgid "You have not provided a contest name"
+msgstr "Nie podałeś nazwy konkursu"
+
+#: photocontest-add.php:134 photocontest-manager.php:242
+msgid "Invalid startdate."
+msgstr "Niepoprawna data rozpoczęcia"
+
+#: photocontest-add.php:141 photocontest-manager.php:275
+msgid "Invalid enddate."
+msgstr "Niepoprawna data zakończenia"
+
+#: photocontest-add.php:148
+msgid "Invalid end upload date."
+msgstr "Niepoprawna data zakończenia wysyłania zdjęć"
+
+#: photocontest-add.php:157 photocontest-add.php:165 photocontest-add.php:175
+#: photocontest-manager.php:784 photocontest-manager.php:796
+#, php-format
+msgid "Error in checking PhotoContest directory '%s'."
+msgstr "Błąd podczas sprawdzania katalogu PhotoContest '%s'."
+
+#: photocontest-add.php:158
+msgid "This name is invalid, choose an other name"
+msgstr "Ta nazwa jest niepoprawna, wybierz inną"
+
+#: photocontest-add.php:166
+msgid "There is already a contest with this name, choose an other name"
+msgstr "Konkurs o podanej nazwie już istnieje"
+
+#: photocontest-add.php:176
+msgid "Can't create the directory:"
+msgstr "Nie można stworzyć katalogu:"
+
+#: photocontest-add.php:214
+msgid "Enter the Contest"
+msgstr "Przystąp do konkursu"
+
+#: photocontest-add.php:247
+#, php-format
+msgid "Succes saving PhotoContest '%s'."
+msgstr "Konkurs '%s' zapisany z powodzeniem."
+
+#: photocontest-add.php:248 photocontest-settings.php:125
+#: photocontest-settings.php:184
+msgid "Click here to continue"
+msgstr "Kliknij tutaj aby kontynuować"
+
+#: photocontest-add.php:254
+#, php-format
+msgid "Error saving PhotoContest '%s'."
+msgstr "Błąd podczas zapisywania konkursu '%s'."
+
+#: photocontest-add.php:255 photocontest-settings.php:191
+msgid "Can't insert into the database"
+msgstr "Nie można dodać wpisu do bazy danych"
+
+#: photocontest-add.php:285
+msgid "Add Contest"
+msgstr "Dodaj konkurs"
+
+#: photocontest-add.php:287 photocontest-settings.php:250
+msgid "Details"
+msgstr "Szczegóły"
+
+#: photocontest-add.php:290 photocontest-manager.php:888
+msgid "Name"
+msgstr "Nazwa"
+
+#: photocontest-add.php:294
+msgid "Enter the title you give to this contest."
+msgstr "Podaj tytuł konkursu"
+
+#: photocontest-add.php:295
+msgid "(this field will also be the path of the photos for the competition)."
+msgstr "(this field will also be the path of the photos for the competition)."
+
+#: photocontest-add.php:299
+msgid "Photos by user"
+msgstr "Ilość zdjęć jakie można przesłać"
+
+#: photocontest-add.php:302
+msgid "Enter the maximum number of photos that a user can upload."
+msgstr "Podaj maksymalną ilość zdjęć jak mogą wysłać użytkownicy na konturs."
+
+#: photocontest-add.php:303
+msgid "If you leave this empty, it will set 1 by default."
+msgstr "Jeśli pozostawisz to pole puste, wartość zostanie ustawiona na 1."
+
+#: photocontest-add.php:307 photocontest-manager.php:420
+msgid "Introduction text"
+msgstr "Tekst wprowadzenia"
+
+#: photocontest-add.php:311 photocontest-manager.php:424
+msgid "Enter the initial content of the page as an introduction."
+msgstr "Wpisz wstępną zawartość strony jako wstęp."
+
+#: photocontest-add.php:313 photocontest-add.php:326
+#: photocontest-manager.php:426 photocontest-manager.php:452
+msgid "To format the content in this textarea field, enter HTML tags."
+msgstr "Do formatowania zawartości pola tekstowego urzywaj tagów HTML."
+
+#: photocontest-add.php:314 photocontest-add.php:327
+#: photocontest-manager.php:427 photocontest-manager.php:453
+msgid "Don't use the following tags"
+msgstr "Nie urzywaj następujących tagów"
+
+#: photocontest-add.php:319 photocontest-manager.php:445
+msgid "Upload text"
+msgstr "Tekst wysyłania"
+
+#: photocontest-add.php:323 photocontest-manager.php:449
+msgid "Enter the content of the page where people upload photos."
+msgstr "Wpisz zawartość strony na której będą przesyłane zdjęcia."
+
+#: photocontest-add.php:324 photocontest-manager.php:450
+msgid "Use this text for contest rules, disclaimers, etc."
+msgstr "Use this text for contest rules, disclaimers, etc."
+
+#: photocontest-add.php:333
+msgid "Dates"
+msgstr "Daty"
+
+#: photocontest-add.php:336 photocontest-manager.php:472
+msgid "Startdate"
+msgstr "Data rozpoczęcia"
+
+#: photocontest-add.php:339
+msgid "Choose the date on which you want the contest to begin."
+msgstr "Podaj datę rozpoczęcia konkursu."
+
+#: photocontest-add.php:343 photocontest-manager.php:493
+msgid "Enddate"
+msgstr "Data zakończenia"
+
+#: photocontest-add.php:346
+msgid "Enter the date for the contest."
+msgstr "Podaj datę zakończenia konkursu."
+
+#: photocontest-add.php:350
+msgid "End upload date"
+msgstr "Data zakończenia wysyłania"
+
+#: photocontest-add.php:353
+msgid "Enter the latest date allowed to upload photos."
+msgstr "Podaj termin nadsyłania zdjęć."
+
+#: photocontest-add.php:357 photocontest-add.php:461
+#: photocontest-manager.php:432 photocontest-manager.php:458
+#: photocontest-manager.php:479 photocontest-manager.php:500
+#: photocontest-manager.php:521 photocontest-settings.php:617
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: photocontest-add.php:360
+msgid "Optional page details"
+msgstr "Pozostałe opcje"
+
+#: photocontest-add.php:363 photocontest-settings.php:315
+msgid "Status"
+msgstr "Status"
+
+#: photocontest-add.php:366 photocontest-settings.php:318
+msgid "Publish"
+msgstr "Publikuj"
+
+#: photocontest-add.php:366 photocontest-settings.php:318
+msgid "Pending"
+msgstr "W toku"
+
+#: photocontest-add.php:366 photocontest-settings.php:318
+msgid "Draft"
+msgstr "Brudnopis"
+
+#: photocontest-add.php:382 photocontest-settings.php:334
+msgid "Defines the default status when creating a new contest."
+msgstr "Definiuje domyślny status dla nowoutworzonych konkursów."
+
+#: photocontest-add.php:386 photocontest-settings.php:338 viewimg.php:594
+msgid "Poster"
+msgstr "Autor"
+
+#: photocontest-add.php:390 photocontest-settings.php:342
+msgid "Defines the default author (UID) when creating a new contest."
+msgstr "Definiuje domyślnego autora (UID) dla nowoutworzonych konkursów."
+
+#: photocontest-add.php:394 photocontest-settings.php:346
+msgid "Page type"
+msgstr "Miejsce publikacji"
+
+#: photocontest-add.php:397 photocontest-settings.php:349
+msgid "Page"
+msgstr "Strona"
+
+#: photocontest-add.php:397 photocontest-settings.php:349
+msgid "Post"
+msgstr "Wpis"
+
+#: photocontest-add.php:413 photocontest-settings.php:365
+msgid "Defines the default type when creating a new contest."
+msgstr "Defines the default type when creating a new contest."
+
+#: photocontest-add.php:414 photocontest-settings.php:366
+msgid "page: The plugin creates a page which handles a contest."
+msgstr "Strona: Konkurs zostanie umieszczony na nowej stronie."
+
+#: photocontest-add.php:415 photocontest-settings.php:367
+msgid "post: The plugin creates a post which handles a contest."
+msgstr "Wpis: Konkurs zostanie umieszczony w nowym wpisie."
+
+#: photocontest-add.php:419 photocontest-settings.php:371
+msgid "Page name"
+msgstr "Nazwa strony"
+
+#: photocontest-add.php:423 photocontest-settings.php:375
+msgid "Defines the default page/post name when creating a new contest"
+msgstr "Defines the default page/post name when creating a new contest"
+
+#: photocontest-add.php:427 photocontest-settings.php:379
+msgid "Parent page"
+msgstr "Strona nadrzędna"
+
+#: photocontest-add.php:429 photocontest-settings.php:381
+msgid "Main Page (no parent)"
+msgstr "Strona główna (brak strony nadrzędnej)"
+
+#: photocontest-add.php:431 photocontest-settings.php:383
+msgid "Defines the default parent when creating a new contest"
+msgstr "Defines the default parent when creating a new contest"
+
+#: photocontest-add.php:431 photocontest-settings.php:383
+msgid "subpage of page where post is saved on) "
+msgstr "subpage of page where post is saved on) "
+
+#: photocontest-add.php:435 photocontest-settings.php:387
+msgid "Comments"
+msgstr "Komentarze"
+
+#: photocontest-add.php:438 photocontest-settings.php:390
+msgid "Open"
+msgstr "Otwarte"
+
+#: photocontest-add.php:438 photocontest-settings.php:390
+msgid "Closed"
+msgstr "Zamknięte"
+
+#: photocontest-add.php:454 photocontest-settings.php:406
+msgid "Defines the default comments status when creating a new contest."
+msgstr "Defines the default comments status when creating a new contest."
+
+#: photocontest-add.php:455 photocontest-settings.php:407
+msgid "open: people can comment on a content/photo."
+msgstr "Otwarte: nie będzie można komentować zawartości/zdjęć."
+
+#: photocontest-add.php:456 photocontest-settings.php:408
+msgid "closed: people can't comment on a content/photo."
+msgstr "Zamknięte: nie będzie można komentować zawartości/zdjęć."
+
+#: photocontest-manager.php:57 photocontest-manager.php:182
+#: photocontest-manager.php:417 photocontest-manager.php:432
+#: photocontest-manager.php:918
+msgid "Edit Introduction text"
+msgstr "Wprowadzenie edycji tekstu"
+
+#: photocontest-manager.php:58 photocontest-manager.php:149
+#: photocontest-manager.php:442 photocontest-manager.php:458
+#: photocontest-manager.php:919
+msgid "Edit Upload text"
+msgstr "Edytuj Prześlij tekst"
+
+#: photocontest-manager.php:59
+msgid "Edit PhotoContest"
+msgstr "Edytuj konkurs zdjęć"
+
+#: photocontest-manager.php:60 photocontest-manager.php:215
+#: photocontest-manager.php:469 photocontest-manager.php:479
+msgid "Edit Startdate"
+msgstr "Zmień datę rozpoczęcia"
+
+#: photocontest-manager.php:61 photocontest-manager.php:248
+#: photocontest-manager.php:490 photocontest-manager.php:500
+msgid "Edit Enddate"
+msgstr "Zmień datę zakończenia"
+
+#: photocontest-manager.php:62 photocontest-manager.php:282
+#: photocontest-manager.php:511 photocontest-manager.php:521
+msgid "Edit Uploaddate"
+msgstr "Zmień datę zakończenia wysyłania"
+
+#: photocontest-manager.php:63 photocontest-manager.php:607
+msgid "Set to publish"
+msgstr ""
+
+#: photocontest-manager.php:64 photocontest-manager.php:608
+msgid "Set to pending"
+msgstr ""
+
+#: photocontest-manager.php:65 photocontest-manager.php:609
+msgid "Set to drafts"
+msgstr ""
+
+#: photocontest-manager.php:162 photocontest-manager.php:195
+#: photocontest-manager.php:228 photocontest-manager.php:261
+#: photocontest-manager.php:295
+#, php-format
+msgid "PhotoContest with id '%d' updated successfully."
+msgstr "Konkurs zdjęć ('%d') został pomyślnie zaktualizowany."
+
+#: photocontest-manager.php:167 photocontest-manager.php:200
+#: photocontest-manager.php:233 photocontest-manager.php:266
+#: photocontest-manager.php:300
+#, php-format
+msgid "Error in updating PhotoContest with id '%d'."
+msgstr "Błąd podczas aktualizowania konkursu z id '%d'."
+
+#: photocontest-manager.php:168 photocontest-manager.php:201
+#: photocontest-manager.php:234 photocontest-manager.php:267
+#: photocontest-manager.php:301
+msgid "Database update failed."
+msgstr "Aktualizacja bazy danych nie powiodła się."
+
+#: photocontest-manager.php:176
+msgid "Invalid enter text."
+msgstr "Nieważne wprowadzić tekst."
+
+#: photocontest-manager.php:209
+msgid "Invalid intro text."
+msgstr "Nieprawidłowy tekst intro."
+
+#: photocontest-manager.php:309
+msgid "Invalid uploaddate."
+msgstr "Niepoprawna data wysyłania."
+
+#: photocontest-manager.php:332 photocontest-manager.php:356
+#: photocontest-manager.php:380
+#, php-format
+msgid "Vote with id '%d' updated successfully."
+msgstr ""
+
+#: photocontest-manager.php:402
+msgid "PhotoContest Admin"
+msgstr "Administrator konkursu zdjęć."
+
+#: photocontest-manager.php:475
+msgid "Click here the date on which you want to start the contest."
+msgstr "Wybierz datę rozpoczęcia konkursu."
+
+#: photocontest-manager.php:496
+msgid "Click here the date on which you want to finish the contest."
+msgstr "Wybierz datę zakończenia konkursu."
+
+#: photocontest-manager.php:514
+msgid "Uploaddate"
+msgstr "Data zakończenia wysyłania."
+
+#: photocontest-manager.php:517
+msgid "Click here the date on which you want to end the upload of photos."
+msgstr "Wybierz datę zakończenia nadsyłania zdjęć."
+
+#: photocontest-manager.php:535
+#, php-format
+msgid "Refreshing PhotoContest '%s' succesfull."
+msgstr "Odświerzenie konkursu '%s' powiodło się."
+
+#: photocontest-manager.php:535
+msgid "The result is shown below"
+msgstr "Rezultat jest wyświetlony poniżej"
+
+#: photocontest-manager.php:539
+#, php-format
+msgid "Failed to refresh the PhotoContest '%s'."
+msgstr "Nie udało się odświerzyć konkursu '%s'."
+
+#: photocontest-manager.php:542
+msgid "Result"
+msgstr "Rezultat"
+
+#: photocontest-manager.php:554 photocontest-manager.php:679
+#, php-format
+msgid "Failed to view the PhotoContest '%s'."
+msgstr "Nie udało się otworzyć konkursu '%s'."
+
+#: photocontest-manager.php:555
+msgid "No votes found in the PhotoContest."
+msgstr "Nie zgłoszono żadnych głosów."
+
+#: photocontest-manager.php:570 play.php:443 viewimg.php:688
+msgid "Email"
+msgstr "Email"
+
+#: photocontest-manager.php:571 photocontest-manager.php:703 viewimg.php:619
+msgid "Date"
+msgstr "Data"
+
+#: photocontest-manager.php:571 photocontest-manager.php:703
+msgid "Time"
+msgstr "Czas"
+
+#: photocontest-manager.php:573 viewimg.php:772
+msgid "Captcha"
+msgstr "Captcha"
+
+#: photocontest-manager.php:574 photocontest-manager.php:700
+msgid "ID"
+msgstr "ID"
+
+#: photocontest-manager.php:575
+msgid "STATUS"
+msgstr "STATUS"
+
+#: photocontest-manager.php:613 photocontest-manager.php:763
+#: photocontest-manager.php:950
+msgid "Back"
+msgstr "Wstecz"
+
+#: photocontest-manager.php:642 photocontest-manager.php:662
+#, php-format
+msgid "Failed to update the visiblity for img '%s'."
+msgstr "Zmiana widoczności zdjęcia '%s' nie powiodła się."
+
+#: photocontest-manager.php:667
+#, php-format
+msgid "Updated the visiblity for img '%s'."
+msgstr "Zmieniono widoczność zdjęcia '%s'."
+
+#: photocontest-manager.php:680
+msgid "No photos found in the PhotoContest."
+msgstr "Brak konkursów."
+
+#: photocontest-manager.php:699
+msgid "Preview"
+msgstr "Podgląd"
+
+#: photocontest-manager.php:701
+msgid "Image name"
+msgstr "Nazwa zdjecia"
+
+#: photocontest-manager.php:702
+msgid "Upload by"
+msgstr "Wyslane przez"
+
+#: photocontest-manager.php:704
+msgid "Visible"
+msgstr "Widoczne"
+
+#: photocontest-manager.php:705 viewimg.php:700
+msgid "Votes"
+msgstr "Ocena"
+
+#: photocontest-manager.php:706
+msgid "Rank"
+msgstr "Ocena"
+
+#: photocontest-manager.php:707 photocontest-manager.php:891
+msgid "Actions"
+msgstr "Czynności"
+
+#: photocontest-manager.php:729
+msgid "YES"
+msgstr "TAK"
+
+#: photocontest-manager.php:731
+msgid "click to deactivate"
+msgstr "kliknij aby deactywować"
+
+#: photocontest-manager.php:736
+msgid "NO"
+msgstr "NIE"
+
+#: photocontest-manager.php:738
+msgid "click to activate"
+msgstr "kliknij aby actywować"
+
+#: photocontest-manager.php:745
+msgid "View votes"
+msgstr "Obejrzyj głosy"
+
+#: photocontest-manager.php:785
+msgid "There is no directory with this contest name."
+msgstr "There is no directory with this contest name."
+
+#: photocontest-manager.php:786
+msgid "If you believe this is not correct, please remove the directory manualy"
+msgstr "If you believe this is not correct, please remove the directory manualy"
+
+#: photocontest-manager.php:797
+msgid "Failed to rename the directory."
+msgstr "Zmiana zazwy katalogu nie powiodła się."
+
+#: photocontest-manager.php:798
+msgid "If you believe this is not correct, please rename the directory manualy"
+msgstr "If you believe this is not correct, please rename the directory manualy"
+
+#: photocontest-manager.php:807 photocontest-manager.php:826
+#: photocontest-manager.php:838
+#, php-format
+msgid "Error in deleting PhotoContest '%s'."
+msgstr "Błąd podczas usówania konkursu '%s'."
+
+#: photocontest-manager.php:808 photocontest-manager.php:827
+#, php-format
+msgid "Directory is empty, but database table '%s' delete failed"
+msgstr "Directory is empty, but database table '%s' delete failed"
+
+#: photocontest-manager.php:833
+#, php-format
+msgid "Succes deleting PhotoContest '%s'."
+msgstr "Konkurs '%s' został pomyślnie usunięty."
+
+#: photocontest-manager.php:834
+#, php-format
+msgid "Note: You need to delete the page/post '%s' manually!"
+msgstr "Uwaga: Będziesz musiał samodzielnie usunąć stronę/wpis '%s'!"
+
+#: photocontest-manager.php:839
+msgid "Unknown PhotoContest"
+msgstr "Nieznany konkurs"
+
+#: photocontest-manager.php:882
+msgid "Contest ID"
+msgstr "Contest ID"
+
+#: photocontest-manager.php:883
+msgid "Page ID"
+msgstr "Page ID"
+
+#: photocontest-manager.php:884
+msgid "From"
+msgstr "Od"
+
+#: photocontest-manager.php:885
+msgid "To"
+msgstr "Do"
+
+#: photocontest-manager.php:886
+msgid "Upload untill"
+msgstr "Wysyłanie do"
+
+#: photocontest-manager.php:887
+msgid "Path"
+msgstr "Ścieżka"
+
+#: photocontest-manager.php:889
+msgid "Max photos"
+msgstr "Maksymalna ilość zdjęć"
+
+#: photocontest-manager.php:890
+msgid "Photo #"
+msgstr "Ilość zdjęć"
+
+#: photocontest-manager.php:915
+msgid "View"
+msgstr "Otwórz"
+
+#: photocontest-manager.php:916
+msgid "Refresh"
+msgstr "Odświerz"
+
+#: photocontest-manager.php:917
+msgid "Delete"
+msgstr "Usuń"
+
+#: photocontest-manager.php:934
+msgid "Currently no contest availble."
+msgstr "W tym momencie nie ma żadnych konkursów."
+
+#: photocontest-settings.php:68 photocontest-settings.php:145
+#: photocontest-settings.php:617
+msgid "Save settings"
+msgstr "Zapisz ustawienia"
+
+#: photocontest-settings.php:124
+msgid "Succes saving PhotoContest fix."
+msgstr "Sukces oszczędności naprawić PhotoContest."
+
+#: photocontest-settings.php:140
+msgid "Please check (if available) the boxes above for errors."
+msgstr "Sprawdź (jeżeli dostępne) pola powyżej błędów."
+
+#: photocontest-settings.php:141
+msgid "Click here to return to the settings page"
+msgstr "Kliknij tutaj, aby powrócić do ustawień strony"
+
+#: photocontest-settings.php:179
+msgid "Note:"
+msgstr "Uwaga:"
+
+#: photocontest-settings.php:180
+msgid "You changed the VIEWIMG_BOX value! Please manually resize and rename your already uploaded pictures!"
+msgstr "Można zmienić wartość VIEWIMG_BOX! Proszę, ręcznie zmienić rozmiar i zmienić nazwę już wysłał zdjęcia!"
+
+#: photocontest-settings.php:183
+msgid "Succes saving PhotoContest options."
+msgstr "Konfiguracja zapisana pomyślnie."
+
+#: photocontest-settings.php:190
+msgid "Error saving PhotoContest options."
+msgstr "Błąd podczas zapisywania konfiguracji."
+
+#: photocontest-settings.php:225
+msgid "Config settings"
+msgstr "Konfiguracja wtyczki"
+
+#: photocontest-settings.php:253
+msgid "WP_USE_THEMES"
+msgstr "WP_USE_THEMES"
+
+#: photocontest-settings.php:272
+msgid "Use Wordpress themes?"
+msgstr "Urzywać motywów Wordpress?"
+
+#: photocontest-settings.php:276
+msgid "DEBUG_FLAG"
+msgstr "DEBUG_FLAG"
+
+#: photocontest-settings.php:295
+msgid "Print some debug "
+msgstr "Print some debug "
+
+#: photocontest-settings.php:299
+msgid "CONTESTS_PATH"
+msgstr "CONTESTS_PATH"
+
+#: photocontest-settings.php:303
+msgid "Defines where to store the photos uploaded by users."
+msgstr "Defines where to store the photos uploaded by users."
+
+#: photocontest-settings.php:303
+msgid "(Relative to the wp-photocontest folder)"
+msgstr "(Relative to the wp-photocontest folder)"
+
+#: photocontest-settings.php:307
+msgid "CONTESTS_SKIN"
+msgstr "CONTESTS_SKIN"
+
+#: photocontest-settings.php:311
+msgid "Defines which skin (kind of template) the plugin uses."
+msgstr "Defines which skin (kind of template) the plugin uses."
+
+#: photocontest-settings.php:311
+msgid "(Relative to the skins folder in the wp-photocontest folder)"
+msgstr "(W stosunku do folderu skins w folderze wp-photocontest)"
+
+#: photocontest-settings.php:413
+msgid "VOTING_METHOD"
+msgstr "VOTING_METHOD"
+
+#: photocontest-settings.php:432
+msgid "Defines the way the votes method is shown"
+msgstr "Defines the way the votes method is shown"
+
+#: photocontest-settings.php:433
+msgid "star5: Star rating from 1-5"
+msgstr "star5: Gwiazdki od 1 do 5"
+
+#: photocontest-settings.php:434
+msgid "star10: Star rating from 1-10"
+msgstr "star10: Gwiazdki od 1 do 10"
+
+#: photocontest-settings.php:435
+msgid "hidden: Hidden vote of 1"
+msgstr "hidden: Ukryta głosu 1"
+
+#: photocontest-settings.php:436
+msgid "option5: Option list from 1-5"
+msgstr "option5: Lista wartości od 1 do 5"
+
+#: photocontest-settings.php:437
+msgid "option10: Option list from 1-10"
+msgstr "option10: Lista wartości od 1 do 10"
+
+#: photocontest-settings.php:441
+msgid "ROLE_VOTING"
+msgstr "ROLE_VOTING"
+
+#: photocontest-settings.php:447 photocontest-settings.php:451
+#: photocontest-settings.php:479 photocontest-settings.php:483
+msgid "-- No role --"
+msgstr ""
+
+#: photocontest-settings.php:468
+msgid "Defines the role that is allowed voting."
+msgstr "Określa rolę, jaką ma prawo głosu."
+
+#: photocontest-settings.php:473
+msgid "ROLE_UPLOAD"
+msgstr "ROLE_UPLOAD"
+
+#: photocontest-settings.php:500
+msgid "Defines the role that is allowed uploading."
+msgstr "Określa rolę, jaką jest możliwość przesłania."
+
+#: photocontest-settings.php:504
+msgid "VIEWIMG_BOX"
+msgstr "VIEWIMG_BOX"
+
+#: photocontest-settings.php:508
+msgid "Defines the height and width the pictures are generated."
+msgstr "Określa wysokośc i szerokość generowanych zdjęć."
+
+#: photocontest-settings.php:509
+msgid "Note: If you are using paddings, margins or borders in your style"
+msgstr "Note: If you are using paddings, margins or borders in your style"
+
+#: photocontest-settings.php:510
+msgid "distract this from your total size (I need 454 - 2px border - 10px"
+msgstr "distract this from your total size (I need 454 - 2px border - 10px"
+
+#: photocontest-settings.php:511
+msgid "padding, so the result = 442px"
+msgstr "padding, so the result = 442px"
+
+#: photocontest-settings.php:515
+msgid "VISIBLE_UPLOAD"
+msgstr "VISIBLE_UPLOAD"
+
+#: photocontest-settings.php:534
+msgid "Are uploaded pictures visible by default or hidden (moderate functionality)?"
+msgstr "Czy wysłał zdjęcia domyślnie widoczny lub ukryty (umiarkowane funkcje)?"
+
+#: photocontest-settings.php:538
+msgid "VISIBLE_VOTING"
+msgstr "VISIBLE_VOTING"
+
+#: photocontest-settings.php:557
+msgid "Are votes visible by default or hidden (mails an confirm mail to the user)?"
+msgstr "Głosów są domyślnie widoczne lub ukryte (maile potwierdzić mail do użytkownika)?"
+
+#: photocontest-settings.php:561
+msgid "N_PHOTO_X_PAGE"
+msgstr "N_PHOTO_X_PAGE"
+
+#: photocontest-settings.php:565
+msgid "Defines the number of picutes per page"
+msgstr "Określa liczbę obrazków na stronie"
+
+#: photocontest-settings.php:569
+msgid "SKIP_CAPTHA"
+msgstr "SKIP_CAPTHA"
+
+#: photocontest-settings.php:588
+msgid "Set to true if you do not want to use captha when voting."
+msgstr "Ustawiony na true, jeśli nie chcesz używać captha podczas głosowania."
+
+#: photocontest-settings.php:592
+msgid "REDIRECT_AFTER_VOTE"
+msgstr ""
+
+#: photocontest-settings.php:611
+msgid "Set to true if you want to show a \"Back to contest\" link after voting."
+msgstr ""
+
+#: play.php:91 viewimg.php:183
+msgid "Not enough rights."
+msgstr "Za mało praw."
+
+#: play.php:118 viewimg.php:210 view.php:100
+msgid "No details for this contest id"
+msgstr "Brak szczegułów dla konkursu o podanym id"
+
+#: play.php:141 viewimg.php:234 view.php:123
+msgid "No contest id given"
+msgstr "Nie podano id konkursu"
+
+#: play.php:160 view.php:198
+#, php-format
+msgid "I'm sorry, you already have uploaded %d photo."
+msgid_plural "I'm sorry, you already have uploaded %d photos."
+msgstr[0] "Wysłałeś już %d zdjęcie"
+msgstr[1] "Wysłałeś już %d zdjęcia"
+msgstr[2] "Wysłałeś już %d zdjęć"
+
+#: play.php:162 view.php:200
+#, php-format
+msgid "You can participate with %d photo."
+msgid_plural "You can participate with %d photos."
+msgstr[0] "Możesz wysłać maksymalnie %d zdjęcie"
+msgstr[1] "Możesz wysłać maksymalnie %d zdjęcia"
+msgstr[2] "Możesz wysłać maksymalnie %d zdjęć"
+
+#: play.php:171 play.php:182 view.php:209 view.php:220
+msgid "I'm sorry, you can not upload photos."
+msgstr "Nie możesz wysyłać zdjęć."
+
+#: play.php:173 view.php:211
+#, php-format
+msgid "The competition begins on %s and today is only the %s."
+msgstr "Konkurs rozpoczyna się %s - dziś jest dopiero %s."
+
+#: play.php:184 view.php:222
+#, php-format
+msgid "Last possible date for voting on the photos is %s"
+msgstr "Ostateczny termin oddawania głowów to %s"
+
+#: play.php:203
+msgid "The file appears to be empty"
+msgstr "Przesłany plik jest pusty"
+
+#: play.php:205 play.php:339 play.php:352 play.php:365 play.php:378
+msgid "Retry your upload"
+msgstr "Wyślij jeszcze raz"
+
+#: play.php:240
+msgid "A photo of the same name is already exist."
+msgstr "Zdjęcie o podanej nazwie już istnieje."
+
+#: play.php:244
+msgid "Do another upload and change the file name."
+msgstr "Wyślij zdjęcie jeszcze raz i zmień jego nazwę."
+
+#: play.php:272
+msgid "Success:"
+msgstr "Sukces:"
+
+#: play.php:273
+msgid "File successfully transmitted."
+msgstr "Plik został pomyślnie przesłany."
+
+#: play.php:335
+msgid "Problems while creating the thumbnail files."
+msgstr "Problemy podczas tworzenia miniaturek."
+
+#: play.php:349 play.php:362
+msgid "Problems while reading the file data."
+msgstr "Problem z odczytem pliku."
+
+#: play.php:376
+msgid "Only jpg, gif or png files are permitted."
+msgstr "Tylko jpg, gif lub png plików są dozwolone."
+
+#: play.php:432
+msgid "Hello"
+msgstr "Witaj"
+
+#: play.php:436
+msgid "Upload your photo"
+msgstr "Prześlij swoje zdjęcie"
+
+#: play.php:446 viewimg.php:691
+msgid "No email provided"
+msgstr "Bez poczty elektronicznej, pod warunkiem"
+
+#: play.php:451
+msgid "File"
+msgstr "Plik"
+
+#: play.php:454
+msgid "No image file provided"
+msgstr "Brak pliku graficznego, pod warunkiem"
+
+#: play.php:455
+msgid "(Only jpg, gif or png)"
+msgstr "(Tylko jpg, gif lub png)"
+
+#: play.php:461
+msgid "No title provided"
+msgstr "Brak tytułu, pod warunkiem"
+
+#: play.php:466
+msgid "About"
+msgstr "O zdjęciu"
+
+#: play.php:469
+msgid "No comment provided"
+msgstr "Brak komentarzy pod warunkiem"
+
+#: play.php:476
+msgid "Save"
+msgstr "Zapisz"
+
+#: viewimg.php:96
+msgid "Your vote is already confirmed!"
+msgstr "Twój głos jest już potwierdzone!"
+
+#: viewimg.php:119
+msgid "Thanks for confirming your vote."
+msgstr "Dzięki za potwierdzający głosowania."
+
+#: viewimg.php:127
+msgid "Error saving your vote. Please use the correct url from the email you have received!"
+msgstr "Błąd podczas zapisywania głosu. Użyj prawidłowy adres URL z wiadomości e-mail otrzymasz!"
+
+#: viewimg.php:265 viewimg.php:341
+msgid "This contest is closed!"
+msgstr "Ten konkurs został zamknięty!"
+
+#: viewimg.php:273 viewimg.php:349
+msgid "This contest has not started yet!"
+msgstr "Ten konkurs jeszcze się nie rozpoczął."
+
+#: viewimg.php:357 viewimg.php:520
+msgid "You have provided an invalid emailadress."
+msgstr "Podałeś niepoprawny adres email."
+
+#: viewimg.php:369 viewimg.php:675
+msgid "You already voted with this emailadress."
+msgstr "Jesteś już głosowała z Adres email."
+
+#: viewimg.php:385
+msgid "You already voted."
+msgstr "Jesteś już głosowali."
+
+#: viewimg.php:396
+msgid "The code you entered incorrect."
+msgstr "Podany kod nie jest poprawny."
+
+#: viewimg.php:398
+#, php-format
+msgid "The correct tekst was %1$s while you typed %2$s."
+msgstr "Poprawny teks to %1$s - błędnie wprowadzono %2$s."
+
+#: viewimg.php:400 viewimg.php:425 viewimg.php:443
+#, php-format
+msgid "<a href='%1$s?img_id=%2$d&post_id=%3$d&order=%4$s'>Try it again</a>"
+msgstr "<a href='%1$s?img_id=%2$d&post_id=%3$d&order=%4$s'>Spróbuj ponownie</a>"
+
+#: viewimg.php:423
+msgid "The vote must be a number between 1 and 5."
+msgstr "Zdjęcie można oceniać w skali 1 do 5."
+
+#: viewimg.php:441
+msgid "The vote must be a number between 1 and 10."
+msgstr "Zdjęcie można oceniać w skali 1 do 10."
+
+#: viewimg.php:465
+msgid "Confirm your vote"
+msgstr "Potwierdzić głosowanie"
+
+#: viewimg.php:472
+#, php-format
+msgid "Thanks for voting on the %1$s"
+msgstr "Dziękujemy za głosowanie na% 1$s"
+
+#: viewimg.php:475
+msgid "Click here to confirm your vote:"
+msgstr "Kliknij tutaj, aby potwierdzić głosowanie"
+
+#: viewimg.php:485
+msgid "Thanks for voting for this photo. You will shortly receive an email to confirm your vote."
+msgstr "Dziękujemy za głosowanie na to zdjęcie. Wkrótce otrzymasz e-mail w celu potwierdzenia udziału w głosowaniu."
+
+#: viewimg.php:503
+msgid "Something went wrong with sending the confirm mail. The administrator is notified. We will confirm the vote for you!"
+msgstr ""
+
+#: viewimg.php:510
+msgid "Something went wrong with sending the confirm mail. Please email the administrator of this site!"
+msgstr ""
+
+#: viewimg.php:543
+msgid "Thanks for voting for this photo."
+msgstr "Dziękujemy za oddanie głosu na to zdjęcie."
+
+#: viewimg.php:579
+msgid "Photo"
+msgstr "Zdjęcie"
+
+#: viewimg.php:585
+msgid "Photo details"
+msgstr "Szczegóły zdjęcia"
+
+#: viewimg.php:621 viewimg.php:653
+#, php-format
+msgid "on %1$s at %2$s"
+msgstr "%1$s o %2$s"
+
+#: viewimg.php:624
+msgid "Description"
+msgstr "Opis"
+
+#: viewimg.php:632
+msgid "Rate this picture"
+msgstr "Oceń to zdjęcie"
+
+#: viewimg.php:640
+#, php-format
+msgid "<a href='%1$s?post_id=%2$d&order=%3$s'>Back to the contest</a>"
+msgstr ""
+
+#: viewimg.php:651
+msgid "Vote already saved!"
+msgstr "Głos został już zapisany."
+
+#: viewimg.php:714 viewimg.php:726
+msgid "Cancel rating"
+msgstr "Ocena Anuluj"
+
+#: viewimg.php:775
+msgid "No captcha provided"
+msgstr "Nie kapitan, pod warunkiem"
+
+#: viewimg.php:785
+msgid "send"
+msgstr "wyślij"
+
+#: view.php:152
+msgid "Most viewed"
+msgstr "Najczęściej oglądane"
+
+#: view.php:175
+msgid "Chronologic view"
+msgstr "Widok chronologiczny"
+
+#: view.php:229
+msgid "No photos found."
+msgstr "Nie znaleziono zdjęć."
+
+#: view.php:231
+msgid "Be the first!"
+msgstr "Dodaj zdjęcia jako pierwszy!"
+
+#: wp-photocontest.php:514
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr "Rejestracja nowego użytkownika na swoim blogu"
+
+#: wp-photocontest.php:515 wp-photocontest.php:523
+#, php-format
+msgid "Username: %s"
+msgstr "Nazwa użytkownika: %s"
+
+#: wp-photocontest.php:516
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#: wp-photocontest.php:518
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Rejestracja nowego użytkownika"
+
+#: wp-photocontest.php:524
+#, php-format
+msgid "Password: %s"
+msgstr "Hasło: %s"
+
+#: wp-photocontest.php:527
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Twoja nazwa użytkownika i hasło"
+
+#. Plugin Name of an extension
+msgid "WP-PhotoContest"
+msgstr "WP-PhotoContest"
+
+#. Plugin URI of an extension
+msgid "http://www.vanderstad.nl/wordpress/plugins/wp-photocontest"
+msgstr "http://www.vanderstad.nl/wordpress/plugins/wp-photocontest"
+
+#. Description of an extension
+msgid "Adds a photo contest to your post or page. Note: Only apply auto-upgrade when you don't care about losing your contests!! (and if you do: Backup you tables, 'CONTEST_FOLDER'- and 'skins'-directories!)"
+msgstr "Dodaje konkursu fotograficznego do postu lub strony. Uwaga: Jedynie zastosowanie automatycznego uaktualnienia, jeśli nie dba o zgubieniu konkursów! (a jeśli nie: kopii zapasowej tabel, 'CONTEST_FOLDER' i 'skins'-katalogi!)"
+
+#. Author of an extension
+msgid "Frank van der Stad"
+msgstr "Frank van der Stad"
+
+#. Author URI of an extension
+msgid "http://www.vanderstad.nl/wordpress/"
+msgstr "http://www.vanderstad.nl/wordpress/"
+
+#~ msgid "&mdash; No role &mdash;"
+#~ msgstr "&mdash; Nr rolę &mdash;"
+
+#~ msgid "Your vote is already saved."
+#~ msgstr "Twój głos został już zapisany."
+
+#~ msgid "(Only jpg, png or gif files)"
+#~ msgstr "(Tylko jpg, png, gif)"

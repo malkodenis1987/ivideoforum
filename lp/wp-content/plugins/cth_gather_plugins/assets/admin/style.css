@@ -1,0 +1,36 @@
+.section_header {
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+span.desc {
+	display:block;
+	margin-top:10px;
+	max-width: 200px;
+}
+.width100per {width: 100%;}
+.mb5 {margin-bottom: 5px;}
+.mb10 {margin-bottom: 10px;}
+.mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
+.column-cth_schedule_cat_id, .column-cth_schedule_id , .column-cth_gallery_cat_id, .column-gallery_id {width: 10%;}
+.repeatable_table td, .repeatable_table th{padding:0px 10px 5px 0px;}
+.column-pur_quantity, .column-pur_amount, .column-pur_currency{width: 10%;}
+.column-pur_pass{width: 20%;}
+
+.post-php.post-type-cth_eventres #post-body-content {display: none;}
+.eventres-payment-details th {padding-left: 10px;border-bottom: 1px solid #eee;}
+.eventres-payment-details th,.eventres-payment-details td {border-right:1px solid #eee;}
+.eventres-payment-details th:last-child,.eventres-payment-details td:last-child {border-right:0px;}
+/*.pm-pass,.pm-price,.pm-quantity,.pm-amount {
+	border: 1px solid #eee;
+}*/
+.form-table .pm-price,.form-table .pm-quantity,.form-table .pm-amount ,.form-table .pm-currency {text-align: center;width: 13%;}
+input#pur_quantity {max-width: 70px;}
+.eventres-payment-details tr td {font-weight: bold;}
+#rsp_msg {display: none;color: #a00;}
+.column-pur_status{width: 10%;}
+.column-pur_quantity{width: 10%;text-align: center !important;}
+.column-pur_currency,.column-pur_amount{width: 7%;text-align: center !important;}
+.column-pur_date{width: 15%;}

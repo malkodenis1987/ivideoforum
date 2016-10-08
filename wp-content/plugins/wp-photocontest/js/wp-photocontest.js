@@ -1,0 +1,1 @@
+var wppc_jQuery = jQuery.noConflict();

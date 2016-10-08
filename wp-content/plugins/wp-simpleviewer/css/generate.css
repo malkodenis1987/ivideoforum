@@ -1,0 +1,71 @@
+.wrap {
+	width: 630px;
+	padding-left: 5px;
+}
+
+.col1, .col2, .col3 {
+	display: inline;
+	float: left;
+}
+
+.col1 {
+	white-space: nowrap;
+	width: 154px;
+}
+
+.col2 {
+	width: 440px;
+}
+
+.col3 {
+	width: 150px;
+}
+
+.clear {
+	clear: left;
+    padding-top: 10px;
+}
+
+div.clear {
+	height: 1px;
+}
+
+.col2 input, .col2 textarea, .col4 input {
+	width: 100%;
+}
+
+.col3 input[type=text], .col3 select {
+	width: 90%;
+}
+
+* {
+	font-size: 12px;
+	line-height: 21px;
+}
+
+fieldset {
+	border: 1px solid #ccc;
+	margin: 6px 0;
+	padding: 10px;
+}
+
+textarea {
+	font-family: Courier, monospace;
+	line-height: 14px;
+}
+
+#toggle-media {
+	display: block;
+}
+
+#toggle-flickr {
+	display: none;
+}
+
+#toggle-nextgen {
+	display: none;
+}
+
+#toggle-picasa {
+	display: none;
+}

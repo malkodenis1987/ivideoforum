@@ -1,0 +1,17 @@
+.td_style_clnkr {border-right: solid 1px Silver; border-bottom: solid 1px Silver; padding: 1px; margin: 0px; text-align: center;}
+.td_style_clnkr_bulk {border-right: solid 1px Silver; border-bottom: solid 1px Silver; padding: 1px; margin: 0px; text-align: center; width:50%;}
+.td_style_clnkr1 {border-right: solid 1px Silver; border-bottom: solid 1px Silver; padding: 1px; margin: 0px;}
+.hdiv_style_clnkr {display:none; position: relative; left: 0px; top: 0px; border-right: solid 1px Silver; border-bottom: solid 1px Silver; padding: 0px; margin: 0px;}
+.adiv_style_clnkr {display:none; position: relative; left: 0px; top: 0px; border: 0px; padding: 0px; margin: 0px;}
+.bdiv_style_clnkr {border-top: solid 1px #A9A9F2; border-left: solid 1px #B5B5ED; border-bottom: solid 1px #B5B5ED; border-right: solid 1px #A9A9F2; padding: 1em;}
+.cdiv_style_clnkr {border-top: solid 1px #A9A9F2; border-left: solid 1px #B5B5ED; border-bottom: solid 1px #B5B5ED; border-right: solid 1px #A9A9F2; padding: 1ex;}
+#crosslinker_content {font-size:medium; line-height:1.3em;}
+#crosslinker_content #warnme_ccl {font-weight:bold; color:Red;}
+.ddiv_style_clnkr {border: 0; height: 1px; background: #333; background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);}
+.bulktablecss {border: solid 1px Silver; padding: 2px; margin: 0px; width:100%;}
+.td_style_clnkr1_bulk {border-right: solid 1px Silver; border-bottom: solid 1px Silver; padding: 1px; margin: 0px; width:50%;}
+.td_style_clnkr1_bulk_1 {border-right: solid 1px Silver; border-bottom: solid 1px Silver; padding: 1px; margin: 0px; width:50%; text-align:center;}
+.bdiv_style_clnkr label {display:inline;}
+#noscript {font-size:150%; font-weight:bold; padding:1em; margin:0; line-height:1.3em; text-align:center;}
+.td_style_clnkr a:hover {cursor:pointer;}
+#crosslinker_content #warning {border: 1px solid; margin: 1ex 0; padding:3ex 2ex 3ex 50px; background-repeat: no-repeat; background-position: 10px center; color: #9F6000; background-color: #FEEFB3; background-image: url('https://www.janhvizdak.com/images/warning.png');}

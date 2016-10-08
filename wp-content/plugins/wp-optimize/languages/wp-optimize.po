@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Optimize 1.0.2\n"
+"POT-Creation-Date: 2013-10-30 13:34+0800\n"
+"PO-Revision-Date: 2013-10-30 13:34+0800\n"
+"Last-Translator: Ruhani Rabin <get@ruhanirabin.com>\n"
+"Language-Team: Ruhani Rabin <get@ruhanirabin.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_n;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Documents\\My Works\\wp-optimize_work\n"
+"X-Poedit-SearchPath-1: D:\\Ruhani\\Documents\\My Works\\wp-optimize_work\n"
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:84
+msgid " Database Optimized!"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:108
+msgid " post revisions deleted"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:119
+msgid " auto drafts deleted"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:127
+#: Works\wp-optimize_work/wp-optimize-admin.php:147
+msgid " items removed from Trash"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:139
+msgid " spam comments deleted"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:157
+msgid " unapproved comments deleted"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:163
+msgid " pingbacks deleted"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:169
+msgid " trackbacks deleted"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:175
+msgid " Enabled weekly processing"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:181
+msgid " Disabled weekly processing"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:190
+msgid "NO Actions Taken"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:210
+msgid " post revisions in your database"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:212
+msgid "No post revisions found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:220
+msgid " auto draft post(s) in your database"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:222
+msgid "No auto draft posts found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:230
+msgid " spam comments found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:230
+msgid " Review Spams"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:232
+msgid "No spam comments found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:239
+msgid " unapproved comments found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:239
+msgid " Review Unapproved Comments"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:241
+msgid "No unapproved comments found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:249
+msgid " Pingbacks found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:251
+msgid "No pingbacks found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:259
+msgid " Trackbacks found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:261
+msgid "No trackbacks found"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:267
+msgid "nothing"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:294
+msgid "Enable Weekly Cleanup (EXPERIMENTAL!)"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:301
+msgid " | Next Schedule - "
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:307
+msgid ""
+"This will enable weekly scheduled of all the optimization listed including - "
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:309
+msgid "Optimize db, Remove AutoDrafts/Revisions, Posts and Comments in Trash."
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:311
+msgid ""
+"NOTE: Unapproved comments will not be removed automatically; just in case "
+"there are legitimate comments"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:317
+msgid "Keep last "
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:326
+msgid " weeks of data"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:329
+msgid ""
+"This option will retain the last X weeks of data and remove any junk data "
+"before that period"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:341
+msgid "Credits"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:343
+msgid "Database Optimization Options"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:344
+msgid "See Tables Report > "
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:344
+msgid "Database Size > "
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:352
+msgid "Contibuting Developers"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:353
+msgid "Help me make this plugin better"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:353
+msgid "I am looking for contributing developers."
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:354
+msgid "Your name and website will be credited here in the plugin"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:356
+msgid "Translators"
+msgstr ""
+
+# This is the link for the Translator's website
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:357
+msgid "http://www.ruhanirabin.com/"
+msgstr ""
+
+# Please change this to Translator's name
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:357
+msgid ""
+"Default Language by Ruhani Rabin (Change this text and the link inside "
+"translation file)"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:359
+msgid "Download .PO File to translate"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:361
+msgid "Plugin Resources"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:362
+msgid "Plugin Homepage"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:362
+msgid "Support Forum"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:363
+msgid "Buy me a Coffee ?"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:367
+msgid "Remove all Post revisions"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:376
+msgid "Remove all auto draft posts (This will also clear out posts in Trash)"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:386
+msgid "Clean Spam comments (This will also clear out comments in Trash)"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:395
+msgid "Clean Unapproved comments"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:404
+msgid "Clean Pingbacks"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:413
+msgid "Clean Trackbacks"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:422
+msgid "Optimize database tables"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:429
+msgid "PROCESS"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:451
+msgid "Database Tables Report"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:452
+msgid "Database Name:"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:456
+msgid "Optimized all the tables found in the database."
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:463
+#: Works\wp-optimize_work/wp-optimize-admin.php:471
+msgid "Table"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:464
+#: Works\wp-optimize_work/wp-optimize-admin.php:472
+msgid "Size"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:465
+#: Works\wp-optimize_work/wp-optimize-admin.php:473
+msgid "Status"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:466
+#: Works\wp-optimize_work/wp-optimize-admin.php:474
+msgid "Space Save"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:518
+msgid "Already Optimized"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:527
+msgid "Optimized"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:535
+msgid "Need to Optimize"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:547
+msgid "Total Size of Database:"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:555
+msgid "Optimization Results:"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:556
+msgid "Total Space Saved:"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:561
+msgid "Optimization Possibility:"
+msgstr ""
+
+#: D:\Ruhani\Documents\My Works\wp-optimize_work/wp-optimize-admin.php:562
+msgid "Total space can be saved:"
+msgstr ""

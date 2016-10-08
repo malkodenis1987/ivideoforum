@@ -1,0 +1,31 @@
+<!-- Баннер ciclops.ru -->
+<div>
+<a href="http://ciclops.ru/"><img width="250" height="100" src="http://www.ivideoforum.org/images/ciclops.ru_banner.gif" /></a>
+</div>
+
+<!--  Банер Трярмарка-->
+<!-- <div ><noindex><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="240" >
+<param name="movie" value="http://www.ivideoforum.org/images/250x100-URL.swf">
+<param name="quality" value="high">
+<embed src="http://www.ivideoforum.org/images/250x100-URL.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="240" ></embed></object></noindex></div>
+-->
+<!--  Банер Стедикам-->
+<div ><noindex><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="240" >
+<param name="movie" value="http://www.ivideoforum.org/images/stedikam_250x100.swf>
+<param name="quality" value="high">
+<embed src="http://www.ivideoforum.org/images/stedikam_250x100.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="240" ></embed></object></noindex></div>
+
+
+<!--
+<a title="9-й Форум видеомейкеров" href="http://www.ivideoforum.org/meetings/forum-2011-zima/" target="_blank">
+<img class="size-medium wp-image-2263" title="9-й Форум видеомейкеров" src="http://www.ivideoforum.org/images/240_400.gif" alt="" /></a>
+-->
+
+<!-- +++++++++++++++++++ -->
+
+<!--
+<a href="http://www.nevesta.cn.ua/" target="_blank" >Черниговский свадебный портал "Невеста" - "Wedding Show"</a>
+<br />
+<a href="http://easy-step.ru/" target="_blank">Стедикам производство и продажа</a> -->
+
+</center>

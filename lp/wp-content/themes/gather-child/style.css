@@ -1,0 +1,18 @@
+/*
+Theme Name: Gather Child
+Theme URI: https://demowp.cththemes.net/gather
+Author: Cththemes
+Author URI: http://themeforest.net/user/cththemes
+Description: Gather is a Responsive Event, Meetup and Conference Wordpress Landing Page Theme with Working Paypal Payment Integration, Eventbrite Integration and Mailchimp Integration. You can make a complete event related website and go live faster. This theme includes all features for an Event Website. Its carefully crafted to suit any kind of events. With its Award Winning design and Conversion principles, It becomes the no-brainer template for events.
+Version: 1.0
+Tags: custom-background, custom-menu, editor-style, featured-images, post-formats, sticky-post, theme-options, translation-ready
+Template: Gather
+Text Domain: gather-child
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import url("../gather/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */

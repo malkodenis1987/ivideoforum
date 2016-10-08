@@ -1,0 +1,340 @@
+<?php
+/*
+Plugin Name: Content Slide Plugin
+Plugin URI: http://www.snilesh.com/resources/wordpress/wordpress-plugins/wordpress-content-slide-plugin/
+Description: Wordpress plugin for simple slideshow.
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YKY7SHDT8GTQG
+Version: 1.4.2
+Author: Snilesh
+Tags: images, gallery, slideshow, photos, post, jquery slideshow,jquery innerfade,innerfade,coin,coin slider,coinslider,swirl gallery,random gallery,banner,rotating banners,ads,rotating ads
+Author URI: http://www.snilesh.com
+*/
+
+/*  Copyright 2010  Snilesh.com  (email : snilesh.com@gmail.com)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+global $wp_version;	
+$exit_msg='Wordpress Content Slide This requires WordPress 2.9 or newer. <a href="http://codex.wordpress.org/Upgrading_WordPress">Please update!</a>';
+$WPContent_slide_plugin_url=defined('WP_PLUGIN_URL') ? (WP_PLUGIN_URL . '/' . dirname(plugin_basename(__FILE__))) : trailingslashit(get_bloginfo('wpurl')) . PLUGINDIR . '/' . dirname(plugin_basename(__FILE__)); 
+if (version_compare($wp_version,"2.9","<"))
+{
+	exit ($exit_msg);
+}
+if (!defined('WP_CONTENT_URL')) {
+	define('WP_CONTENT_URL', get_option('siteurl').'/wp-content');
+}
+define('CONTENT_SLIDE_URL',get_option('siteurl').'/wp-content/plugins/content-slide/');
+global $content_slider_defaults;
+global $wpcs_settings;
+$wpcs_settings=get_option('wpcs_options');
+
+$content_slider_defaults=array(
+'width'=>500, // width of slider panel
+'height'=>300, // height of slider panel
+'square_per_width'=>7, // squares per width
+'square_per_height'=>5, // squares per height
+'delay'=>3000, // delay between images in ms
+'sDelay'=>30, // delay beetwen squares in ms
+'opacity'=>'0.7', // opacity of title and navigation
+'titleSpeed'=>500, // speed of title appereance in ms
+'effect'=>'random', // random, swirl, rain, straight, fade using innerfade.
+'navigation'=>'true', // prev next and buttons
+'links'=>'true', // show images as links 
+'hoverPause'=>'true', // pause on hover
+'slide_image1'=>WP_CONTENT_URL.'/plugins/content-slide/images/image1.jpg',
+'slide_image2'=>WP_CONTENT_URL.'/plugins/content-slide/images/image2.jpg',
+'slide_image3'=>WP_CONTENT_URL.'/plugins/content-slide/images/image3.jpg',
+'slide_image4'=>WP_CONTENT_URL.'/plugins/content-slide/images/image4.jpg',
+'slide_image5'=>WP_CONTENT_URL.'/plugins/content-slide/images/image5.jpg',
+'slide_imagelink1'=>'http://www.snilesh.com/resources/jquery/jquery-image-slider/',
+'slide_imagelink2'=>'http://www.snilesh.com/resources/wordpress/wordpress-tips-and-tricks/wordpress-show-title-and-excerpt-of-child-pages-on-parent-page/',
+'slide_imagelink3'=>'http://www.snilesh.com/resources/wordpress/wordpress-plugins/wordpress-news-ticker-plugin/',
+'slide_imagelink4'=>'http://www.snilesh.com/resources/jquery/jquery-image-sliders-2010/',
+'slide_imagelink5'=>'http://www.snilesh.com/resources/jquery/jquery-dynamic-selectbox/',
+'font_family'=>'Arial,Georgia,Verdana',
+'font_size'=>12,
+'heading_font'=>18,
+'heading_color'=>'#ffffff',
+'background_color'=>'#ffffff',
+'number_of_posts'=>4,
+'border_width'=>5,
+'border_color'=>'#ffffff',
+'color'=>'#000000',
+'custom_image'=>'true',
+'post_category'=>'',
+'show_excerpt'=>'false',
+'char_length'=>200,
+'no_of_custom_images'=>5,
+'navigation_color'=>'#000000',
+'navigation_next_previous'=>'true',
+'navigation_buttons'=>'true',
+'order'=>'false',
+'new_window'=>'false'
+);
+register_deactivation_hook(__FILE__, 'wpcs_slide_deactivate' );
+register_activation_hook(__FILE__, 'wpcs_slide_activate'); 
+function wpcs_slide_deactivate()
+{
+//	delete_option('wpcs_options');
+}
+function wpcs_slide_activate()
+{
+	global $content_slider_defaults,$values;
+	$default_settings = get_option('wpcs_options');
+	$default_settings= wp_parse_args($default_settings, $content_slider_defaults);
+	add_option('wpcs_options',$default_settings);
+}
+/* Add Administrator Menu's*/
+function wpcs_content_slide_menu()
+{
+	$level = 'level_10';
+   add_menu_page('Content Slide', 'Content Slide', $level, __FILE__,'wpcs_content_slide_options',CONTENT_SLIDE_URL.'images/icon6.png');
+   add_submenu_page(__FILE__, 'Help &amp; Support', 'Help &amp; Support', $level,'wpcs_content_slide_help','wpcs_content_slide_help');
+}
+add_action('admin_menu', 'wpcs_content_slide_menu');	
+
+function wpcs_content_slide_options()
+{
+	wpcs_settings_update();
+	include_once dirname(__FILE__).'/options_page.php';
+}
+function wpcs_settings_update()
+{
+	if(isset($_POST['wpcs_options']))
+	{
+		echo '<div class="updated fade" id="message"><p>Content Slide Settings <strong>Updated</strong></p></div>';
+		unset($_POST['update']);
+		update_option('wpcs_options', $_POST['wpcs_options']);
+	}
+}
+function wpcs_content_slide_help()
+{
+include_once dirname(__FILE__).'/help_support.php';
+}
+
+if ( function_exists('add_theme_support') ) {
+	$plug_options=get_option('wpcs_options');
+	add_theme_support('post-thumbnails');
+	add_image_size( 'content-slide-thumbnail', $plug_options['width'], $plug_options['height'] ); 
+}
+/*Limit content posts*/
+function wpcs_content_slider_limitpost ($max_char, $more_link_text = '(more...)', $stripteaser = 0, $more_file = '') {
+    $content = get_the_content($more_link_text, $stripteaser, $more_file);
+    $content = apply_filters('the_content', $content);
+    $content = str_replace(']]>', ']]&gt;', $content);
+    $content = strip_tags($content);
+
+   if (strlen($_GET['p']) > 0) {
+      echo $content;
+      echo "&nbsp;<a rel='nofollow' href='";
+      the_permalink();
+      echo "'>".__('Read More', 'vibe')." &rarr;</a>";
+   }
+   else if ((strlen($content)>$max_char) && ($espacio = strpos($content, " ", $max_char ))) {
+        $content = substr($content, 0, $espacio);
+        $content = $content;
+        echo $content;
+        echo "...";
+        echo "&nbsp;<a rel='nofollow' href='";
+        the_permalink();
+        echo "'>".$more_link_text."</a>";
+   }
+   else {
+      echo $content;
+      echo "&nbsp;<a rel='nofollow' href='";
+      the_permalink();
+      echo "'>".__('Read More', 'vibe')." &rarr;</a>";
+   }
+}
+// ADD Content Slide JS TO HEAD SECTION
+add_action('wp_print_scripts', 'wpcs_content_slider_user_scripts');
+function wpcs_content_slider_user_scripts() {
+	global $wpcs_settings;
+    wp_enqueue_script ('jquery');
+	if($wpcs_settings['effect']=='fade')
+	{
+	wp_enqueue_script('content_slider', CONTENT_SLIDE_URL.'js/jquery.innerfade.js', $deps = array('jquery'));
+	}
+	else
+	{
+	wp_enqueue_script('content_slider', CONTENT_SLIDE_URL.'js/coin-slider.js', $deps = array('jquery'));
+	}
+}
+add_action('wp_head', 'wpcs_content_slider_header');
+function wpcs_content_slider_header() { 
+global $wpcs_settings; ?>
+<script type="text/javascript">
+	var $jquery = jQuery.noConflict(); 
+	$jquery(document).ready(function() 
+	{
+	<?php if($wpcs_settings['effect']!='fade') { ?>
+	$jquery('#wpcontent_slider').coinslider(
+	{ 
+	width: <?php echo $wpcs_settings['width']; ?>, 
+	height: <?php echo $wpcs_settings['height']; ?>, 
+	spw: <?php echo $wpcs_settings['square_per_width']; ?>, 
+	sph: <?php echo $wpcs_settings['square_per_height']; ?>, 
+	delay: <?php echo $wpcs_settings['delay']; ?>, 
+	sDelay: <?php echo $wpcs_settings['sDelay']; ?>, 
+	opacity: <?php echo $wpcs_settings['opacity']; ?>, 
+	titleSpeed: <?php echo $wpcs_settings['titleSpeed']; ?>, 
+	effect: '<?php echo $wpcs_settings["effect"]; ?>', 
+	navigation: true, 
+	links : true, 
+	hoverPause: <?php echo $wpcs_settings['hoverPause']; ?> });
+	<?php } else {	?>
+	$jquery('#wpcontent_slider').innerfade({
+						speed: 2000,
+						timeout: 6000,
+						type: 'sequence',
+						containerheight: '<?php echo $wpcs_settings["height"]; ?>px'
+					});
+
+	<?php 
+	}?>
+	});
+	</script>
+<style type="text/css" media="screen">
+<?php 
+		$total_width=$wpcs_settings['width']+$wpcs_settings['border_width']+$wpcs_settings['border_width'];
+		$total_height=$wpcs_settings['height']+$wpcs_settings['border_width']+$wpcs_settings['border_width'];
+?>
+		
+#wpcontent_slider_container
+{
+	overflow: hidden; position: relative; padding:0px;margin:0px; text-align:center; width:<?php echo $total_width;?>px !important;
+	height:<?php echo $total_height;?>px !important;
+}
+#wpcontent_slider 
+{ overflow: hidden; position: relative; font-family:<?php echo $wpcs_settings['font_family'];?>;border:<?php echo $wpcs_settings['border_width'];?>px solid <?php echo $wpcs_settings['border_color'];?>; text-align:left;}
+#wpcontent_slider a,#wpcontent_slider a img { border: none; text-decoration: none; outline: none; }
+#wpcontent_slider h4,#wpcontent_slider h4 a 
+{margin: 0px;padding: 0px; font-family: <?php echo stripslashes($wpcs_settings['font_family']); ?>;
+text-decoration:none;font-size: <?php echo $wpcs_settings['heading_font']; ?>px; color:<?php echo $wpcs_settings['heading_color']; ?>;}
+#wpcontent_slider .cs-title {width: 100%;padding: 10px; background: <?php echo $wpcs_settings['background_color']; ?>; color: <?php echo $wpcs_settings['color']; ?>; font-family: <?php echo stripslashes($wpcs_settings['font_family']); ?>; font-size: <?php echo $wpcs_settings['font_size']; ?>px; letter-spacing: normal;line-height: normal;}
+#wpcontent_slider_container .cs-prev,#wpcontent_slider_container .cs-next {font-weight: bold;background: #000000;
+font-size: 28px; font-family: "Courier New", Courier, monospace; color: #ffffff !important;
+<?php if($wpcs_settings['navigation_next_previous']=='false') { echo 'display:none;'; }?>
+padding: 0px 10px;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;}
+#wpcontent_slider_container .cs-buttons { font-size: 0px; padding: 10px 0px 10px 0px;
+margin:0px auto; float:left;clear:left;
+<?php if($wpcs_settings['navigation_buttons']=='false') { echo 'display:none;'; }?>
+}
+#wpcontent_slider_container .cs-buttons a { outline:none; margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid <?php echo $wpcs_settings['navigation_color'];?>; color: <?php echo $wpcs_settings['navigation_color'];?>; text-indent: -1000px; 
+}
+#wpcontent_slider_container .cs-active { background-color: <?php echo $wpcs_settings['navigation_color'];?>; color: #FFFFFF; }
+#wpcs_link_love,#wpcs_link_love a{display:none;}
+</style>
+<!-- End Content Slider Settings -->
+
+<?php }
+function wp_content_slider()
+{
+	global $wpcs_settings;
+	$total_width=$wpcs_settings['width']+$wpcs_settings['border_width']+$wpcs_settings['border_width'];
+    echo '<div id="wpcontent_slider_container"><div id="wpcontent_slider">';
+	 if($wpcs_settings['custom_image']=='false')
+	{
+	  if($wpcs_settings['order']=='true')
+	  {
+		  $tmp='orderby=rand&';
+	  }
+	  else
+	  {
+		  $tmp='';
+	  }
+	  $recent_posts = new WP_Query($tmp."cat=".$wpcs_settings['post_category'].'&showposts='.$wpcs_settings['number_of_posts']); 
+	  $count=0;
+	  while($recent_posts->have_posts()) : $recent_posts->the_post(); ?>
+	   <?php
+		if(has_post_thumbnail()) {
+		  		$new_window='';
+				if($wpcs_settings['new_window']=='true')
+				{
+					$new_window=' target="_blank"';
+				}
+	   ?>
+	    <a href="<?php the_permalink(); ?>" title="<?php the_title();?>" <?php echo $new_window;?>><?php the_post_thumbnail ( array($wpcs_settings['width'], $wpcs_settings['height']) ); ?>
+        <?php if($wpcs_settings['show_excerpt'] == 'true') { ?>
+            <span><h4><?php the_title(); ?></h4><?php wpcs_content_slider_limitpost($wpcs_settings['char_length'], "" ); ?></span>
+        <?php } ?>
+        </a>
+	  <?php
+	  }
+	   else
+		{
+		   continue;
+		}
+		
+	  ?>
+	<?php endwhile;	
+	wp_reset_query();
+	}
+	else
+	{
+	$custom_images=array();
+	$temp_array=array();
+	for($j=1;$j<=$wpcs_settings['no_of_custom_images'];$j++)
+	{
+		$temp_array=array('image_src'=>$wpcs_settings['slide_image'.$j],'image_link'=>$wpcs_settings['slide_imagelink'.$j],'heading'=>$wpcs_settings['slide_imageheading'.$j],'text'=>$wpcs_settings['slide_imagetext'.$j]);
+		array_push($custom_images,$temp_array);
+	}
+
+	if($wpcs_settings['order']=='true')
+	{
+		shuffle($custom_images);
+	}
+	
+
+		foreach($custom_images as $images)
+		{
+			if($images['image_link']!='')
+			{
+				$new_window='';
+				if($wpcs_settings['new_window']=='true')
+				{
+					$new_window=' target="_blank"';
+				}
+		?>
+		<a href="<?php echo $images['image_link']; ?>" title="<?php echo $images['heading'];?>" <?php echo $new_window; ?>>
+		<?php
+			}
+		?>
+		<img src="<?php echo $images['image_src']; ?>" alt="<?php echo $images['heading'];?>" width="<?php echo $wpcs_settings['width'];?>" height="<?php echo $wpcs_settings['height'];?>"  />
+        <?php if($wpcs_settings['show_excerpt'] == 'true') { ?>
+		<?php
+			$images['heading']=stripslashes($images['heading']);
+			$images['text']=stripslashes($images['text']);
+		?>
+        <span><h4><?php echo $images['heading'];?></h4><?php echo $images['text'];?></span>
+        <?php } 
+		if($images['image_link']!='')
+			{
+		?>
+        </a>
+		<?php
+			}
+		}
+	}
+	
+	
+echo '</div>';
+echo '</div>';
+	?>
+<?php
+	
+}
+?>

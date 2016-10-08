@@ -1,0 +1,54 @@
+@import url('amber-core.css');
+
+/*  #1 -- Lightest colour 
+*/
+.submitbox .submit, #adminmenu a.current, #sidemenu a.current, .press-this #wphead,
+ul#ozhmenu a.current, ul#ozhmenu li.ozhmenu_over, #submenu, div.cmDiv li.am-current {
+	background: #000001!important;
+}
+#dashmenu a.current, #dashmenu a.current:hover { 
+	color:#000001; 
+}
+div#media-upload-header, ul#ozhmenu li ul { 
+	border-color:#000001!important; 
+}
+
+div.cmDiv { 
+	border-bottom-color:#000001!important;
+}
+
+
+/*  #2 -- Darkest color 
+*/
+#submenu li, #minisub, ul.ui-tabs-nav, .ui-tabs-nav, .ui-tabs-nav a:hover, .ui-tabs-nav a:focus, 
+.ui-tabs-nav a:active, .ui-tabs-nav .ui-tabs-selected a:link, 
+.ui-tabs-nav .ui-tabs-selected a:visited { border-color:#000002; }
+.press-this #wphead #viewsite a { background-color:#000002; } 
+#submenu { border-bottom-color:#000002; }
+
+/*  #3 -- Editor colour 
+*/
+#footer a {
+	color: #000003;
+}
+div.ui-tabs-panel, .form-table input, .form-table textarea, .tablenav .next:hover, 
+.tablenav .prev:hover, .wp_themeSkin .mceListBox .mceText, .wp_themeSkin .mceListBox .mceOpe,
+.clearlooks2 .mceTop .mceLeft, .clearlooks2 .mceTop .mceRight, #editorcontainer {
+	border-color: #000003;
+}
+.submitbox #previewview, #poststuff #editor-toolbar .active, #poststuff .closed .togbox, .wp_themeSkin table, 
+.wp_themeSkin .mceMenu .mceMenuItemEnabled a:hover, .wp_themeSkin .mceMenu .mceMenuItemActive, #quicktags {
+	background-color: #000003;
+}
+.updated a {
+	border-bottom-color: #000003;
+}
+#poststuff .postbox, #titlediv, #poststuff .postarea, #poststuff .stuffbox {
+	border-right-color: #000003;
+	border-bottom-color: #000003;
+}
+
+/*  #4 -- Front dashboard notice bar background
+*/
+
+#rightnow .youhave { background-color: #000004!important; }

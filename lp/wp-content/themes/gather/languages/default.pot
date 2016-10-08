@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gather - Event Landing Page Wordpress Theme\n"
+"POT-Creation-Date: 2015-09-13 21:49+0700\n"
+"PO-Revision-Date: 2015-09-13 21:49+0700\n"
+"Last-Translator: \n"
+"Language-Team: CTHthemes <cththemes@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ../../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: gather\n"
+
+#: gather/404.php:19
+msgid "<h1 class=\"head404\">404</h1>"
+msgstr ""
+
+#: gather/404.php:22
+msgid "Oops!"
+msgstr ""
+
+#: gather/404.php:29
+msgid " ← Back to Home"
+msgstr ""
+
+#: gather/archive.php:63 gather/author.php:92 gather/category.php:63
+#: gather/home.php:64 gather/index.php:64 gather/search.php:61
+msgid "«"
+msgstr ""
+
+#: gather/archive.php:63 gather/author.php:92 gather/category.php:63
+#: gather/home.php:64 gather/index.php:64 gather/search.php:61
+msgid "»"
+msgstr ""
+
+#: gather/author.php:55
+msgid "About "
+msgstr ""
+
+#: gather/author.php:62
+msgid "Follow on Twitter"
+msgstr ""
+
+#: gather/author.php:65
+msgid "Like on Facebook"
+msgstr ""
+
+#: gather/author.php:68
+msgid "Circle on Google Plus"
+msgstr ""
+
+#: gather/author.php:71
+msgid "Be Friend on Linkedin"
+msgstr ""
+
+#: gather/comments.php:30
+msgid "<i class=\"fa fa-reply\"></i>"
+msgstr ""
+
+#: gather/comments.php:51
+msgid "<i class=\"fa fa-long-arrow-left\"></i>"
+msgstr ""
+
+#: gather/comments.php:53
+msgid "<i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: gather/comments.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#: gather/comments.php:69
+msgid "Leave A Comment"
+msgstr ""
+
+#: gather/comments.php:72
+msgid "Name"
+msgstr ""
+
+#: gather/comments.php:73
+msgid "E-mail"
+msgstr ""
+
+#: gather/comments.php:74
+msgid "Website (optional)"
+msgstr ""
+
+#: gather/comments.php:77
+msgid "Message"
+msgstr ""
+
+#: gather/comments.php:81
+msgid "Submit your comment"
+msgstr ""
+
+#: gather/comments.php:82
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: gather/comments.php:83
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: gather/content-audio.php:31 gather/content-gallery.php:54
+#: gather/content-page.php:23 gather/content-quote.php:36
+#: gather/content-search.php:24 gather/content-video.php:31
+#: gather/content.php:54
+msgid "Edit"
+msgstr ""
+
+#: gather/content-audio.php:35 gather/content-gallery.php:58
+#: gather/content-quote.php:40 gather/content-search.php:28
+#: gather/content-video.php:35 gather/content.php:58 gather/single.php:93
+#: gather/vc_templates/cth_latest_posts.php:51
+msgid "on "
+msgstr ""
+
+#: gather/content-audio.php:35 gather/content-gallery.php:58
+#: gather/content-quote.php:40 gather/content-search.php:28
+#: gather/content-video.php:35 gather/content.php:58 gather/single.php:93
+#: gather/vc_templates/cth_latest_posts.php:51
+msgid "M d Y"
+msgstr ""
+
+#: gather/content-audio.php:38 gather/content-gallery.php:61
+#: gather/content-quote.php:43 gather/content-search.php:31
+#: gather/content-video.php:38 gather/content.php:61 gather/single.php:96
+msgid "by "
+msgstr ""
+
+#: gather/content-audio.php:41 gather/content-gallery.php:64
+#: gather/content-quote.php:46 gather/content-search.php:34
+#: gather/content-video.php:41 gather/content.php:64
+msgid "comment "
+msgstr ""
+
+#: gather/content-audio.php:41 gather/content-gallery.php:64
+#: gather/content-quote.php:46 gather/content-search.php:34
+#: gather/content-video.php:41 gather/content.php:64 gather/single.php:99
+msgid "0"
+msgstr ""
+
+#: gather/content-audio.php:41 gather/content-gallery.php:64
+#: gather/content-quote.php:46 gather/content-search.php:34
+#: gather/content-video.php:41 gather/content.php:64 gather/single.php:99
+msgid "1"
+msgstr ""
+
+#: gather/content-audio.php:41 gather/content-gallery.php:64
+#: gather/content-quote.php:46 gather/content-search.php:34
+#: gather/content-video.php:41 gather/content.php:64 gather/single.php:99
+msgid "%"
+msgstr ""
+
+#: gather/content-audio.php:45 gather/content-gallery.php:68
+#: gather/content-quote.php:50 gather/content-search.php:38
+#: gather/content-video.php:45 gather/content.php:68
+msgid "category "
+msgstr ""
+
+#: gather/content-audio.php:55 gather/content-gallery.php:78
+#: gather/content-page.php:28 gather/content-quote.php:60
+#: gather/content-search.php:48 gather/content-video.php:55
+#: gather/content.php:78 gather/single.php:115
+msgid "Pages:"
+msgstr ""
+
+#: gather/content-audio.php:68 gather/content-gallery.php:91
+#: gather/content-quote.php:73 gather/content-search.php:61
+#: gather/content-video.php:68 gather/content.php:91
+msgid "Read Article →"
+msgstr ""
+
+#: gather/content-none.php:16
+msgid "Nothing Found Here!"
+msgstr ""
+
+#: gather/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: gather/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: gather/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: gather/footer.php:41
+msgid "back to top"
+msgstr ""
+
+#: gather/functions.php:111
+msgid "Main Sidebar"
+msgstr ""
+
+#: gather/functions.php:113
+msgid "Appears in the sidebar section of the site."
+msgstr ""
+
+#: gather/functions.php:123
+msgid "Page Sidebar"
+msgstr ""
+
+#: gather/functions.php:125
+msgid "Appears in the sidebar section of the page template."
+msgstr ""
+
+#: gather/functions.php:134
+msgid "Navigation Right Widget"
+msgstr ""
+
+#: gather/functions.php:136
+msgid "Appears in right navigation menu"
+msgstr ""
+
+#: gather/functions.php:145
+msgid "Footer Widgets Widget"
+msgstr ""
+
+#: gather/functions.php:147
+msgid "Appears above footer contact info widget"
+msgstr ""
+
+#: gather/functions.php:156
+msgid "Footer Copyright Widget"
+msgstr ""
+
+#: gather/functions.php:158
+msgid "Appears above footer copyright text"
+msgstr ""
+
+#: gather/functions.php:194
+msgid "Main Navigation Menu"
+msgstr ""
+
+#: gather/functions.php:195
+msgid "One Page Navigation Menu"
+msgstr ""
+
+#: gather/functions.php:216
+msgctxt "countdown js"
+msgid "day"
+msgstr ""
+
+#: gather/functions.php:217
+msgctxt "countdown js"
+msgid "days"
+msgstr ""
+
+#: gather/functions.php:218
+msgctxt "countdown js"
+msgid "hour"
+msgstr ""
+
+#: gather/functions.php:219
+msgctxt "countdown js"
+msgid "hours"
+msgstr ""
+
+#: gather/functions.php:220
+msgctxt "countdown js"
+msgid "minute"
+msgstr ""
+
+#: gather/functions.php:221
+msgctxt "countdown js"
+msgid "minutes"
+msgstr ""
+
+#: gather/functions.php:222
+msgctxt "countdown js"
+msgid "second"
+msgstr ""
+
+#: gather/functions.php:223
+msgctxt "countdown js"
+msgid "seconds"
+msgstr ""
+
+#: gather/functions.php:224
+msgctxt "countdown js"
+msgid "Invalid date. Here's an example: 12 Tuesday 2016 17:30:00"
+msgstr ""
+
+#: gather/functions.php:297
+msgid "/"
+msgstr ""
+
+#: gather/functions.php:300
+msgid "Home"
+msgstr ""
+
+#: gather/functions.php:301
+msgid "Our Blog"
+msgstr ""
+
+#: gather/functions.php:471 gather/functions.php:475 gather/functions.php:479
+#: gather/functions.php:486 gather/functions.php:490 gather/functions.php:495
+msgid " Archives"
+msgstr ""
+
+#: gather/functions.php:506
+msgid " Author: "
+msgstr ""
+
+#: gather/functions.php:511
+msgid "Page"
+msgstr ""
+
+#: gather/functions.php:516
+msgid "Search results for: "
+msgstr ""
+
+#: gather/functions.php:521
+msgid "Error 404"
+msgstr ""
+
+#: gather/functions.php:611
+msgid "Previous"
+msgstr ""
+
+#: gather/functions.php:619
+msgid "Next"
+msgstr ""
+
+#: gather/functions.php:680
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-long-arrow-left\"></i>"
+msgstr ""
+
+#: gather/functions.php:685
+msgctxt "Next post link"
+msgid "<i class=\"fa fa-long-arrow-right\"></i>"
+msgstr ""
+
+#: gather/functions.php:694
+msgid "Search ..."
+msgstr ""
+
+#: gather/functions.php:743
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: gather/functions.php:744
+msgid "/ (Edit)"
+msgstr ""
+
+#: gather/functions.php:752
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: gather/functions.php:896
+msgid "Install Required Plugins"
+msgstr ""
+
+#: gather/functions.php:896
+msgid "Install Plugins"
+msgstr ""
+
+#: gather/functions.php:896
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: gather/functions.php:899
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: gather/functions.php:923
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: gather/functions.php:923
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: gather/functions.php:923
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: gather/header-onepage.php:64 gather/header.php:64
+msgid "Toggle navigation"
+msgstr ""
+
+#: gather/search.php:23
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: gather/searchform.php:17
+msgid "<i class=\"glyphicon glyphicon-search glyphicon-lg\"></i>"
+msgstr ""
+
+#: gather/single.php:99
+msgid "com "
+msgstr ""
+
+#: gather/single.php:103
+msgid "cat "
+msgstr ""
+
+#: gather/vc_templates/cth_addtocalendar.php:24
+msgid "<i class=\"fa fa-calendar\"></i> Add to My Calendar"
+msgstr ""
+
+#: gather/vc_templates/cth_countdown.php:23
+msgid "days"
+msgstr ""
+
+#: gather/vc_templates/cth_countdown.php:26
+msgid "hours"
+msgstr ""
+
+#: gather/vc_templates/cth_countdown.php:29
+msgid "minutes"
+msgstr ""
+
+#: gather/vc_templates/cth_countdown.php:32
+msgid "seconds"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:22
+msgid "Direction From:"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:28
+msgid "Via<small>(Optional)</small> "
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:34
+msgid "Travel mode:"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:36
+msgid " Driving"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:39
+msgid " Bicylcing"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:42
+msgid " Public transport"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:45
+msgid " Walking"
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:49
+msgid "<i class=\"fa fa-location-arrow\"></i> Get Directions "
+msgstr ""
+
+#: gather/vc_templates/cth_directions.php:56
+msgid ""
+"Enter Direction from and Travel Mode from the left form to see directions. "
+msgstr ""
+
+#: gather/vc_templates/cth_latest_posts.php:54
+msgid "Read More"
+msgstr ""
+
+#: gather/vc_templates/cth_mailchimp.php:21
+msgid "Please enter your email address"
+msgstr ""
+
+#: gather/vc_templates/cth_mailchimp.php:22
+msgid "Please wait..."
+msgstr ""
+
+#: gather/vc_templates/cth_mailchimp.php:33
+#: gather/vc_templates/cth_mailchimp.php:56
+msgid "Enter address"
+msgstr ""
+
+#: gather/vc_templates/cth_mailchimp.php:34
+#: gather/vc_templates/cth_mailchimp.php:57
+msgid "Enter your email"
+msgstr ""
+
+#: gather/vc_templates/cth_mailchimp.php:43
+msgid "Subscribe Now"
+msgstr ""
+
+#: gather/vc_templates/cth_mailchimp.php:66
+msgid "Subscribe Now →"
+msgstr ""

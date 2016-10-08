@@ -1,0 +1,207 @@
+<h2>Помощь по менеджеру ролей</h2>
+<h3 id="help_toc">Таблица содержания</h3>
+<ul>
+<li><a href="#general">Некоторые основы использования "плагина Менеджер Ролей"</a></li>
+<li><a href="#roles">Роли</a>
+ <ul>
+  <li><a href="#attached_roles">Включенные роли</a>
+  <li><a href="#detached_roles">Отключенные роли</a>
+ </ul>
+</li>
+<li><a href="#caps">Способности</a>
+ <ul>
+  <li><a href="#detached_caps">Отключенные способности</a>
+  <li><a href="#dedicated_caps">Выделенные способности</a>
+  <li><a href="#unused_caps">Неиспользуемые способности</a>
+ </ul>
+</li>
+<li><a href="#web">Внешняя документация по Ролям и Способностям</a></li>
+</ul>
+<h2><strong>Помощь по использованию плагина Менеджера Ролей</strong></h2>
+<p><strong>Описание способностей, которые вы можете назначать на роли</strong></p>
+<ul>
+<table cellspacing="0" cellpadding="2" width="474" border="0" unselectable="on">
+<tbody>
+<tr>
+<td valign="top" width="179">Create Users</td>
+<td valign="top" width="293">Создание пользователей</td></tr>
+<tr>
+<td valign="top" width="179">Delete Image</td>
+<td valign="top" width="293">Удаление изображений</td></tr>
+<tr>
+<td valign="top" width="179">Delete Others Pages</td>
+<td valign="top" width="293">Удаление других&nbsp;страниц</td></tr>
+<tr>
+<td valign="top" width="179">Delete Others Posts</td>
+<td valign="top" width="293">Удаление&nbsp;других записей</td></tr>
+<tr>
+<td valign="top" width="179">Delete Pages</td>
+<td valign="top" width="293">Удаление страниц</td></tr>
+<tr>
+<td valign="top" width="179">Delete Posts </td>
+<td valign="top" width="293">Удаление записей</td></tr>
+<tr>
+<td valign="top" width="179">Delete Private Pages</td>
+<td valign="top" width="293">Удаление личных страниц</td></tr>
+<tr>
+<td valign="top" width="179">Delete Private Posts </td>
+<td valign="top" width="293">Удаление личных записей</td></tr>
+<tr>
+<td valign="top" width="179">Delete Published Pages </td>
+<td valign="top" width="293">Удаление опубликованных страниц</td></tr>
+<tr>
+<td valign="top" width="179">Delete Published Posts </td>
+<td valign="top" width="293">Удаление опубликованных записей</td></tr>
+<tr>
+<td valign="top" width="179">Delete Users </td>
+<td valign="top" width="293">Удаление пользователей</td></tr>
+<tr>
+<td valign="top" width="179">Edit Files</td>
+<td valign="top" width="293">Редактирование файлов</td></tr>
+<tr>
+<td valign="top" width="179">Edit Image</td>
+<td valign="top" width="293">Редактирование изображений</td></tr>
+<tr>
+<td valign="top" width="179">Edit Others Pages</td>
+<td valign="top" width="293">Редактирование других страниц</td></tr>
+<tr>
+<td valign="top" width="179">Edit Others Posts</td>
+<td valign="top" width="293">Редактирование других записей</td></tr>
+<tr>
+<td valign="top" width="179">Edit Pages </td>
+<td valign="top" width="293">Редактирование страниц</td></tr>
+<tr>
+<td valign="top" width="179">Edit Plugins </td>
+<td valign="top" width="293">Редактирование плагинов</td></tr>
+<tr>
+<td valign="top" width="179">Edit Posts </td>
+<td valign="top" width="293">Редактирование записей</td></tr>
+<tr>
+<td valign="top" width="179">Edit Private Pages</td>
+<td valign="top" width="293">Редактирование личных страниц</td></tr>
+<tr>
+<td valign="top" width="179">Edit Private Posts</td>
+<td valign="top" width="293">Редактирование личных записей</td></tr>
+<tr>
+<td valign="top" width="179">Edit Published Pages</td>
+<td valign="top" width="293">Редактирование опубликованных страниц</td></tr>
+<tr>
+<td valign="top" width="179">Edit Published Posts </td>
+<td valign="top" width="293">Редактирование опубликованных записей</td></tr>
+<tr>
+<td valign="top" width="179">Edit Themes</td>
+<td valign="top" width="293">Редактивование тем оформления</td></tr>
+<tr>
+<td valign="top" width="179">Edit Users </td>
+<td valign="top" width="293">Редактирование пользователей</td></tr>
+<tr>
+<td valign="top" width="179">Import </td>
+<td valign="top" width="293">Импорт в блог</td></tr>
+<tr>
+<td valign="top" width="179">Make Directory </td>
+<td valign="top" width="293">Создание директорий</td></tr>
+<tr>
+<td valign="top" width="179">Manage Categories</td>
+<td valign="top" width="293">Управление рубриками</td></tr>
+<tr>
+<td valign="top" width="179">Manage Links</td>
+<td valign="top" width="293">Управление ссылками</td></tr>
+<tr>
+<td valign="top" width="179">Manage Options</td>
+<td valign="top" width="293">Управление настройками</td></tr>
+<tr>
+<td valign="top" width="179">Manage Ratings </td>
+<td valign="top" width="293">Управление рейтингами</td></tr>
+<tr>
+<td valign="top" width="179">Moderate Comments </td>
+<td valign="top" width="293">Модерирование комментариев</td></tr>
+<tr>
+<td valign="top" width="179">Publish Pages </td>
+<td valign="top" width="293">Публикация страниц</td></tr>
+<tr>
+<td valign="top" width="179">Publish Posts</td>
+<td valign="top" width="293">Публикация записей</td></tr>
+<tr>
+<td valign="top" width="179">Read </td>
+<td valign="top" width="293">Чтение блога</td></tr>
+<tr>
+<td valign="top" width="179">Read Private Pages</td>
+<td valign="top" width="293">Чтение личных страниц</td></tr>
+<tr>
+<td valign="top" width="179">Read Private Posts</td>
+<td valign="top" width="293">Чтение личных записей</td></tr>
+<tr>
+<td valign="top" width="179">Switch Themes</td>
+<td valign="top" width="293">Переключение тем оформления</td></tr>
+<tr>
+<td valign="top" width="179">Unfiltered Html </td>
+<td valign="top" width="293">Нефильтрованных Html</td></tr>
+<tr>
+<td valign="top" width="179">
+<p>Upload Files</p></td>
+<td valign="top" width="293">Загрузка файлов</td></tr></tbody></table></ul>
+<p><strong>Описание уровней пользователей</strong></p>
+<ul>
+<li><strong>Administrator(Администратор)</strong> -&nbsp;Кто то, имеющий полный доступ к администрирующим возможностям&nbsp;</li>
+<li><strong>Editor(Редактор) </strong>- Кто то, имеющий доступ к публикации записей,&nbsp;управлению записями&nbsp;включая записи других людей, и т.д. </li>
+<li><strong>Author(Автор)</strong> -&nbsp;Кто то, имеющий возможность публиковать и управлять только своими записями&nbsp;</li>
+<li><strong>Contributor(Участник)</strong> -&nbsp;Кто то, имеющий возможность писать и управлять своими записями, но не может их самостоятельно опубликовать&nbsp;</li>
+<li><strong>Subscriber(Подписчик) </strong>- Кто то, кто может читать комментарии/комментировать/получать письма с новостями, и т.д.</li></ul>
+<p><strong></strong>&nbsp;</p>
+<p><strong>Описание Ролей</strong>&nbsp;
+<p>Идентичность, которую специфический пользователь принимает в блоге, называют их Ролью. Роль по существу описывает набор задач, названных Способностями, разрешающими выполнять их людьми. Например, роль Администратора охватывает каждую возможную задачу, которая может быть выполнена в пределах блога WordPress.С другой стороны, Роль Автора позволяет выполнение только маленького подмножества Способностей.
+<p><strong>Преобразование Уровней пользователей и Ролей</strong></p>
+<ul>
+<li>User Level 0 преобразуется&nbsp;в Роль&nbsp;Подписчика</li>
+<li>User Level 1 преобразуется&nbsp;в Роль Участника</li>
+<li>User Level 2 преобразуется&nbsp;в Роль Автора</li>
+<li>User Level 3 преобразуется&nbsp;в Роль Автора</li>
+<li>User Level 4 преобразуется&nbsp;в Роль Автора</li>
+<li>User Level 5 преобразуется&nbsp;в Роль Редактора</li>
+<li>User Level 6 преобразуется&nbsp;в Роль Редактора</li>
+<li>User Level 7 преобразуется&nbsp;в Роль Редактора </li>
+<li>User Level 8 преобразуется&nbsp;в Роль Администратора</li>
+<li>User Level 9 преобразуется&nbsp;в Роль Администратора</li>
+<li>User Level 10 преобразуется&nbsp;в Роль Администратора</li></ul>
+<p><strong>Преобразование Ролей в Уровни пользователей</strong></p>
+<ul>
+<li>Подписчик - User Level 0</li>
+<li>Участник - User Level 1 </li>
+<li>Автор -&nbsp;User Levels 2, 3,&nbsp;и 4 </li>
+<li>Редактор - User Levels 5, 6,&nbsp;и 7 </li>
+<li>Администратор - User Level 8, 9,&nbsp;и 10</li></ul>
+<p><strong>Что управление ролями пользователя может делать? </strong></p>
+<p>WordPress&nbsp;версии 2.0 вводит понятие Ролей. Каждой Роли позволено выполнить ряд задач&nbsp;с наназваниями&nbsp;Способности.&nbsp;Этот Плагин позволяет вам&nbsp;определять и управлять&nbsp;множество профилей подписчиков&nbsp;-&nbsp;называемых Ролями&nbsp;и их Способностями.&nbsp;Также вы можете создать новые Роли и Способности. 
+<p>Если вы используете этот Плагин&nbsp;для управления вашим&nbsp;Wordpress, Пользователи могут принадлежать только одной роли и можно назначить индивидуальные способности к ним вне контекста роли.</p>
+
+
+<h3 id="#general">Некоторые основы использования "плагина Менеджер Ролей"</h3>
+<p>С "плагином Менеджер Ролей" вы можете управлять ролями и способностями вашего блога WordPress.</p>
+<p><strong>Пожалуйста, используйте этот плагин аккуратно, потому что все вносимые изменения применяются на постоянно. Это означает, что даже при деактивации плагина "Менеджер Ролей" все ваши изменения останутся активны!</strong></p>
+<p>"Менеджер Ролей" добавляет четыре страницы в меню пользователей блога и дополнительный блок настройки способностей в профиль каждого индивидуального пользователя. Для использования "Менеджера Ролей", пользователь должен иметь способность "Manage Roles" в дополнение к способности "Edit Users".</p>
+<h3 id="roles">Роли</h3>
+<p>Также с "Менеджером Ролей" одиночный пользователь может иметь только одну роль. Максимальная длина имени роли составляет 30 символов. 
+Разрешены только латинские буквы, цифры и пробелы. Вы не можете указать имя роли, совпадающее с именем способности.</p>  
+<h4 id="attached_roles">Включенные роли</h4>
+<p>"Включенная роль" - это роль с одним или более назначенными пользователями.</p>
+<h4 id="detached_roles">Отключенные роли</h4>
+<p>Роль, которая не назначена ни одному из пользователей, называется "отключенной ролью".</p>
+<h3 id="caps">Способности</h3>
+<p>Максимальная длина имени способности составляет 30 символов. 
+Разрешены только латинские буквы, цифры и пробелы. Вы не можете указать имя способности, совпадающее с именем роли.</p>  
+<h4 id="detached_caps">Отключенные способности</h4>
+<p>Если способность назначена роли и ни один из пользователей не имеет такой роли, то она называется "отключенной способностью".</p>
+<h4 id="dedicated_caps">Выделенные способности</h4>
+<p>Способность, которая не назначена ни одной роли, но назначенная индивидуально одному или нескольким пользователям как дополнительная способность.</p>
+<h4 id="unused_caps">Неиспользуемые способности</h4>
+<p>Это способности, которые не назначены ни одной роли или какому-либо пользователю как дополнительная способность. Только эти способности могут быть очищены используя кнопку "Удалить неиспользуемые способности".</p>
+
+<h3 id="#web">Внешняя документация по Ролям и Способностям WordPress</h3>
+<p>Места, где вы можете найти больше информации по Ролям и Способностям WordPress:</p>
+<ul>
+<li>Домашняя страница "<a href="http://www.im-web-gefunden.de/wordpress-plugins/role-manager/" title="Role Manager Homepage">плагина Менеджера Ролей</a>"</li>
+<li><a href="http://codex.wordpress.org/Roles_and_Capabilities" title="Wordpress Codex about Roles and Capabilities">Кодекс Wordpress о Ролях и Способностях</a></li>
+<li>Owen Winkler's <a href="http://asymptomatic.net/2005/07/11/1747/permission-change-overview-in-16/" title="Permission Change Overview">Обзор изменения разрешений в Wordpress</a> версии 2.0 и выше</li>
+<li>Ryan Boren's <a href="http://boren.nu/archives/2005/12/01/whats-new-in-20-roles-and-capabilities/" title="What's New in 2.0: Roles and Capabilities">Что нового в 2.0: Роли и способности</a></li>
+</ul>
+Русификация плагина и документации: <a href="http://lecactus.ru">Lecactus</a>

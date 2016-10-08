@@ -1,0 +1,4 @@
+.postbox { clear:both; }
+#tagsdiv, #categorydiv, .postbox#tagsdiv, .postbox#categorydiv { clear:none; }
+#tagsdiv { float:left; width:44%; margin-left:0.8em!important; }
+#categorydiv { float:right; width:48%; margin-left:0!important; }

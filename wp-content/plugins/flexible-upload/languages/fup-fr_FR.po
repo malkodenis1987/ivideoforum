@@ -1,0 +1,869 @@
+# Localization template file for Flexible Upload plugin for Wordpress
+# Copyright (C) 2007-2008
+# This file is distributed under the same license as the flexible-upload package
+# Antoine Choppin <antoine@japonophile.com>, 2007-2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-13 21:38+0900\n"
+"PO-Revision-Date: 2008-04-13 21:38+0900\n"
+"Last-Translator: Antoine Choppin <antoine@japonophile.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: flexible-upload.php:1005 flexible-upload.php:1051
+msgid " (px)"
+msgstr " (px)"
+
+#: flexible-upload-wp21js.php:98 flexible-upload-wp21js.php:100
+#: flexible-upload-wp21js.php:204 flexible-upload-wp21js.php:206
+msgid "&laquo; Back"
+msgstr "&laquo; Retour"
+
+#: flexible-upload.php:1102
+msgid "&lt;img&gt; property"
+msgstr "propriétés de &lt;img&gt;"
+
+#: flexible-upload-wp21js.php:441 flexible-upload-wp25js.php:25
+msgid "+add field"
+msgstr "+ajouter"
+
+#: flexible-upload-wp21js.php:476 flexible-upload-wp25js.php:59
+msgid "- remove"
+msgstr "- supprimer"
+
+#: flexible-upload.php:113
+#, php-format
+msgid ""
+"<b>Flexible Upload is not installed in the proper directory!</b><br />It "
+"won't work until installed in <b>%s</b><br />"
+msgstr ""
+"<b>Flexible Upload n'est pas installé dans le bon répertoire!</b><br />Il "
+"doit se trouver dans <b>%s</b> afin de fonctionner<br />"
+
+#: flexible-upload-wp20.php:298
+msgid "Align center"
+msgstr "Centrer"
+
+#: flexible-upload-wp20.php:296
+msgid "Align left"
+msgstr "Aligner à gauche"
+
+#: flexible-upload-wp20.php:297
+msgid "Align right"
+msgstr "Aligner à droite"
+
+#: flexible-upload-wp21js.php:147 flexible-upload-wp25.php:285
+msgid "Align:"
+msgstr "Alignement:"
+
+#: flexible-upload.php:1089
+msgid "Alignment mode:"
+msgstr "Mode d'alignement:"
+
+#: flexible-upload-wp21js.php:411
+#, php-format
+msgid ""
+"Are you sure you want to delete the file '%s'?\n"
+"Click ok to delete or cancel to go back."
+msgstr ""
+"Etes-vous certain de vouloir effacer le fichier &rsquo;%s&rsquo;?\n"
+"Cliquez ok pour effacer ou annuler pour retourner."
+
+#: flexible-upload-wp20.php:896 flexible-upload-wp20.php:899
+msgid "Back"
+msgstr "Retour"
+
+#: flexible-upload-wp20.php:121 flexible-upload-wp21.php:93
+msgid "Back to Image Uploading"
+msgstr "Retour à l'Envoi d'Images"
+
+#: flexible-upload.php:1234 flexible-upload-wp20.php:982
+#: flexible-upload-wp21js.php:573 flexible-upload-wp25js.php:156
+msgid "Bottom Right"
+msgstr "En bas à droite"
+
+#: flexible-upload-wp20.php:887
+msgid "Browse"
+msgstr "Parcourir"
+
+#: flexible-upload-wp20.php:890
+msgid "Browse All"
+msgstr "Tout parcourir"
+
+#: flexible-upload-wp21.php:33
+msgid "Browse Files"
+msgstr "Parcourir les fichiers"
+
+#: flexible-upload-wp21js.php:98 flexible-upload-wp21js.php:100
+#: flexible-upload-wp21js.php:204 flexible-upload-wp21js.php:206
+msgid "Browse your files"
+msgstr "Parcourir mes fichiers"
+
+#: flexible-upload.php:1098
+msgid "CSS"
+msgstr "CSS"
+
+#: flexible-upload-wp21js.php:160 flexible-upload-wp25.php:318
+msgid "Caption:"
+msgstr "Légende"
+
+#: flexible-upload-wp21js.php:151 flexible-upload-wp25.php:277
+msgid "Center"
+msgstr "Centre"
+
+#: flexible-upload.php:1278
+msgid ""
+"Check this box if you want the watermark picture to be added to thumbnails "
+"as well."
+msgstr ""
+"Cochez cette case si vous voulez également incruster le filigrane aux "
+"miniatures."
+
+#: flexible-upload.php:1259
+msgid ""
+"Check this box if you want the watermark picture to be rotated 90 degrees "
+"counter-clockwise before incrusting it into your pictures."
+msgstr ""
+"Cochez cette case si vous voulez roter le filigrane de 90 degrés dans le "
+"sens anti-horloger avant de l'incruster à vos images."
+
+#: flexible-upload.php:1297
+msgid ""
+"Check this box if you want to be able to specify watermark location and "
+"orientation separately for each picture you upload.  Otherwise, the above "
+"setting will be applied to all the pictures."
+msgstr ""
+"Cochez cette case si vous voulez pouvoir spécifier la position et "
+"l'orientation du filigrane séparément pour chaque image que vous envoyez.  "
+"Sinon, les paramètres ci-dessus seront appliqués à toutes les images."
+
+#: flexible-upload.php:1421
+msgid ""
+"Check this box if you want to disable WP editor \"cleanup\" feature.  If you "
+"don't disable it, you won't be able to add captions to your images (the "
+"div's will get screwed up by wpautop).<br />Note: if you do this, the "
+"Advanced Editor will not do any cleanup. If you make errors in your HTML "
+"that break the theme, you're on your own!"
+msgstr ""
+"Cochez cette case pour désactiver la fonction \"nettoyage\" de l'éditeur "
+"visuel de Wordpress.  Si vous ne désactivez pas cette fonction, les "
+"légendes de vos images ne seront pas affichées correctement (car wpautop "
+"modifie les div's).<br />Note: si vous faites ceci, l'éditeur n'effectuera "
+"aucun nettoyage. Si vous introduisez des erreurs HTML dans vos articles, "
+"vous risquez donc de briser le thème de votre blog."
+
+#: flexible-upload.php:1139
+msgid ""
+"Choose the default alignment when inserting a picture into your posts.  You "
+"will be able to change this for each picture.<br />Note:<br />- this setting "
+"will be ignored if alignment mode is \"disabled\".<br />- center alignment "
+"is not supported with \"&lt;img&gt; property\" alignment mode."
+msgstr ""
+"Choisissez l'alignement par défaut au moment d'insérer une image dans un "
+"article.  Vous pourrez changer ce paramètre pour chaque image.<br />Note:"
+"<br />- ce paramètre sera ignoré si le mode d'alignement est \"désactivé\"."
+"<br />- l'alignement centré n'est pas supporté si vous choisissez le mode "
+"d'alignement \"propriétés de &lt;img&gt;\"."
+
+#: flexible-upload.php:1241
+msgid ""
+"Choose the where you want the watermark to be incrusted into your pictures."
+msgstr "Choisissez l'endroit ou le filigrane doit être incrusté aux images."
+
+#: flexible-upload.php:1185
+msgid ""
+"Choose where/how you want your pictures to be displayed.  If choosing "
+"Lightbox, Greybox, Thickbox, HighslideJS or LightWindow make sure the "
+"corresponding plugin is installed."
+msgstr ""
+"Choisissez ou/comment vous voulez afficher vos images.  Si vous choisissez "
+"Lightbox, Greybox, Thickbox, HighslideJS ou LightWindow, veillez à ce que le "
+"plugin correspondant soit installé."
+
+#: flexible-upload-wp20.php:300
+msgid "Close Options"
+msgstr "Fermer les Options"
+
+#: flexible-upload.php:974
+#, php-format
+msgid "Consult the local %shelp page%s."
+msgstr "Consulter la %spage d'aide%s locale."
+
+#: flexible-upload.php:1351
+msgid "Content of \"alt\" attribute:"
+msgstr "Contenu de l'attribut \"alt\":"
+
+#: flexible-upload.php:1318
+msgid "Content of \"title\" attribute:"
+msgstr "Contenu de l'attribut \"title\":"
+
+#: flexible-upload-wp20.php:960 flexible-upload-wp21js.php:532
+#: flexible-upload-wp25js.php:115
+msgid "Create a thumbnail"
+msgstr "Créer une miniature"
+
+#: flexible-upload.php:1115
+msgid "Default alignment:"
+msgstr "Alignement par défaut:"
+
+#: flexible-upload.php:997
+msgid "Default maximum for resizing:"
+msgstr "Maximum par défaut pour réduction:"
+
+#: flexible-upload.php:1043
+msgid "Default maximum for thumbnail:"
+msgstr "Maximum par défaut pour miniature:"
+
+#: flexible-upload.php:992
+msgid "Default settings"
+msgstr "Paramètres par défaut"
+
+#: flexible-upload-wp20.php:284
+msgid "Delete"
+msgstr "Supprimer"
+
+#: flexible-upload-wp21js.php:236
+msgid "Delete File"
+msgstr "Effacer Fichier"
+
+#: flexible-upload-wp20.php:301
+msgid "Delete this file from the server?"
+msgstr "Supprimer ce fichier du serveur?"
+
+#: flexible-upload-wp21js.php:234 flexible-upload-wp21js.php:489
+#: flexible-upload-wp25js.php:72 flexible-upload-wp25.php:310
+msgid "Description"
+msgstr "Description"
+
+#: flexible-upload-wp20.php:931
+msgid "Description:"
+msgstr "Description:"
+
+#: flexible-upload-wp21js.php:104 flexible-upload-wp21js.php:113
+#: flexible-upload-wp21js.php:210 flexible-upload-wp21js.php:219
+msgid "Direct link to file"
+msgstr "Lien direct vers le fichier"
+
+#: flexible-upload.php:1409
+msgid "Disable editor cleanup (wpautop)?"
+msgstr ""
+
+#: flexible-upload-wp21js.php:108
+msgid "Edit"
+msgstr "Editer"
+
+#: flexible-upload.php:960
+msgid "Error encountered while updating options: "
+msgstr "Une erreur est survenue lors de la modification des paramsètres:"
+
+#: flexible-upload-wp21js.php:169 flexible-upload-wp21js.php:480
+#: flexible-upload-wp25js.php:63
+msgid "File"
+msgstr "Fichier"
+
+#: flexible-upload-wp20.php:455
+msgid "File Type:"
+msgstr "Type de fichier:"
+
+#: flexible-upload.php:649
+msgid "File not found"
+msgstr "Fichier introuvable"
+
+#: flexible-upload-wp20.php:923
+msgid "File:"
+msgstr "Fichier:"
+
+#: flexible-upload.php:577 flexible-upload.php:580 flexible-upload.php:583
+msgid "Filetype not supported. Thumbnail not created."
+msgstr "Type de fichier non supporté. Pas de miniature créée."
+
+#: flexible-upload-wp20.php:895
+msgid "First"
+msgstr "Début"
+
+#: flexible-upload.php:989
+msgid "Flexible Upload Options"
+msgstr "Paramètres de Flexible Upload"
+
+#: flexible-upload-wp21js.php:136 flexible-upload-wp25.php:300
+msgid "Full size"
+msgstr "Taille originale"
+
+#: flexible-upload-wp20.php:105
+msgid "Go back"
+msgstr "Retour"
+
+#: flexible-upload.php:1162
+msgid "Greybox"
+msgstr "Greybox"
+
+#: flexible-upload.php:1166
+msgid "Greybox plugin"
+msgstr "Plugin Greybox"
+
+#: flexible-upload.php:972
+msgid "Help"
+msgstr "Aide"
+
+#: flexible-upload.php:1174
+msgid "HighslideJS"
+msgstr "HighslideJS"
+
+#: flexible-upload-wp21js.php:138
+msgid "Icon"
+msgstr "Icone"
+
+#: flexible-upload.php:1404
+msgid ""
+"If you want a caption, select the text to be displayed below your images. "
+"Otherwise, select \"Nothing\".  Note:<ul><li>For the caption feature to work "
+"properly, you need to use CSS alignment, and to either disable the editor "
+"cleanup (see below) or use a visual editor that does not mess up the div's.</"
+"li><li>You can customize the style of your captions using the \"imagecaption"
+"\" CSS class</li></ul>"
+msgstr ""
+"Si vous voulez afficher une légende au-dessous de vos images, sélectionnez "
+"le texte à utiliser en guise de légende, sinon sélectionnez \"Rien\"."
+"Note:<ul><li>Pour que les légendes soient affichées correctement, vous "
+"devez utiliser l'alignement par CSS, et soit désactiver la fonctionnalité "
+"de \"nettoyage\" de l'éditeur, soit utiliser un éditeur qui ne modifiera "
+"pas les div's.</li><li>Vous pouvez personnaliser le style de vos légendes "
+"en utilisant la classe CSS \"imagecaption\".</li></ul>"
+
+#: flexible-upload.php:986
+#, php-format
+msgid ""
+"If you want to upload more than one image at a time, make sure this limit is "
+"greater than the maximum file size x the number of images you want to upload "
+"at once. (see %sPHP help about post_max_size%s)"
+msgstr ""
+"Si vous souhaitez envoyer plus d'une image à la fois, assurez-vous que cette "
+"limite est plus grande que la taille maximale d'un fichier x le numbre "
+"d'images que vous souhaitez envoyer à la fois. (voir %sl'aide PHP à propos "
+"de post_max_size%s)"
+
+#: flexible-upload.php:1380
+msgid "Image caption:"
+msgstr "Légende de l'image"
+
+#: flexible-upload.php:1331 flexible-upload.php:1364 flexible-upload.php:1393
+msgid "Image description"
+msgstr "Description de l'image"
+
+#: flexible-upload.php:1327 flexible-upload.php:1360 flexible-upload.php:1389
+msgid "Image title (name)"
+msgstr "Titre (nom) de l'image"
+
+#: flexible-upload-wp21js.php:214
+msgid "Insert"
+msgstr "Insérer"
+
+#: flexible-upload-wp25js.php:258
+msgid "Insert into Excerpt"
+msgstr "Insérer dans l'extrait"
+
+#: flexible-upload.php:1303
+msgid "JPEG quality:"
+msgstr "Qualité JPEG:"
+
+#: flexible-upload-wp20.php:903
+msgid "Last"
+msgstr "Fin"
+
+#: flexible-upload-wp21js.php:149 flexible-upload-wp25.php:272
+msgid "Left"
+msgstr "Gauche"
+
+#: flexible-upload.php:1178
+msgid "LightWindow"
+msgstr "LightWindow"
+
+#: flexible-upload.php:1158
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: flexible-upload.php:1145
+msgid "Link plugin or target:"
+msgstr "Plugin d'affichage ou cible:"
+
+#: flexible-upload-wp21js.php:168
+msgid "Link to:"
+msgstr "Lien vers:"
+
+#: flexible-upload-wp20.php:288
+msgid "Linked to File"
+msgstr "Lié au fichier"
+
+#: flexible-upload-wp20.php:287
+msgid "Linked to Image"
+msgstr "Lié à l'image"
+
+#: flexible-upload-wp20.php:286
+msgid "Linked to Page"
+msgstr "Lié à la page"
+
+#: flexible-upload-wp20.php:980 flexible-upload-wp21js.php:564
+#: flexible-upload-wp25js.php:147
+msgid "Location of Watermark: "
+msgstr "Position du filigrane: "
+
+#: flexible-upload.php:1336 flexible-upload.php:1368 flexible-upload.php:1397
+#: flexible-upload-wp25.php:313
+msgid "Long description"
+msgstr "Longue description"
+
+#: flexible-upload.php:984
+#, php-format
+msgid ""
+"Make sure this size is large enough, you won't be able to upload an image "
+"whose file size is bigger than this value. (see %sPHP help about "
+"upload_max_filesize%s)"
+msgstr ""
+"Assurez-vous que cette taille est suffisante.  Vous ne pourrez pas envoyer "
+"de fichier dont la taille dépasse cette valeur. (voir %sl'aide PHP à propos "
+"de upload_max_filesize%s)"
+
+#: flexible-upload.php:985
+#, php-format
+msgid "Maximum POST size: <b>%s</b>"
+msgstr "Taille maximale du POST: <b>%s</b>"
+
+#: flexible-upload.php:983
+#, php-format
+msgid "Maximum uploadable file size: <b>%s</b>"
+msgstr "Taille maximale du fichier à envoyer"
+
+#: flexible-upload-wp20.php:905
+msgid "Next"
+msgstr "Suivant"
+
+#: flexible-upload-wp20.php:902
+msgid "Next &raquo;"
+msgstr "Suivant &raquo;"
+
+#: flexible-upload-wp21js.php:148 flexible-upload-wp21js.php:161
+msgid "No"
+msgstr "Non"
+
+#: flexible-upload-wp20.php:294
+msgid "No Thumbnail"
+msgstr "Pas de miniature"
+
+#: flexible-upload-wp20.php:295
+msgid "No alignment"
+msgstr "Pas d'alignement"
+
+#: flexible-upload-wp21.php:44 flexible-upload-wp25.php:82
+msgid "No file was uploaded."
+msgstr "Aucun fichier envoyé"
+
+#: flexible-upload.php:1230 flexible-upload-wp21js.php:171
+#: flexible-upload-wp21js.php:569 flexible-upload-wp25js.php:152
+#: flexible-upload-wp25.php:269 flexible-upload-wp25.php:316
+msgid "None"
+msgstr "Aucun"
+
+#: flexible-upload-wp20.php:285
+msgid "Not Linked"
+msgstr "Pas lié"
+
+#: flexible-upload.php:1341 flexible-upload.php:1372 flexible-upload.php:1401
+msgid "Nothing"
+msgstr "Rien"
+
+#: flexible-upload.php:965
+msgid "Options updated."
+msgstr "Paramètres modifiés."
+
+#: flexible-upload-wp21js.php:170
+msgid "Page"
+msgstr "Page"
+
+#: flexible-upload-wp20.php:206 flexible-upload-wp21js.php:630
+#: flexible-upload-wp25js.php:211
+msgid "Please enter the size to which the image should be resized."
+msgstr "Veuillez entrer la taille à laquelle l&rsquo;image doit être réduite."
+
+#: flexible-upload-wp20.php:211 flexible-upload-wp21js.php:635
+#: flexible-upload-wp25js.php:216
+msgid "Please enter the thumbnail size."
+msgstr "Veuillez entrer la taille de la miniature."
+
+#: flexible-upload.php:1013 flexible-upload.php:1059
+msgid "Resize against:"
+msgstr "Réduire:"
+
+#: flexible-upload-wp20.php:946 flexible-upload-wp20.php:966
+#: flexible-upload-wp21js.php:507 flexible-upload-wp21js.php:537
+#: flexible-upload-wp25js.php:90 flexible-upload-wp25js.php:120
+msgid "Resize against: "
+msgstr "Réduire:"
+
+#: flexible-upload-wp20.php:940 flexible-upload-wp21js.php:502
+#: flexible-upload-wp25js.php:85
+msgid "Resize image"
+msgstr "Réduire l&rsquo;image"
+
+#: flexible-upload-wp21js.php:153 flexible-upload-wp25.php:282
+msgid "Right"
+msgstr "Droite"
+
+#: flexible-upload.php:1247
+msgid "Rotate watermark?"
+msgstr "Roter le filigrane?"
+
+#: flexible-upload-wp20.php:989 flexible-upload-wp21js.php:585
+#: flexible-upload-wp25js.php:168
+msgid "Rotated Watermark"
+msgstr "Filigrane roté"
+
+#: flexible-upload-wp21js.php:241
+msgid "Save &raquo;"
+msgstr "Sauvegarder &raquo;"
+
+#: flexible-upload-wp25.php:204
+msgid "Save all changes"
+msgstr "Sauvegarder les modifications"
+
+#: flexible-upload.php:1375
+msgid "Select what you want to see in the \"alt\" attribute of the image."
+msgstr ""
+"Sélectionnez ce que vous voulez voir apparaitre dans l'attribut \"alt\" de "
+"l'image."
+
+#: flexible-upload.php:1344
+msgid ""
+"Select what you want to see in the \"title\" attribute of the image.  Some "
+"plugins display this title as a legend below the image."
+msgstr ""
+"Sélectionnez ce que vous voulez voir apparaitre dans l'attribut \"title\" de "
+"l'image.  Certains plugin affichent ce titre comme légende de l'image."
+
+#: flexible-upload-wp20.php:299
+msgid "Send to editor"
+msgstr "Envoyer à l'éditeur"
+
+#: flexible-upload-wp21js.php:175
+msgid "Send to editor &raquo;"
+msgstr "Envoyer à l&rsquo;éditeur &raquo;"
+
+#: flexible-upload-wp21js.php:143 flexible-upload-wp25.php:292
+msgid "Show:"
+msgstr "Afficher:"
+
+#: flexible-upload.php:1191
+msgid "Signature image (for watermark):"
+msgstr "Image de signature (pour filigrane):"
+
+#: flexible-upload.php:1083
+msgid ""
+"Specify against which side you want to create your thumbnails.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square thumbnails."
+msgstr ""
+"Veuillez spécifier le côté de l'image par rapport auquel vous souhaitez "
+"créer vos miniatures.  Vous pourrez changer ce paramètre pour chaque image.  "
+"Si vous choisissez \"plus petit côté\", vos images seront rognées et vous "
+"pourrez créer des miniatures carrées."
+
+#: flexible-upload.php:1037
+msgid ""
+"Specify against which side you want to resize your pictures.  You will be "
+"able to change this for each picture.  Choosing \"smallest side\" allows "
+"cropping your pictures and create square images."
+msgstr ""
+"Veuillez spécifier le côté de l'image par rapport auquel vous souhaitez "
+"réduire vos images.  Vous pourrez changer ce paramètre pour chaque image.  "
+"Si vous choisissez \"plus petit côté\", vos images seront rognées et de "
+"forme carrée."
+
+#: flexible-upload.php:1109
+msgid ""
+"Specify how you want to specify the alignment when inserting pictures.  You "
+"can choose:<br />1. <strong>CSS</strong>: alignment (left/right/center) will "
+"be specified through different CSS classes which you should add to your "
+"theme's stylesheet.<br />2. <strong>\"img\" property</strong>: the alignment "
+"(left/right) will be specified through the \"align\" property of the &lt;"
+"img&gt; html tag.<br />3. Specify no alignment at all."
+msgstr ""
+"Veuillez spécifier l'alignement à appliquer au moment d'insérer vos images.  "
+"Vous pouvez choisir:<br />1. <strong>CSS</strong>: l'alignement (gauche/"
+"droite/centre) sera spécifié au moyen de classes CSS que vous devrez définir "
+"dans la feuille de style de votre thème.<br />2. <strong>propriété de \"img"
+"\"</strong>: l'alignement (gauche/droite) sera spécifié via la propriété "
+"\"align\" du tag html &lt;img&gt;.<br />3. Ne spécifier aucun alignement."
+
+#: flexible-upload.php:1312
+msgid ""
+"Specify the JPEG quality factor (from 0 to 100).  This option will be used "
+"when manipulating JPEG images."
+msgstr ""
+"Veuillez spécifier le facteur de qualité JPEG (de 0 à 100).  Ce paramètre "
+"sera utilisé lors de la manipulation d'images JPEG."
+
+#: flexible-upload.php:1007
+msgid ""
+"Specify the default size to which you want to resize your pictures (leave "
+"blank if you don't want to resize your pictures).  You will be able to "
+"change this for each picture."
+msgstr ""
+"Veuillez spécifier la taille par défaut à laquelle vous souhaitez réduire "
+"vos images (laissez ce paramètre vide si vous ne souhaitez pas réduirevos "
+"images).  Vous pourrez changer ce paramètre pour chaque image."
+
+#: flexible-upload.php:1053
+msgid ""
+"Specify the default thumbnail size (leave blank if you don't want to "
+"generate a thumbnail).  You will be able to change this for each picture."
+msgstr ""
+"Veuillez spécifier la taille par défaut à utiliser pour la création de "
+"miniatures (laissez ce paramètre vide si vous ne souhaitez pas créer de "
+"miniatures).  Vous pourrez changer ce paramètre pour chaque image."
+
+#: flexible-upload.php:1285
+msgid "Specify watermark options for each picture?"
+msgstr "Spécifier les paramètres de filigrane pour chaque image?"
+
+#: flexible-upload.php:979
+msgid "System Configuration"
+msgstr "Configuration du système"
+
+#: flexible-upload.php:982
+#, php-format
+msgid "System memory limit: <b>%s</b>"
+msgstr "Limite de la mémoire du système: <b>%s</b>"
+
+#: flexible-upload-wp20.php:302
+msgid "There is no thumbnail associated with this photo."
+msgstr "Il n'y a pas de miniature associée à cette photo."
+
+#: flexible-upload.php:1170
+msgid "Thickbox"
+msgstr "Thickbox"
+
+#: flexible-upload-wp20.php:470
+msgid "This script was not meant to be called directly."
+msgstr "Ce script n'est pas supposé être invoqué directement."
+
+#: flexible-upload-wp21js.php:133 flexible-upload-wp25.php:297
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: flexible-upload.php:632 flexible-upload.php:639 flexible-upload.php:644
+msgid "Thumbnail path invalid"
+msgstr "Chemin vers la miniature invalide"
+
+#: flexible-upload-wp21js.php:141 flexible-upload-wp21js.php:231
+#: flexible-upload-wp21js.php:485 flexible-upload-wp25js.php:68
+#: flexible-upload-wp25.php:307
+msgid "Title"
+msgstr "Titre"
+
+#: flexible-upload-wp20.php:927
+msgid "Title:"
+msgstr "Titre:"
+
+#: flexible-upload.php:1238 flexible-upload-wp20.php:983
+#: flexible-upload-wp21js.php:577 flexible-upload-wp25js.php:160
+msgid "Top Right"
+msgstr "En haut à droite"
+
+#: flexible-upload-wp21js.php:228
+msgid "URL"
+msgstr "URL"
+
+#: flexible-upload.php:1431
+msgid "Update Options"
+msgstr "Modifier les Paramètres"
+
+#: flexible-upload-wp20.php:885 flexible-upload-wp20.php:1000
+msgid "Upload"
+msgstr "Envoyer"
+
+#: flexible-upload-wp21js.php:452 flexible-upload-wp25js.php:35
+msgid "Upload &raquo;"
+msgstr "Envoyer &raquo;"
+
+#: flexible-upload-wp20.php:292
+msgid "Using Filename"
+msgstr "Utilisant le fichier"
+
+#: flexible-upload-wp20.php:293
+msgid "Using Icon"
+msgstr "Utilisant la miniature"
+
+#: flexible-upload-wp20.php:290
+msgid "Using Original"
+msgstr "Utilisant l'original"
+
+#: flexible-upload-wp20.php:289
+msgid "Using Thumbnail"
+msgstr "Utilisant la miniature"
+
+#: flexible-upload-wp20.php:291
+msgid "Using Title"
+msgstr "Utilisant le titre"
+
+#: flexible-upload.php:1266
+msgid "Watermark Thumbnails?"
+msgstr "Filigrane dans les miniatures?"
+
+#: flexible-upload.php:1221
+msgid "Watermark location:"
+msgstr "Position du filigrane:"
+
+#: flexible-upload.php:1212
+msgid ""
+"Watermarking functionality is <strong>enabled</strong>.<br />If you don't "
+"need it, blank out the image path above."
+msgstr ""
+"La fonctionalité d'incrustation du filigrane est <strong>active</strong>."
+"<br />Si vous n'en voulez pas, effacez le chemin vers l'image ci-dessus."
+
+#: flexible-upload.php:1202
+msgid ""
+"Watermarking functionality is currently <strong>disabled</strong>.  To "
+"enable it, you must:<br />1. Make sure that GD is installed on the "
+"server<br />2. Prepare a signature image and provide its path, relative to "
+"WP root directory: e.g. \"wp-content/uploads/my-watermark.gif\""
+msgstr ""
+"La fonctionalité d'incrustation du filigrane est <strong>inactive</strong>.  "
+"Pour l'activer, vous devez:<br />1. Vous assurer que la librairie GD est "
+"installée sur le serveur<br />2. Préparer une image de signature et entrer "
+"ci-dessus le chemin vers cette image, exprimé relativement au répertoire de "
+"base de Wordpress; ex: \"wp-content/uploads/ma-signature.gif\""
+
+#: flexible-upload.php:1206
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the required function was not found.  Please make sure GD is "
+"installed on the server.  If you don't need this, you can disable this "
+"warning by specifying an empty path."
+msgstr ""
+"La fonctionalité d'incrustation du filigrane est active mais ne pourra "
+"fonctionner correctement car la librairie requise est introuvable.  Veuillez "
+"vous assurer que GD est installée sur le serveur.  Si vous n'avez pas besoin "
+"de cette fonctionalité, vous pouvez supprimer ce message en effaçant le "
+"chemin ci-dessus."
+
+#: flexible-upload.php:1209
+msgid ""
+"Watermarking functionality is enabled but will not function correctly "
+"because the signature image path you provided below is incorrect.  The path "
+"should be relative to Wordpress root directory and refer to an existing "
+"image file.  If you don't need this, you can disable this warning by "
+"specifying an empty path for the watermark image."
+msgstr ""
+"La fonctionalité d'incrustation du filigrane est active mais ne pourra "
+"fonctionner correctement car le chemin vers l'image est incorrect.  Ce "
+"chemin doit être exprimé relativement au répertoire racine de Wordpress.  Si "
+"vous n'avez pas besoin de cette fonctionalité, vous pouvez supprimer ce "
+"message en effaçant le chemin ci-dessus."
+
+#: flexible-upload.php:745 flexible-upload.php:757 flexible-upload.php:894
+#, php-format
+msgid "Wrong value %d for %s"
+msgstr "Valeur %d incorrecte pour %s"
+
+#: flexible-upload.php:773 flexible-upload.php:789 flexible-upload.php:804
+#: flexible-upload.php:820 flexible-upload.php:840 flexible-upload.php:866
+#: flexible-upload.php:911 flexible-upload.php:929 flexible-upload.php:944
+#, php-format
+msgid "Wrong value %s for %s"
+msgstr "Valeur %s incorrecte pour %s"
+
+#: flexible-upload-wp21js.php:162
+msgid "Yes"
+msgstr "Oui"
+
+#: flexible-upload-wp20.php:105
+msgid "You are not allowed to delete this attachment."
+msgstr "Vous n'êtes pas autorisé à effacer cette pièce jointe."
+
+#: flexible-upload-wp21.php:31
+msgid "You are not allowed to upload files."
+msgstr "Vous n'êtes pas autorisé à envoyer des fichiers."
+
+#: flexible-upload-wp20.php:912
+msgid ""
+"You can drag and drop these items into your post. Click on one for more "
+"options."
+msgstr ""
+"Vous pouvez insérer ces éléments dans votre article. Veuillez cliquer sur "
+"l'un d'eux pour voir les paramètres."
+
+#: flexible-upload-wp20.php:39
+msgid "You do not have permission to edit posts."
+msgstr "Vous n'avez pas la permission d'editer des articles."
+
+#: flexible-upload-wp20.php:45
+msgid "You do not have permission to upload files."
+msgstr "Vous n'avez pas la permission d'envoyer des fichier."
+
+#: flexible-upload.php:733
+msgid "You do not have sufficient permission to manage options."
+msgstr ""
+"Vous n'avez pas les permissions suffisante pour modifier les paramètres."
+
+#: flexible-upload.php:1136
+msgid "center"
+msgstr "centre"
+
+#: flexible-upload.php:1106
+msgid "disabled"
+msgstr "désactivé"
+
+#: flexible-upload.php:1030 flexible-upload.php:1076
+#: flexible-upload-wp20.php:950 flexible-upload-wp20.php:970
+#: flexible-upload-wp21js.php:520 flexible-upload-wp21js.php:550
+#: flexible-upload-wp25js.php:103 flexible-upload-wp25js.php:133
+msgid "height"
+msgstr "hauteur"
+
+#: flexible-upload.php:1022 flexible-upload.php:1068
+#: flexible-upload-wp20.php:948 flexible-upload-wp20.php:968
+#: flexible-upload-wp21js.php:512 flexible-upload-wp21js.php:542
+#: flexible-upload-wp25js.php:95 flexible-upload-wp25js.php:125
+msgid "largest side"
+msgstr "grand côté"
+
+#: flexible-upload.php:1128
+msgid "left"
+msgstr "gauche"
+
+#: flexible-upload.php:1182
+msgid "new window"
+msgstr "nouvelle fenetre"
+
+#: flexible-upload.php:1124 flexible-upload.php:1154
+msgid "none"
+msgstr "aucune"
+
+#: flexible-upload-wp20.php:944 flexible-upload-wp20.php:964
+#: flexible-upload-wp21js.php:506 flexible-upload-wp21js.php:536
+#: flexible-upload-wp25js.php:89 flexible-upload-wp25js.php:119
+msgid "px"
+msgstr "px"
+
+#: flexible-upload.php:1132
+msgid "right"
+msgstr "droite"
+
+#: flexible-upload.php:1034 flexible-upload.php:1080
+#: flexible-upload-wp20.php:951 flexible-upload-wp20.php:971
+#: flexible-upload-wp21js.php:524 flexible-upload-wp21js.php:554
+#: flexible-upload-wp25js.php:107 flexible-upload-wp25js.php:137
+msgid "smallest side (crop)"
+msgstr "petit côté (rogner)"
+
+#: flexible-upload.php:1026 flexible-upload.php:1072
+#: flexible-upload-wp20.php:949 flexible-upload-wp20.php:969
+#: flexible-upload-wp21js.php:516 flexible-upload-wp21js.php:546
+#: flexible-upload-wp25js.php:99 flexible-upload-wp25js.php:129
+msgid "width"
+msgstr "largeur"

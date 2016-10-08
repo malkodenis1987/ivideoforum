@@ -1,0 +1,42 @@
+.bb-tbase { float:left; width:100%; clear:both; }
+
+.ba-settings {}
+.ba-settings p { margin:auto 0 1em 0; }
+.ba-settings h3 { margin-bottom:1em; border-bottom:1px solid; padding-bottom:0.5em; }
+.ba-settings input { margin-left:0; }
+.ba-settings .introduction { width:60%; }
+
+.ba-themeinuse { padding:1em 0 0.5em 0;  }
+.ba-themeinuse strong { padding:0.4em 0.6em; background:#333; color:#fff; }
+.ba-scheme-options { float:left; width:48%; }
+.ba-theme-options { float:right; width:48%; }
+.ba-scheme-options h3 strong { color:#0b3; }
+.ba-theme-options  h3 strong { color:#b30; }
+.ba-random-options { float:left; width:100%; clear:both; margin-top:1em; }
+.ba-cat-tag-option { margin-bottom:1.5em; }
+.ba-colourinput { padding-bottom:0.5em; }
+.ba-credits { float:right; width:33%; line-height:1.5em; margin-left:1em; padding:1em 0 0 0; border-top:thick solid; }
+.ba-credits img { vertical-align:middle; margin:auto; }
+.ba-settings .submit { float:left; width:100%; clear:both; margin-top:1.5em; margin-bottom:4em; }
+
+
+/* Colour picker */
+
+.ba-settings .colorwell { border: 2px solid #ccc; padding:0.15em 0.4em; text-align: center; width:5em; cursor:pointer; }
+.ba-settings .colorwell:hover { border-color:#999; }
+.ba-settings .colorwell-selected { border: 2px solid #000; }
+.ba-settings #picker { width:200px; padding:6px; background:#fff; border:1px solid #ccc; -moz-border-radius:6px; -webkit-border-radius:6px; }
+.ba-settings .colorwell-hidden { display:none; }
+.ba-settings .colorwell-visible { display:block; }
+.ba-settings a.closepicker-button, .ba-settings a.clearcolor-button { z-index:90; -moz-border-radius:4px; -webkit-border-radius:4px; font-size:11px; text-transform:uppercase; float:left; background:#006699; color:#fff; text-decoration:none; font-weight:bold; padding:0.45em 0.5em 0.5em 0.5em; }
+.ba-settings a.clearcolor-button { float:right; }
+.ba-settings a.closepicker-button:hover, .ba-settings a.clearcolor-button:hover { background:#000; color:#fff; } 
+
+.farbtastic { position: relative; }
+.farbtastic * { position: absolute; cursor: crosshair; }
+.farbtastic, .farbtastic .wheel { width: 195px; height: 195px; }
+.farbtastic .color, .farbtastic .overlay { top: 47px; left: 47px; width: 101px; height: 101px; }
+.farbtastic .wheel { background: url('js/wheel.png') no-repeat; width: 195px; height: 195px; }
+.farbtastic .overlay { background: url('js/mask.png') no-repeat; }
+.farbtastic .marker { width: 17px; height: 17px; margin: -8px 0 0 -8px; overflow: hidden; background: url('js/marker.png') no-repeat; }
+
